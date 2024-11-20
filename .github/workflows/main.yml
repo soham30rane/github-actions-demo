@@ -1,45 +1,45 @@
 name: Manual Time Logger
 
-# Workflow dispatch allows manual triggering
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   log_time:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Call a REST API to get the current Universal Time
       - name: Get Current Universal Time
         id: fetch_time
         run: |
           response=$(curl -s "http://worldtimeapi.org/api/timezone/Etc/UTC")
           current_time=$(echo $response | jq -r '.utc_datetime')
           echo "Time fetched: $current_time"
-          echo "::set-output name=time::$current_time"
-        env:
-          # Install jq if not available
-          JQ: jq
+          echo "TIME=$current_time" >> $GITHUB_ENV
 
-      # Step 3: Create a log file with the fetched time
       - name: Create Log File
         run: |
           mkdir -p logs
-          timestamp=$(echo "${{ steps.fetch_time.outputs.time }}" | tr ':T' '-')
-          echo "${{ steps.fetch_time.outputs.time }}" > "logs/$timestamp.txt"
+          timestamp=$(echo "${{ env.TIME }}" | tr ':T' '-')
+          echo "${{ env.TIME }}" > "logs/$timestamp.txt"
 
-      # Step 4: Push the log file to the repository
+      - name: Debug Git State
+        run: |
+          git status
+          git remote -v
+          git branch
+
       - name: Commit and Push Log File
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add logs
-          git commit -m "Add log file for ${{ steps.fetch_time.outputs.time }}"
-          git push
+          git commit -m "Add log file for ${{ env.TIME }}"
+          git push origin main  # Ensure the branch is correct
         env:
-          # Use GitHub token for authentication
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
