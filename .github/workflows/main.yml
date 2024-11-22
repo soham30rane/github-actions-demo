@@ -20,6 +20,7 @@ jobs:
           EXPECTED_SECRET: ${{ secrets.EXPECTED_TRIGGER_SECRET }}
         run: |
           CALCULATED_HASH=$(echo -n "$EXPECTED_SECRET" | sha256sum | awk '{print $1}')
+          echo $CALCULATED_HASH
           if [ "$RECEIVED_HASH" != "$CALCULATED_HASH" ]; then
             echo "Unauthorized trigger"
             exit 1
