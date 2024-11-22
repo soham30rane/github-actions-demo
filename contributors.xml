@@ -1,0 +1,5542 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Sage contributors
+
++ mandatory / - optional
+
+contributor
+ + name = full name
+ - altnames = comma-separated list of alternate full names
+ - location = something which returns the correct location when entered in maps.google.com
+ - work = university, institute, ...
+ - description = <item>[;<item>]* ... delimiter ";" is converted into a break or list
+ - url = webpage, when clicking on name; no need to provide github profile URL
+ - pix = url to a small image (max 50x50 or something like that) .. subdirectory "./pix/people/" should store them locally
+ - jitter = float as string, multiplicated in jitter function, 0 to disable
+ - trac = trac nickname for the search (also searched for the name, but the trac name is often different!). comma-separated list of several trac account names ok. No need to provide "gh-..." names, provide a github attribute instead.
+ - github = github.com account name
+ - gitlab = gitlab.com account name
+
+Please keep the list in alphabetical order by last name!
+-->
+<contributors>
+<contributor
+ name="Tim Abbott"
+ work="Zulip"
+ url="http://web.mit.edu/tabbott/www/"
+ description="Full debianization of Sage"
+ location="San Francisco, CA, USA"
+ trac="tabbott"
+ github="timabbott"/>
+<contributor
+ name="Guillermo Aboumrad"
+ altnames="Willie Aboumrad"/>
+<contributor
+ name="Michael Abshoff"
+ work="Universität Dortmund"
+ location="Dortmund, Germany"
+ description="contributed to release management; work on build system for Windows, OS X, and Linux; OS X installer; tons of general advice; valgrind support; Solaris and Linux PPC port; 2008 Spies SageMath Development Prize"
+ url="http://wiki.sagemath.org/MichaelAbshoff"
+ trac="mabshoff"/>
+<contributor
+ name="Guy Achard"/>
+<contributor
+ name="David Ackerman"/>
+<contributor
+ name="Lennart Ackermans"
+ trac="lackermans"
+ github="lennartack"/>
+<contributor
+ name="Karim Van Aelst"/>
+<contributor
+ name="Divya Aggarwal"/>
+<contributor
+ name="Chaman Agrawal"
+ location="Indian Institute of Technology, Kanpur, India"
+ url="https://github.com/ChamanAgrawal/"
+ github="ChamanAgrawal"/>
+<contributor
+ name="Durgesh Agrawal"
+ location="Indian Institute of Technology, Kanpur, India"
+ url="https://durgeshra.github.io/"
+ github="durgeshra"/>
+<contributor
+ name="Ashutosh Ahelleya"
+ trac="aashu12"/>
+<contributor
+ name="Chwas Ahmed"/>
+<contributor
+ name="Akshay Ajagekar"
+ trac="ajagekar.akshay"/>
+<contributor
+ name="Antti Ajanki"/>
+<contributor
+ name="Mark V. Albert"
+ location="Loyola University Chicago"
+ trac="markvalbert"/>
+<contributor
+ name="Martin Albrecht"
+ work="Chair of Information Security, Information Security Group, Royal Holloway, University of London"
+ location="London, UK"
+ description="Euclidean lattices (FPLLL, FPyLLL, discrete Gaussians), sage.crypto.mq; commutative algebra (Singular interface, libSingular, PolyBoRi); low-level arithmetic; dense linear algebra over finite fields"
+ url="https://malb.io"
+ trac="malb"
+ github="malb"/>
+<contributor
+ name="Noud Aldenhoven"
+ trac="noud"/>
+<contributor
+ name="Nick Alexander"
+ work="UC Irvine graduate student"
+ location="Irvine, CA 92697, USA"
+ trac="ncalexan"
+ github="ncalexan"/>
+<contributor
+ name="Ricardo Alfaro"
+ altnames="Alfaro"
+ location="University of Michigan-Flint, Flint, Michigan, USA"
+ trac="ralfaro"
+ github="ralfarogit"/>
+<contributor
+ name="Martin Allen"/>
+<contributor
+ name="Bill Allombert"
+ description="help with PARI and GP2C integration"
+ location="Bordeaux, France"/>
+<contributor
+ name="Josh Alman"
+ location="MIT"
+ url="http://www.joshalman.com/"
+ trac="jalman"/>
+<contributor
+ name="Alejandra Alvarado"
+ trac="aalvarado2"/>
+<contributor
+ name="Saher Amasha"
+ github="Saher-Amasha"/>
+<contributor
+ name="Durand Amaury"/>
+<contributor
+ name="Amitabh Anand"
+ trac="aanand"/>
+<contributor
+ name="Ethan Van Andel"
+ work="Calvin College, MI, USA"
+ location="3201 Burton Street, Southeast Grand Rapids, MI 49546, USA"
+ description="calculus"
+ trac="evanandel"/>
+<contributor
+ name="Paulo César Pereira de Andrade"
+ work="Mandriva Linux"
+ location="Curitiba, Brazil"
+ description="packages"
+ github="pcpa"
+ trac="pcpa"/>
+<contributor
+ name="Ivan Andrus"
+ work="Adobe Systems Inc."
+ location="Lehi, Utah, USA"
+ description="OS X app; iPhone app; sage-mode for Emacs"
+ trac="iandrus"
+ github="gvol"/>
+<contributor
+ name="Tommy Angelo"/>
+<contributor
+ name="Pablo Angulo"
+ work="Professor, Department of Mathematics, Universidad Autónoma de Madrid"
+ location="Madrid, Spain"
+ description="calculus"
+ trac="pang"
+ url="http://www.uam.es/personal_pdi/ciencias/pangulo/"/>
+<contributor
+ name="Samuele Anni"
+ trac="sanni85"/>
+<contributor
+ name="Benjamin Antieau"
+ altnames="D. Benjamin Antieau"
+ description="bug fixes"
+ location="Northwestern University"
+ trac="bantieau"
+ github="antieau"/>
+<contributor
+ name="André Apitzsch"
+ work="Otto-von-Guericke-Universität Magdeburg"
+ location="Magdeburg, Germany"
+ description="commutative algebra; documentation; number theory"
+ trac="aapitzsch"
+ github="a-andre"/>
+<contributor
+ name="Jayant Apte"
+ trac="Jayant"
+ github="jayant91089"/>
+<contributor
+ name="Luiz Aquino"
+ trac="LuizAquino"/>
+<contributor
+ name="Maite Aranes"
+ work="graduate student, Warwick Mathematics Institute, University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, UK"
+ description="number field ideal utilities"
+ trac="mtaranes"/>
+<contributor
+ name="Alejandro Argaez"/>
+<contributor
+ name="Oscar Gerardo Lazo Arjona"
+ work="Student, Universidad Autónoma de Yucatán"
+ location="Universidad Autónoma de Yucatán, Yucatán, México"
+ description="3-D plotting"
+ trac="olazo"/>
+<contributor
+ name="Enrique Artal"
+ work="Professor, IUMA, Universidad de Zaragoza"
+ location="Zaragoza, Spain"
+ description="topology, algebraic geometry, singularities"
+ trac="enriqueartal"
+ github="enriqueartal"
+ url="https://riemann.unizar.es/~artal"/>
+<contributor
+ name="Vishal Arul"
+ trac="varul"/>
+<contributor
+ name="Dario Asprone"
+ trac="Vaush"/>
+<contributor
+ name="Eran Assaf"
+ trac="assaferan"
+ github="assaferan"/>
+<contributor
+ name="Daniel Augot"
+ location="INRIA, Palaiseau, Ile-de-France, France"
+ url="http://pages.saclay.inria.fr/daniel.augot/index-eng.html"
+ trac="danielaugot"/>
+<contributor
+ name="Shaun Ault"
+ location="Fordham"
+ trac="sault"/>
+<contributor
+ name="David Ayotte"
+ work="Concordia University"
+ location="Montreal, Canada"
+ description="Quasimodular forms; ring of modular forms; bug fixes; tickets reviews"
+ trac="davidayotte"
+ github="DavidAyotte"
+ url="https://davidayotte.github.io"/>
+<contributor
+ name="Arvind Ayyer"
+ location="Indian Institute of Science, Bangalore, India"
+ url="http://www.math.iisc.ernet.in/~arvind"
+ trac="ayyer"
+ github="ayyer"/>
+<contributor
+ name="Jernej Azarija"
+ location="University of Ljubljana"
+ url="http://azi.dev.si"
+ trac="azi"/>
+<contributor
+ name="Angelica Babei"
+ location="Dartmouth College"
+ trac="ababei"/>
+<contributor
+ name="Brent Baccala"/>
+<contributor
+ name="Eviatar Bach"
+ location="University of Maryland, College Park"
+ description="Combinatorics; bug fixes"
+ trac="eviatarbach"
+ github="eviatarbach"/>
+ url="http://eviatarbach.com/"/>
+<contributor
+ name="Thomas Bächler"
+ trac="baechler"/>
+<contributor
+ name="Jason Badlaw"/>
+<contributor
+ name="Jin-yeong Bak"/>
+<contributor
+ name="Kirby Baker"
+ trac="kbaker"/>
+<contributor
+ name="Varenyam Bakshi"/>
+<contributor
+ name="Shashank Balaji"
+ location="Indian Institute of Technology, Bombay, India"
+ github="shashankbalaji02"/>
+<contributor
+ name="Jennifer Balakrishnan"
+ work="Professor, Boston University"
+ location="BU, Boston, USA"
+ description="LaTeX mode for MAGMA; work on computation of p-adic heights"
+ trac="jen"
+ github="jbalakrishnan"
+ url="https://math.bu.edu/people/jbala/"/>
+<contributor
+ name="Serge Ballif"
+ work="Nevada State College"
+ location="Nevada State College, NV, USA"
+ description="latin square functions"
+ trac="sergeballif"/>
+<contributor
+ name="Jason Bandlow"
+ work="Postdoctoral fellow, UC-Davis"
+ location="Davis, CA, USA"
+ description="combinat package"
+ url="http://www.math.ucdavis.edu/~jbandlow/"
+ pix="./pix/people/bandlow.png"
+ trac="jbandlow"
+ github="jbandlow"/>
+<contributor
+ name="Jason Bandlow"
+ location="University of Pennsylvania, Philadelphia"
+ trac="jbandlow"/>
+<contributor
+ name="Bogdan Banu"
+ trac="bbanu"/>
+<contributor
+ name="Barinder Banwait"
+ altnames="Barinder S. Banwait"
+ trac="barinder"/>
+<contributor
+ name="Itai Bar-Natan"
+ trac="itaibn"
+ github="itaibn"/>
+<contributor
+ name="Gregory Bard"
+ work="Professor, University of Wisconsin-Stout"
+ location="Stout, WI, USA"
+ description="dense linear algebra over GF(2)"
+ url="http://www.gregorybard.com/home.html"
+ trac="gregorybard"/>
+<contributor
+ name="Mary Barker"
+ github="marybarker"
+ location="Fred Hutch Cancer Center"
+ trac="maryb"/>
+<contributor
+ name="Andrew Barr"
+ trac="andyasb"/>
+<contributor
+ name="Fidel Barrera-Cruz"
+ location="University of Waterloo, Ontario, Canada"
+ trac="fidelbarrera"/>
+<contributor
+ name="Ben Barros"
+ location="Saint Louis University"
+ trac="bbarros"
+ github="bbarros50"/>
+<contributor
+ name="Sébastien Barthélemy"
+ work="UPMC - Université Pierre et Marie Curie"
+ location="Paris, France"
+ description="documentation; cddlib update; bug fixes"
+ trac="sbarthelemy"/>
+<contributor
+ name="Tomer Bauer"
+ description="organized Sage Days 110"
+ trac="mathzeta2"
+ gitlab="mathzeta2"
+ github="mathzeta"/>
+<contributor
+ name="Liz Beazley"/>
+<contributor
+ name="Monique van Beek"
+ location="University of Cambridge, Cambridge, UK"
+ trac="MvanBeek"/>
+<contributor
+ name="Rob Beezer"
+ work="Professor, University of Puget Sound"
+ location="Univ of Puget Sound, Tacoma, WA, USA"
+ description="linear algebra; graph theory; group theory; education"
+ url="http://buzzard.ups.edu"
+ trac="rbeezer"
+ github="rbeezer"/>
+<contributor
+ name="J Beier"/>
+<contributor
+ name="Michał Bejger"
+ altnames="Michal Bejger"
+ location="N. Copernicus Astronomical Center, Poland"
+ url="http://users.camk.edu.pl/bejger"
+ trac="mbejger"/>
+<contributor
+ name="Karim Belabas"
+ location="Bordeaux, France"
+ url="https://www.math.u-bordeaux.fr/~kbelabas/"/>
+<contributor
+ name="Sarah-Marie Belcastro"
+ altnames="sarah-marie belcastro"/>
+<contributor
+ name="Andrey Belgorodski"
+ github="sheerluck"/>
+<contributor
+ name="Mark Bell"
+ trac="mbell,mcbell"/>
+<contributor
+ name="Odile Bénassy"
+ location="Université Paris Sud"
+ github="zerline"
+ trac="zerline"/>
+<contributor
+ name="Heidi Benham"/>
+<contributor
+ name="Jerome Benoit"/>
+<contributor
+ name="Angela Berardinelli"/>
+<contributor
+ name="Chris Berg"
+ location=" Université du Québec à Montréal, Montréal, Canada"
+ url="http://www.thales.math.uqam.ca/~cberg/"
+ trac="chrisjamesberg"/>
+<contributor
+ name="Jennifer Berg"
+ altnames="Jen Berg"
+ trac="jensberg"/>
+<contributor
+ name="John Bergdall"/>
+<contributor
+ name="Arnaud Bergeron"
+ work="Université de Montréal"
+ location="Montreal, QC, Canada"
+ description="bug fixes;plotting improvements"
+ trac="abergeron,anakha"/>
+<contributor
+ name="Nantel Bergeron"
+ location="York University, Canada"
+ url="http://www.math.yorku.ca/bergeron/"
+ trac="nantel"/>
+<contributor
+ name="Luis Berlioz"
+ description="bug fix; optimize basis matrix for ambient modules"
+ trac="LBerlioz"/>
+<contributor
+ name="Dominique Bernardi"/>
+<contributor
+ name="Quentin Berthet"/>
+<contributor
+ name="Davide Berti"            
+ altnames = "dberti"
+ location = "Cuneo, Italy"
+ work = "Istituto Professionale Grandis"
+ description = "Italian translation of Developer Guide"
+ url = "http://www.matematica-con-sage.it"
+ trac = "dberti"
+ github = "berdavcn"/>
+<contributor
+ name="Alberto Besana"
+ trac="alberto"/>
+<contributor
+ name="Lubjana Beshaj"
+ trac="lbeshaj"/>
+<contributor
+ name="Sébastien Besnier"
+ altnames="Sebastien Besnier"
+ trac="sbesnier"/>
+<contributor
+ name="Amnon Besser"/>
+<contributor
+ name="Alex J. Best"
+ location="Boston University, USA"
+ url="https://alexjbest.github.io/"
+ trac="alexjbest"
+ github="alexjbest"/>
+<contributor
+ name="Erin Beyerstedt"
+ work="PhD student, Mathematics Department, Tulane University"
+ location="823 St Charles Ave, New Orleans, LA 70118, United States"
+ description="elliptic curves"
+ url="http://math.tulane.edu/~ebeyerstedt"
+ trac="ebeyerstedt"/>
+<contributor
+ name="Ninad Bhat"
+ trac="nbhat"/>
+<contributor
+ name="Siddharth Bhat"
+ trac="bollu"/>
+<contributor
+ name="Saket Bhatt"/>
+<contributor
+ name="Aritra Bhattacharya"/>
+<contributor
+ name="Sara Billey"
+ trac="billey"/>
+<contributor
+ name="Dean Bisogno"
+ trac="dbisogno"/>
+<contributor
+ name="François Bissey"
+ work="University of Canterbury, New Zealand"
+ location="University of Canterbury, New Zealand"
+ description="various QA; sage-on-gentoo"
+ trac="fbissey"
+ github="kiwifb"/>
+<contributor
+ name="Gaetan Bisson"
+ url="http://www.loria.fr/~bissogae/"
+ trac="bisson"/>
+<contributor
+ name="Jeffrey Blakeslee"
+ trac="jblakeslee"/>
+<contributor
+ name="Florian Block"
+ trac="florianblock"/>
+<contributor
+ name="Bernhard Bloechl"/>
+<contributor
+ name="Talia Blum"/>
+<contributor
+ name="Jonathan Bober"
+ work="University of Bristol"
+ location="Bristol, UK"
+ description="highly optimized partition function"
+ trac="bober"/>
+<contributor
+ name="Olaf Bochmann"
+ location="Complex Systems Lab, Berlin, Germany"
+ url="http://Bochmann.ComplexLab.org"
+ trac="bochmann,Bochmann"/>
+<contributor
+ name="Michel Boerner"
+ trac="boerner"/>
+<contributor
+ name="Felix Boes"/>
+<contributor
+ name="C. Boncelet"/>
+<contributor
+ name="Itay Bookstein"
+ trac="ibookstein"/>
+<contributor
+ name="Kelly Boothby"
+ altnames="Tom Boothby"
+ work="undergraduate student employee, University of Washington"
+ location="University of Washington, WA, USA"
+ description="the Sage Notebook; fast polynomial evaluation"
+ github="boothby"
+ trac="boothby"/>
+<contributor
+ name="Michele Borassi"
+ trac="borassi"/>
+<contributor
+ name="Michael Boratko"
+ trac="mboratko"
+ url="https://www.mboratko.com/"
+ github="mboratko"/>
+<contributor
+ name="Gabor Borgulya"
+ trac="gborguly"/>
+<contributor
+ name="Nicolas Borie"
+ work="maître de conférences, LIGM, Universite Paris-Est Marne-la-Vallée"
+ location="Champs-sur-Marne, France"
+ description="combinat (root systems, invariant theory)"
+ url="http://igm.univ-mlv.fr/~borie/"
+ trac="nborie"/>
+<contributor
+ name="Johan Bosman"
+ work="Postdoctoral fellow, Mathematics Institute, University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, United Kingdom"
+ description="algebra"
+ trac="johanbosman"/>
+<contributor
+ name="Charles Bouillaguet"
+ location="University of Lille-1"
+ url="http://www.di.ens.fr/~bouillaguet"
+ trac="Bouillaguet"/>
+<contributor
+ name="François Boulier"
+ location="University Lille I, France"
+ url="http://www.lifl.fr/~boulier"
+ trac="boulier"/>
+<contributor
+ name="Adele Bourgeois"
+ trac="abourgeois"/>
+<contributor
+ name="Adrien Boussicault"
+ trac="boussica"/>
+<contributor
+ name="Cyril Bouvier"
+ location="LIRMM, Montpellier, France"
+ work="Research Engineer, CNRS"
+ url="https://bouvier.lirmm.net/"
+ trac="bouvier"
+ github="cyrilbouvier"/>
+<contributor
+ name="Florian Bouyer"
+ trac="florian"/>
+<contributor
+ name="Martin Boyanov"
+ trac="mboyanov"/>
+<contributor
+ name="Robert Bradshaw"
+ work="Google"
+ location="Redmond, WA, USA"
+ description="Cython; number theory; linear algebra; coercion; basic arithmetic; 2011 Spies SageMath Development Prize"
+ trac="robertwb"
+ github="robertwb"/>
+<contributor
+ name="Simon Brandhorst"
+ trac="sbrandhorst"
+ github="simonbrandhorst"/>
+<contributor
+ name="Maria Bras-Amoros"/>
+<contributor
+ name="Volker Braun"
+ work="Mathematical Institute, Oxford University"
+ location="Oxford, UK"
+ description="Toric geometry package; polyhedra and PPL interface; triangulations; release manager (2013-); 2014 Spies SageMath Development Prize"
+ trac="vbraun"
+ github="vbraun"/>
+<contributor
+ name="Volker Braun"
+ location="Dublin Institute for Advanced Studies"
+ trac="vbraun"/>
+<contributor
+ name="Judith Braunsteiner"
+ location="TU Wien, Austria"
+ trac="JBraunsteiner"/>
+<contributor
+ name="Erik Bray"
+ altnames="E. Madison Bray"
+ location="Université Paris Sud XI, Orsay, France"
+ description="2015–2021 SageMath Prize"
+ trac="embray"
+ github="embray"/>
+<contributor
+ name="Michael Brickenstein"
+ work="Mathematisches Forschungsinstitut Oberwolfach"
+ location="Oberwolfach-Walke, Germany"
+ description="PolyBoRi author (high-level algorithms, primary designer)"
+ url="http://www.mfo.de/organisation/institute/brickenstein/"/>
+<contributor
+ name="Adrien Brochard"
+ trac="abrochard"
+ github="abrochard"/>
+<contributor
+ name="Adrien Brochier"
+ trac="Adrien"/>
+<contributor
+ name="Paul Brouwers"
+ trac="Brouwers"
+ work="University of Canterbury"
+ location="Christchurch, New Zealand"
+ description="Maintained the Sage server hosted at U. Canterbury"/>
+<contributor
+ name="Jim Brown"
+ trac="jbrown"/>
+<contributor
+ name="Ben Brubaker"
+ trac="brubaker"/>
+<contributor
+ name="Nils Bruin"
+ work="Department of Mathematics, Simon Fraser University"
+ description="miscellaneous useful code snippets"
+ location="Department of Mathematics, Simon Fraser University, Burnaby, BC V5A 1S6, Canada"
+ url="http://www.cecm.sfu.ca/~nbruin/"
+ trac="nbruin"
+ github="nbruin"/>
+<contributor
+ name="Peter Bruin"
+ location="Universiteit Leiden"
+ url="http://pub.math.leidenuniv.nl/~bruinpj/"
+ trac="pbruin"
+ github="pjbruin"/>
+<contributor
+ name="Bob Bruner"
+ work="Wayne State University"
+ location="Detroit, Michigan, USA"             
+ altnames="Robert Bruner"
+ github="rrbruner"
+ url="http://www.rrb.wayne.edu"/>
+<contributor
+ name="Léo Brunswic"/>
+<contributor
+ name="Paul Bryan"
+ trac="pabryan"
+ github="pabryan"/>
+<contributor
+ name="André-Patrick Bubel"
+ work="student, Universität Heidelberg"
+ location="Maybachstr. 14, 68169 Mannheim, Germany"
+ description="documentation"
+ url="http://www.andre-bubel.de"
+ trac="Moredread"/>
+<contributor
+ name="Anders S. Buch"
+ altnames="Anders Buch"
+ location="University Rutgers, New Jersey, USA"
+ url="http://www.math.rutgers.edu/~asbuch"
+ trac="asbuch"
+ github="asbuch"/>
+<contributor
+ name="Tomasz Buchert"
+ trac="tombuc"/>
+<contributor
+ name="Valentin Buciumas"
+ trac="buciumas"/>
+<contributor
+ name="Alina Bucur"
+ trac="alina"/>
+<contributor
+ name="Stanislav Bulygin"
+ work="Postdoctoral fellow, Center for Advanced Security Research Darmstadt (CASED)"
+ location="64293 Darmstadt, Germany"
+ description="cryptography"
+ trac="sbulygin"/>
+<contributor
+ name="Daniel Bump"
+ work="Stanford University"
+ location="Stanford, CA, USA"
+ description="combinatorics and representation theory"
+ trac="bump"
+ github="dwbump"/>
+<contributor
+ name="Reg Burgess"/>
+<contributor
+ name="Iftikhar Burhanuddin"
+ work="Postdoctoral fellow, UCLA"
+ location="Westwood Village, Los Angeles, California, USA"
+ description="feedback; code; examples; supersingular module"
+ trac="burhanud"/>
+<contributor
+ name="Ricardo Buring"
+ work="Johannes Gutenberg-Universität Mainz"
+ location="Mainz, Germany"
+ description="bug fixes; bug reports; reviews"
+ url="https://www.rburing.nl"
+ trac="rburing"
+ github="rburing"
+ gitlab="rburing"/>
+<contributor
+ name="Paul Butler"
+ work="University of Waterloo"
+ location="200 University Avenue West, Waterloo, Ontario, Canada"
+ description="indefinite integration for piecewise functions; calculus bug fixes"
+ url="http://www.paulbutler.org"
+ trac="pbutler"/>
+<contributor
+ name="Sergey Bykov"
+ location="Moscow Institute of Physics and Technology, Russia"
+ trac="captaintrunky"/>
+<contributor
+ name="Daniel Cabracas"/>
+<contributor
+ name="Pierre Cagne"
+ trac="PierreCagne"/>
+<contributor
+ name="Julia Cai"/>
+<contributor
+ name="Jasmine Camero"/>
+<contributor
+ name="James Campbell"
+ work="Student, Cardiff University"
+ location="Cardiff, United Kingdom"
+ description="Game Theory"
+ url="http://www.jamescampbell.org.uk/"
+ trac="jcampbell"
+ github="theref"/>
+<contributor
+ name="Joshua Campbell"
+ trac="jcamp0x2a"/>
+<contributor
+ name="Robert Campbell"/>
+<contributor
+ name="Ilke Canakci"/>
+<contributor
+ name="Jorge Caravantes"
+ location="Universidad Complutense de Madrid, Spain"
+ url="http://www.mat.ucm.es/~jcaravan"
+ trac="caravantes"/>
+<contributor
+ name="Beatriz Galiana Carballido"/>
+<contributor
+ name="Aran Carmon"
+ trac="aranc"/>
+<contributor
+ name="Nathan Carter"
+ location="Bentley University, Waltham, MA"
+ url="http://web.bentley.edu/empl/c/ncarter"
+ github="nathancarter"
+ trac="ncarter"/>
+<contributor
+ name="Xavier Caruso"
+ location="Université de Bordeaux"
+ url="http://xavier.toonywood.org/"
+ trac="caruso,Caruso"
+ github="xcaruso"/>
+<contributor
+ name="Alexandre Casamayou"/>
+<contributor
+ name="Matteo Casati"
+ altnames="Cassa"
+ url="http://cassa-s.blogspot.com/"/>
+<contributor
+ name="Oriol Castejón"
+ work="Universitat Politècnica de Catalunya"
+ location="C/ Jordi Girona, 31 08034 Barcelona, Spain"
+ description="calculus; packaging"
+ trac="uri"/>
+<contributor
+ name="Federico Castillo"
+ trac="fcastillo"/>
+<contributor
+ name="Oscar Castillo-Felisola"
+ trac="dox"/>
+<contributor
+ name="Michael Catanzaro"/>
+<contributor
+ name="Bill Cauchois"
+ location="University of Washington, Seattle"
+ url="http://cs.washington.edu/homes/wcauchoi/"
+ trac="wcauchois"/>
+<contributor
+ name="Florent Cayré"
+ trac="fcayre,fcayre2"/>
+<contributor
+ name="Turku Ozlum Celik"
+ location="Université de Rennes 1, France"
+ trac="turkuozlum"/>
+<contributor
+ name="Özge Çelik"/>
+<contributor
+ name="Ondrej Certik"
+ work="graduate physics student, Charles University"
+ location="Prague, Czech Republic"
+ description="Sympy Integration; founder of Sympy project"
+ url="http://ondrej.certik.cz/"
+ trac="certik"
+ github="certik"/>
+<contributor
+ name="Davide Cervone"/>
+<contributor
+ name="Georgia Channing"
+ location="University of Tennessee, Knoxville"
+ url="https://globalcomputing.group/people.html"
+ github="georgiachanning"/>
+<contributor
+ name="Harrison Chapman"/>
+<contributor
+ name="Frédéric Chapoton"
+ url="https://irma.math.unistra.fr/~chapoton/"
+ description="2015–2021 SageMath Prize"
+ trac="chapoton"
+ github="fchapoton"/>
+<contributor
+ name="Sara Chari"
+ location="Dartmouth College"
+ trac="schari"/>
+<contributor
+ name="David Sanchez Charles"
+ trac="dscharles"/>
+<contributor
+ name="Emmanuel Charpentier"
+ work="Assistance Publique - Hôpitaux de Paris"
+ location="Paris, France"
+ description="Various low-level fixes/additions"
+ trac="charpent"
+ github="EmmanuelCharpentier"/>
+<contributor
+ name="Grégory Châtel"
+ trac="g.chatel"
+ github="rodgzilla"/>
+<contributor
+ name="Tejasvi Chebrolu"/>
+<contributor
+ name="Emily Chen"
+ trac="emchennyc"/>
+<contributor
+ name="Bryan Gin-ge Chen"/>
+<contributor
+ name="Hao Chen"
+ trac="haochen_uw"/>
+<contributor
+ name="Wilson Cheung"
+ work="sysadmin, UCSD"
+ location="San Diego, CA 92093, USA"
+ description="compilation of Sage on Solaris; discussion of Sage build process"/>
+<contributor
+ name="Shiva Chidambaram"
+ trac="shivac"/>
+<contributor
+ name="Sarah Chisholm"
+ location="University of Calgary, Canada"
+ url="http://math.ucalgary.ca/~sachisho"
+ trac="schisholm"/>
+<contributor
+ name="Anna Chlopecki"/>
+<contributor
+ name="Clément Chrétien"
+ trac="cchretien"/>
+<contributor
+ name="Dan Christensen"
+ work="Associate Professor, Department of Mathematics, The University of Western Ontario"
+ location="London, Ontario N6A 5B7, Canada"
+ description="optimize certain combinatorial constructions"
+ url="http://jdc.math.uwo.ca"
+ trac="jdc"
+ github="jdchristensen"/>
+<contributor
+ name="Craig Citro"
+ work="UCLA"
+ location="Los Angeles, CA, USA"
+ description="fast computation of Eisenstein series; code and bug fixes in modular forms; number theory; the NTL and PARI interfaces"
+ trac="craigcitro"
+ github="craigcitro"/>
+<contributor
+ name="Anders Claesson"
+ work="Associate Professor, The Mathematics Institute, Reykjavík University"
+ location="Kringlan 1, 103 Reykjavik, Iceland"
+ description="optimizing certain combinatorial operations"
+ url="http://www.math.ru.is/anders/"
+ trac="aclaesson"/>
+<contributor
+ name="John Michael Clark"/>
+<contributor
+ name="Francis Clarke"
+ work="Department of Mathematics, University of Wales"
+ location="Swansea, UK"
+ description="bug fixes"
+ url="http://www-maths.swan.ac.uk/staff/fwc/"
+ trac="fwclarke"/>
+<contributor
+ name="Keith Clawson"
+ location="Washington State University, Pullman, WA"
+ trac="kclawson"/>
+<contributor
+ name="Sam Clearman"
+ trac="sam"
+ github="samclearman"/>
+<contributor
+ name="Nico Van Cleemput"
+ location="Universiteit Gent, Ghent, Belgium"
+ trac="nvcleemp"
+ github="nvcleemp"/>
+<contributor
+ name="Timothy Clemans"
+ work="high school student"
+ location="Seattle, WA, USA"
+ description="Notebook; misc."
+ url="http://timothyclemans.com/"
+ pix="./pix/people/tclemans.jpg"
+ github="TimothyClemans"
+ trac="TimothyClemans"/>
+<contributor
+ name="Alex Clemesha"
+ work="employee, University of Washington"
+ location="University of Washington, WA, USA"
+ description="Sage's 2-D plotting functionality; design; examples; constants.py"/>
+<contributor
+ name="Enjeck Cleopatra"/>
+<contributor
+ name="Tom Coates"
+ location="Imperial College London"
+ trac="tomc"/>
+<contributor
+ name="Flávio Codeço Coelho"
+ location="Instituto Gulbenkian de Ciência"
+ trac="fccoelho"/>
+<contributor
+ name="Thomas Coffee"
+ location="Massachusetts Institute of Technology, USA"
+ trac="tcoffee"/>
+<contributor
+ name="Marco Cognetta"
+ trac="mcognetta"/>
+<contributor
+ name="Nathann Cohen"
+ altnames="Nathan Cohen"
+ work="CNRS researcher"
+ location="Laboratoire de Recherche en Informatique, Université Paris-Saclay, France"
+ url="https://www.steinertriples.fr/ncohen/"
+ description="Graph Theory;Linear Programming;documentation"
+ trac="ncohen"
+ github="nathanncohen"/>
+<contributor
+ name="Bruce Cohen"
+ trac="bic"/>
+<contributor
+ name="Mauricio Collares"/>
+<contributor
+ name="Guillaume Connan"
+ trac="gconnan"/>
+<contributor
+ name="John Connor"
+ trac="JohnConnor"/>
+<contributor
+ name="Cristian Consonni"/>
+<contributor
+ name="Jenny Cooley"
+ work="undergraduate student, University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, UK"
+ description="elliptic curves"
+ trac="JCooley"/>
+<contributor
+ name="Edgar Costa"
+ work="MIT"
+ location="MIT, Cambridge, MA, USA"
+ description="finite fields, number theory"
+ url="https://edgarcosta.org/"
+ trac="edgarcosta"
+ github="edgarcosta"/>
+<contributor
+ name="David Coudert"
+ work="Senior Researcher, Inria"
+ location="Inria, Sophia Antipolis, France"
+ description="Graph Theory; Linear programming"
+ url="https://www-sop.inria.fr/members/David.Coudert"
+ trac="dcoudert"
+ github="dcoudert"/>
+<contributor
+ name="Thierry Coulbois"
+ url="http://www.i2m.univ-amu.fr/perso/thierry.coulbois/"
+ trac="coulbois"/>
+<contributor
+ name="Maxim Cournoyer"/>
+<contributor
+ name="Julien Courtiel"
+ location="University of British Colombia, Canada"
+ trac="jcourtie"/>
+<contributor
+ name="Nico Courts"/>
+<contributor
+ name="John Cremona"
+ work="Professor, University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, UK"
+ description="many contributions to elliptic curve code; C++ part of Sage interface to mwrank, Tables; extensive design discussions; documentation fixes; bug fixes; organize Sage Days 6"
+ url="http://www.warwick.ac.uk/staff/J.E.Cremona"
+ trac="cremona"
+ github="JohnCremona"/>
+<contributor
+ name="Karl-Dieter Crisman"
+ work="Gordon College"
+ location="Wenham, MA, USA"
+ description="Documentation; Symbolics"
+ url="http://www.math.gordon.edu/~kcrisman/"
+ trac="kcrisman"
+ github="kcrisman"/>
+<contributor
+ name="Martin Cross"
+ trac="MartinX"/>
+<contributor
+ name="Fidel Barrera Cruz"
+ work="graduate student, Department of Combinatorics and Optimization, University of Waterloo"
+ location="200 University Avenue, West Waterloo, Ontario, Canada"
+ description="LaTeX output for combinatorial graphs"
+ trac="fidelbarrera"/>
+<contributor
+ name="Pedro Cruz"/>
+<contributor
+ name="Alex Csar"/>
+<contributor
+ name="Julian Cuevas"/>
+<contributor
+ name="Marc Culler"
+ work="Professor Emeritus, University of Illinois at Chicago"
+ location="Chicago, IL, USA"
+ description="macOS binary distributions"
+ github="culler"
+ url="http://marc-culler.info/"
+ trac="culler"/>
+<contributor
+ name="Clifton Cunningham"
+ trac="Clifton"
+ github="CliftonCunningham"/>
+<contributor
+ name="Eva Curry"
+ location="Acadia University, Canada"
+ url="http://www.acadiau.ca/~ecurry"
+ trac="ecurry"/>
+<contributor
+ name="Doug Cutrell"
+ work="graduate student, UCSD"
+ location="San Diego, CA, USA"
+ description="created the Sage Microsoft Windows installer"/>
+<contributor
+ name="Konrad K. Dabrowski"
+ work="Newcastle University"
+ location="Newcastle upon Tyne, UK"
+ url="https://www.konraddabrowski.co.uk/"
+ trac="Konrad127123"
+ github="Konrad127123"
+ gitlab="Konrad127123"/>
+<contributor
+ name="Avinash Dalal"/>
+<contributor
+ name="Andrew Dalke"/>
+<contributor
+ name="Hiep Dang"/>
+<contributor
+ name="Alexis Suki Dasher"
+ altnames="A. S. Dasher"/>
+<contributor
+ name="Michael Daub"/>
+<contributor
+ name="Anthony David"
+ trac="adavid"/>
+<contributor
+ name="Lucas David-Roesler"/>
+<contributor
+ name="Ewan Davies"
+ github="ed359"/>
+<contributor
+ name="Damek Davis"
+ location="UCLA"
+ url="http://www.math.ucla.edu/~damek"
+ trac="damek"/>
+<contributor
+ name="Rakhim Davletkaliyev"
+ trac="freetonik"/>
+<contributor
+ name="Paul-Olivier Dehaye"
+ location="Universität Zurich, Switzerland"
+ github="pdehaye"
+ trac="pdehaye"/>
+<contributor
+ name="Alyson Deines"
+ altnames="Aly Deines"
+ work="researcher, CCR La Jolla"
+ location="San Diego, CA"
+ trac="aly.deines"
+ github="adeines"/>
+<contributor
+ name="Bérénice Delcroix-Oger"
+ trac="oger"/>
+<contributor
+ name="Vincent Delecroix"
+ altnames="Vinent Delecroix"
+ work="researcher, CNRS"
+ location="LaBRI, Université de Bordeaux, Bordeaux, France"
+ description="combinatorics, documentation; organized Sage Days 93"
+ url="http://www.labri.fr/perso/vdelecro/"
+ trac="vdelecroix"
+ github="videlec"/>
+<contributor
+ name="Lassina Dembele"
+ trac="lassina"/>
+<contributor
+ name="Jeroen Demeyer"
+ work="Postdoc, Ghent University"
+ location="Galglaan 2, Gent, Belgium"
+ description="PARI interface; Integer factorisation; c_lib, interrupt handling; release manager (2011-2013); 2013 Spies SageMath Development Prize"
+ url="http://cage.ugent.be/~jdemeyer/"
+ trac="jdemeyer"
+ github="jdemeyer"/>
+<contributor
+ name="Stefan Demharter"/>
+<contributor
+ name="Matthieu Deneufchâtel"
+ trac="deneufchatel"/>
+<contributor
+ name="Tom Denton"
+ work="Google Research"
+ description="Non-symmetric Macdonald polynomials with permuted basements"
+ url="http://inventingsituations.net"
+ github="sdenton4"
+ trac="sdenton"/>
+<contributor
+ name="Maarten Derickx"
+ url="http://www.mderickx.nl"
+ description="algebra"
+ trac="mderickx"
+ github="koffie"/>
+<contributor
+ name="Aram Dermenjian"
+ work="University of Manchester"
+ location="Manchester, United Kingdom"
+ description="combinatorics"
+ url="http://www.dermenjian.com"
+ trac="aram.dermenjian"
+ github="thecaligarmo"/>
+<contributor
+ name="Henri Derycke"
+ trac="hderycke" 
+ github="nheir"/>
+<contributor
+ name="Karan Desai"
+ github="karandesai-96"
+ trac="karandesai-96"/>
+<contributor
+ name="Didier Deshommes"
+ location="Cary, NC, USA"
+ description="documentation; optimizations; quaddouble wrapper; spkg restructuring; porting Sage to NexentasOS"
+ trac="dfdeshom"
+ github="dfdeshom"/>
+<contributor
+ name="Benjamin Dexheimer"/>
+<contributor
+ name="Sagnik Dey"/>
+<contributor
+ name="Jennet Dickinson"
+ location="Columbia University"
+ trac="jdickinson"/>
+<contributor
+ name="Florian Diebold"
+ trac="fdiebold"/>
+<contributor
+ name="Joscha Diehl"/>
+<contributor
+ name="Matthieu Dien"
+ location="Université Pierre et Marie Curie, France"
+ trac="MatthieuDien"
+ github="MatthieuDien"/>
+<contributor
+ name="Tobias Diez"
+ github="tobiasdiez"/>
+<contributor
+ name="Kevin Dilks"
+ altnames="Dilks"
+ location="NDSU, North Dakota, USA"
+ trac="kdilks"
+ github="kevindilks"/>
+<contributor
+ name="Ryan Dingman"
+ work="University of Washington"
+ location="University of Washington, WA, USA"
+ description="graph theory"
+ trac="rdingman"/>
+<contributor
+ name="Sette Diop"
+ location="L2S, CNRS, Supelec, Univ. Paris Sud Orsay, Gif sur Yvette, France"
+ url="http://www.lss.supelec.fr"
+ trac="diop"/>
+<contributor
+ name="Linden Disney-Hogg"
+ work="University of Edinburgh"
+ location="Edinburgh, United Kingdom"
+ description="Algebraic geometry"
+ github="DisneyHogg"/>
+<contributor
+ name="Robert Dodier"
+ trac="robert_dodier"/>
+<contributor
+ name="Galen Dorpalen-Barry"/>
+<contributor
+ name="Fangan Dosso"
+ trac="fdosso48"/>
+<contributor
+ name="Stephen Doty"
+ location="Loyola University Chicago"
+ url="http://doty.math.luc.edu"
+ trac="s.r.doty"
+ github="srdoty"/>
+<contributor
+ name="Douglas"
+ trac="dsm"/>
+<contributor
+ name="Theo Douvropoulos"
+ trac="tdouvropoulos"/>
+<contributor
+ name="John R. Doyle"
+ altnames="John Doyle"
+ location="Louisiana Tech University"
+ url="http://www2.latech.edu/~jdoyle/"
+ trac="jdoyle"/>
+<contributor
+ name="Dan Drake"
+ work="Korea Advanced Institute of Science and Technology (KAIST)"
+ location="Daejeon, South Korea"
+ description="Rencontres numbers; inverse trigonometry; Wronskian function; docstrings; logging; SageTex"
+ url="http://mathsci.kaist.ac.kr/~drake"
+ trac="ddrake"
+ github="dandrake"/>
+<contributor
+ name="Anne Dranowski"
+ trac="sage_snail"/>
+<contributor
+ name="Tom Draper"
+ description="support is_primitive() method for polynomials over Finite Fields"
+ trac="TomDraper"
+ github="SmoothDragon"/>
+<contributor
+ name="Simon Drewitz"
+ location="Université de Fribourg, Switzerland"
+ url="http://homeweb.unifr.ch/drewitzs/Pub/"
+ trac="sdrewitz"/>
+<contributor
+ name="Alexander Dreyer"
+ work="Fraunhofer ITWM"
+ location="Kaiserslautern, Germany"
+ description="PolyBoRi author (low-level routines, project infrastructure)"
+ url="http://www.itwm.fhg.de/de/as__asemployees__dreyer/dreyer/"
+ trac="AlexanderDreyer"
+ github="alexanderdreyer"/>
+<contributor
+ name="Eduardo Dueñez"
+ trac="eduenez"
+ github="eduenez"/>
+<contributor
+ name="Niels Duif"
+ location="Netherlands"
+ url="http://nielsduif.nl"
+ trac="Niels"/>
+<contributor
+ name="Tim Dumol"
+ altnames="Tim Joseph Dumol"
+ work="University of the Philippines, Diliman"
+ location="Manila, Philippines"
+ description="Sage Notebook improvements; Reviews; Minor fixes"
+ trac="timdumol"
+ url="https://timdumol.com"
+ pix="http://gravatar.com/avatar/7009e6e9ae26c2b3119e97531ef2cc12&amp;s=512"
+ github="TimDumol"/>
+<contributor
+ name="Thierry Dumont"
+ location="Université Lyon 1,  Villeurbanne, France"
+ url="http://math.univ-lyon1.fr"
+ github="Thierry-Dumont"
+ trac="tdumont"/>
+<contributor
+ name="Furkan Semih Dündar"
+ location="Amasya University, Amasya, Turkey"
+ url="http://fsemih.org"
+ github="fsdundar"/>
+<contributor
+ name="Nathan Dunfield"
+ description="small patches; improvements to algdep; documentation"
+ location="Urbana-Champaign, Illinois, USA"
+ url="http://dunfield.info"
+ github="NathanDunfield"
+ trac="dunfield"/>
+<contributor
+ name="Taylor Dupuy"
+ location="University of Vermont"
+ url="https://www.uvm.edu/~tdupuy"
+ trac="tdupu"
+ github="tdupu"/>
+<contributor
+ name="Juanita Duque"
+ trac="jduque"/>
+<contributor
+ name="Amaury Durand"
+ trac="adurand"/>
+<contributor
+ name="Madison Van Dyk"
+ trac="m3vandyk"/>
+<contributor
+ name="Gabriel Ebner"
+ work="undergraduate student, Technical University of Vienna"
+ location="Vienna, Austria"
+ description="multinomial coefficient"
+ url="http://gabrielebner.at/"
+ trac="gebner"/>
+<contributor
+ name="Alec Edgington"
+ trac="alec.edgington"
+ github="obtext"/>
+<contributor
+ name="Ingolfur Edvardsson"
+ trac="ingolfured"
+ github="ingolfured"/>
+<contributor
+ name="Ben Edwards"
+ work="PhD student, Department of Computer Science, University of New Mexico"
+ location="Albuquerque, NM 87131, United States"
+ description="graph theory"
+ trac="bedwards"/>
+<contributor
+ name="Stephan Ehlen"
+ trac="ehlen"/>
+<contributor
+ name="Geoffrey Ehrman"
+ location="University of New Hampshire"
+ url="http://euclid.unh.edu/~ehrman"
+ trac="gbe"/>
+<contributor
+ name="David Einstein"
+ location="University of Massachusetts Lowell - Lowell Mass"
+ trac="deinst"
+ github="deinst"/>
+<contributor
+ name="Birk Eisermann"
+ trac="eisermbi"/>
+<contributor
+ name="Joseph Eisner"
+ trac="eisnerj"/>
+<contributor
+ name="David Eklund"
+ trac="davideklund"/>
+<contributor
+ name="Jan Elffers"/>
+<contributor
+ name="Sophia Elia"
+ location="Freie Universität Berlin"
+ trac="selia"
+ github="sophiasage"/>
+<contributor
+ name="Andreas Enge"
+ url="https://www.math.u-bordeaux.fr/~aenge/"
+ trac="aenge"/>
+<contributor
+ name="Jan Engelhardt"/>
+<contributor
+ name="Jeremias Epperlein"
+ location="Universität Passau"
+ trac="jepperlein"
+ github="JeremiasE"/>
+<contributor
+ name="Samuel Erickson"
+ location="MSUM"
+ trac="ericksosam"/>
+<contributor
+ name="Erik"/>
+<contributor
+ name="Dana Ernst"
+ description="calculus"
+ location="Northern Arizona University"
+ url="https://danaernst.com/"
+ github="dcernst"
+ trac="DanaErnst"/>
+<contributor
+ name="Burcin Erocal"
+ work="PhD student, RISC - Linz"
+ location="48.366126, 14.513884"
+ description="integrating the PolyBoRi framework"
+ url="http://erocal.org/burcin/"
+ trac="burcin"
+ github="burcin"/>
+<contributor
+ name="Nicolas Estibals"
+ trac="nestibal"/>
+<contributor
+ name="Diego de Estrada"
+ trac="ddestrada"
+ github="diegode"/>
+<contributor
+ name="Gerardo Zelaya Eufemia"
+ trac="menosgeze"/>
+<contributor
+ name="Buck Evan"
+ trac="buck"/>
+<contributor
+ name="Ron Evans"
+ work="University of California, San Diego"
+ location="9500 Gilman Drive, La Jolla, San Diego, California, USA"
+ description="bug fix; documentation"
+ url="http://math.ucsd.edu/~revans"/>
+<contributor
+ name="Ingólfur Eðvarðsson"/>
+<contributor
+ name="Xander Faber"
+ trac="xander.faber"/>
+<contributor
+ name="Justine Falque"
+ location="Université Paris-Sud, France"
+ trac="falque"
+ github="falque"/>
+<contributor
+ name="Joao Alberto de Faria"
+ trac="jdefaria"/>
+<contributor
+ name="Stephen Farley"
+ trac="farleysr"/>
+<contributor
+ name="J. Miguel Farto"
+ altnames="J Miguel Farto"
+ location="Universidad de Valladolid, Spain"
+ url="http://farto.eis.uva.es/"
+ trac="migeruhito"/>
+<contributor
+ name="Achim Fassbender"/>
+<contributor
+ name="Richard J. Fateman"
+ work="Professor Emeritus, Department of Electrical Engineering and Computer Sciences, University of California at Berkeley"
+ location="Berkeley, California 94720-1776, USA"/>
+<contributor
+ name="Amy Feaver"
+ location="The King's University, Edmonton, AB"
+ url="http://math.colorado.edu/~keighley"
+ trac="amy"/>
+<contributor
+ name="Gabe Feinberg"
+ location="Washington College, Chestertown, MD"
+ trac="gfeinberg"/>
+<contributor
+ name="Tony Feng"
+ trac="tfeng"/>
+<contributor
+ name="Luca De Feo"
+ location="Université de Versailles - Saint-Quentin, France"
+ url="http://defeo.lu/"
+ trac="defeo"
+ github="defeo"/>
+<contributor
+ name="Valentin Féray"
+ location="LaBRI, Bordeaux, France"
+ trac="vferay"/>
+<contributor
+ name="Oscar Fernández-Ramos"/>
+<contributor
+ name="Isuru Fernando"
+ work="University of Illinois at Urbana-Champaign"
+ location="Urbana, IL, USA"
+ trac="isuruf"
+ github="isuruf"
+ gitlab="isuruf"/>
+<contributor
+ name="Jeffrey Ferreira"
+ altnames="Jeff Ferreira"
+ location="San Mateo, CA, USA"
+ trac="jferreira"
+ github="jeffpferreira"/>
+<contributor
+ name="Thomas Feulner"
+ location="University of Bayreuth, Germany"
+ url="http://www.algorithm.uni-bayreuth.de/de/team/Feulner_Thomas/index.html"
+ trac="tfeulner"/>
+<contributor
+ name="Johannes Klaus Fichte"
+ location="Vienna University of Technology"
+ trac="fichtejo"/>
+<contributor
+ name="Joseph E. Fields"
+ altnames="Joe Fields"
+ location="Southern Connecticut State University, New Haven, CT"
+ url="http://www.southernct.edu/~fields/"
+ trac="jfields"
+ github="osj1961"/>
+<contributor
+ name="Tara Fife"
+ trac="tara"
+ github="TaraFife"/>
+<contributor
+ name="David Fifield"
+ trac="dcfifield"/>
+<contributor
+ name="Robert Figura"/>
+<contributor
+ name="Alain Filbois"/>
+<contributor
+ name="Paul Fili"
+ location="Oklahoma State University, Stillwater, OK"
+ github="pfili"
+ trac="paulfili"/>
+<contributor
+ name="Luis Finotti"
+ location="University of Tennessee, USA"
+ url="http://www.math.utk.edu/~finotti"
+ trac="finotti"/>
+<contributor
+ name="Andrew Fiori"
+ trac="afiori"/>
+<contributor
+ name="Moritz Firsching"
+ url="http://page.mi.fu-berlin.de/moritz/"
+ trac="moritz"
+ github="mo271"/>
+<contributor
+ name="Lars Fischer"
+ trac="lars.fischer"/>
+<contributor
+ name="Robert Fitzpatrick"/>
+<contributor
+ name="Andrew Fleckenstein"
+ trac="afleckenstein"/>
+<contributor
+ name="Jean-Pierre Flori"
+ work="Telecom ParisTech"
+ location="46 Rue Barrault, 75013 Paris, France"
+ description="documentation"
+ url="https://perso.telecom-paristech.fr/~flori/"
+ github="jpflori"
+ trac="jpflori"/>
+<contributor
+ name="Marcelo Forets"
+ location="UTEC, Uruguay"
+ url="http://marcelo-forets.fr"
+ trac="mforets"
+ github="mforets"/>
+<contributor
+ name="Evan Fosmark"
+ location="Amity, Oregon, USA"
+ description="Sage notebook"
+ url="http://www.evanfosmark.com"/>
+<contributor
+ name="Charles Fougeron"
+ location="Université Paris 7"
+ trac="Fougeroc"/>
+<contributor
+ name="Laurent Fousse"
+ work="Debian Project"
+ location="Grenoble, France"
+ description="calculus"
+ url="http://komite.net/laurent/"
+ trac="lfousse"/>
+<contributor
+ name="Jim Fowler"
+ location="Ohio State University"
+ url="http://www.math.osu.edu/~fowler.291/"
+ trac="kisonecat"/>
+<contributor
+ name="Amanda Francis"
+ trac="afrancis"/>
+<contributor
+ name="Maria Francis"
+ trac="mfrancis"/>
+<contributor
+ name="Jonas Frede"/>
+<contributor
+ name="Daniel Friedan"/>
+<contributor
+ name="David Fu"/>
+<contributor
+ name="Marc Fuentes"/>
+<contributor
+ name="Gary Furnish"
+ work="University of Utah"
+ location="Utah, USA"
+ description="Cython; symbolics; miscellaneous"
+ trac="gfurnish"
+ github="garyfurnish"/>
+<contributor
+ name="Bill Furnish"/>
+<contributor
+ name="Elisabeth Gaar"/>
+<contributor
+ name="Arthur Gaer"
+ trac="gaer"/>
+<contributor
+ name="Martin von Gagern"
+ location="TU München, Germany"
+ trac="gagern"
+ github="gagern"/>
+<contributor
+ name="Thomas Gagne"
+ location="University of Puget Sound, Tacoma"
+ trac="tgagne"
+ github="ThomasGagne"/>
+<contributor
+ name="Andrew Gainer-Dewar"
+ location="Hobart and William Smith Colleges"
+ trac="agd"/>
+<contributor
+ name="Alex Galarraga"
+ altnames="Alexander Galarraga"
+ github="EnderWannabe"/>
+<contributor
+ name="Tyler Gaona"
+ location="Duquesne University"
+ trac="tgaona"/>
+<contributor
+ name="Elisa Lorenzo Garcia"
+ location="Universite de Rennes 1, France"
+ trac="elorenzogarcia"/>
+<contributor
+ name="Alexander Garver"
+ trac="garver15"/>
+<contributor
+ name="Rolando Garza"
+ location="Monterrey, NL, Mexico"
+ trac="rolandog"/>
+<contributor
+ name="Joanna Gaski"
+ location="University of Washington, Seattle"
+ trac="jgaski"/>
+<contributor
+ name="Serge Gaspers"/>
+<contributor
+ name="Caleb Geiger"/>
+<contributor
+ name="Antoine Genitrini"/>
+<contributor
+ name="Thomas Gerber"
+ url="http://www.math.rwth-aachen.de/~Thomas.Gerber/"
+ trac="thomgerber"/>
+<contributor
+ name="Marius Gerbershagen"/>
+<contributor
+ name="Robert Gerbicz"
+ location="ELTE, Hungary"
+ trac="gerbicz,gerrob"/>
+<contributor
+ name="Zachary Gershkoff"
+ location="Louisiana State University"
+ trac="zgershkoff"/>
+<contributor
+ name="Zach Gershkoff"
+ trac="zgershkoff"/>
+<contributor
+ name="Alex Ghitza"
+ work="The University of Melbourne"
+ location="Parkville, Melbourne, Australia"
+ description="pari interface; modular forms, elliptic curves, number fields; miscellaneous algebra; documentation"
+ url="http://www.ms.unimelb.edu.au/~aghitza/"
+ trac="AlexGhitza"
+ github="aghitza"/>
+<contributor
+ name="Bryan Gillespie"
+ trac="bgillespie"
+ github="bgillesp"/>
+<contributor
+ name="Maria Monks Gillespie"
+ altnames="Maria Gillespie,Maria Monks"
+ location="Graduate Student, UC Berkeley"
+ trac="MariaMonks"
+ github="MariaMonks"/>
+<contributor
+ name="Andrzej Giniewicz"
+ url="http://www.im.pwr.wroc.pl/~giniew/"
+ work="Ph.D. student, Institute of Mathematics and Computer Science, Wroclaw University of Technology"
+ location="Wroclaw, Poland"
+ description="small build fixes"
+ pix="./pix/people/aginiewicz.jpg"
+ trac="aginiewicz"/>
+<contributor
+ name="Alain Giorgetti"
+ description="documentation"
+ trac="agiorgetti"/>
+<contributor
+ name="Pascal Giorgi"/>
+<contributor
+ name="Samuele Giraudo"
+ work="PhD student, Université de Paris-Est (Marne-la-Vallée)"
+ location="Champs-sur-Marne, France"
+ description="combinatorics"
+ url="https://igm.univ-mlv.fr/~giraudo/"
+ trac="giraudo"
+ github="SamueleGiraudo"/>
+<contributor
+ name="Amy Glen"
+ location="Perth, Western Australia"
+ description="SageWords co-author"
+ url="https://amyglen.wordpress.com"
+ trac="amyglen"
+ github="amy-glen"/>
+<contributor
+ name="Charlie Godfrey"
+ location="University of Washington-Seattle"
+ url="https://www.math.washington.edu/~cgodfrey"
+ github="godfrey-cw"/>
+<contributor
+ name="Matthias Goerner"
+ trac="mgoerner"
+ github="unhyperbolic"/>
+<contributor
+ name="Cécile Gonçalves"
+ trac="goncalves"/>
+<contributor
+ name="Samuel Gonshaw"
+ location="Imperial College London"
+ trac="sjg10"/>
+<contributor
+ name="Brandon Gontmacher"/>
+<contributor
+ name="Javier Honrubia González"
+ location="Vigo, Spain"
+ description="various bug fixes; documentation"
+ trac="jhonrubia6"/>
+<contributor
+ name="Florian Göpfert"/>
+<contributor
+ name="Daniel Gordon"
+ altnames="Dan Gordon"
+ work="researcher, IDA Center For Communications Research"
+ location="San Diego, CA, USA"
+ description="covering design"
+ url="http://www.ccrwest.org/gordon/dan.html"
+ trac="dgordon"/>
+<contributor
+ name="Chris Gorecki"
+ work="University of Washington"
+ location="University of Washington, WA, USA"
+ description="Sage's logic package"
+ trac="goreckc"/>
+<contributor
+ name="Robert Goss"
+ location="University of Warwick, UK"
+ trac="robert_goss"/>
+<contributor
+ name="Sebastien Gouezel"
+ trac="gouezel"/>
+<contributor
+ name="Eric Gourgoulhon"
+ work="CNRS research scientist, Laboratoire Univers et Théories"
+ location="Observatoire de Paris, Meudon, France"
+ url="https://luth.obspm.fr/~luthier/gourgoulhon/en/"
+ description="differentiable manifolds, graphics, ask.sagemath"
+ trac="egourgoulhon"
+ github="egourgoulhon"/>
+<contributor
+ name="Asier Eiguren Goyenechea"
+ altnames="Asier Eiguren"
+ url="https://www.ehu.eus/es/web/computational-many-body-theory/home"
+ github="eiguren"/>
+<contributor
+ name="Peter Graef"
+ location="University of Heidelberg"
+ url="http://www1.iwr.uni-heidelberg.de/groups/arith-geom/home/members/peter-graef/"
+ trac="pgraef"/>
+<contributor
+ name="Georg Grafendorfer"
+ location="ETH Zürich, Switzerland"
+ trac="ggrafendorfer"/>
+<contributor
+ name="Paul Graham"
+ trac="paulgraham5"/>
+<contributor
+ name="Håkan Granath"
+ location="Karlstad University, Sweden"
+ trac="hgranath"/>
+<contributor
+ name="Daniel R. Grayson"
+ altnames="Dan Grayson"
+ url="http://www.math.uiuc.edu/~dan/"
+ trac="dangrayson"
+ github="DanGrayson"/>
+<contributor
+ name="David J. Green"/>
+<contributor
+ name="Bruno Grenet"
+ work="Université de Montpellier"
+ location="Montpellier, France"
+ description="Polynomials; Coding Theory"
+ url="http://www.lirmm.fr/~grenet/"
+ trac="bruno"
+ github="bgrenet"/>
+<contributor
+ name="Marina Gresham"
+ trac="MGresham"/>
+<contributor
+ name="Sean Griffin"
+ trac="seantgriffin"/>
+<contributor
+ name="Julien Grijalva"/>
+<contributor
+ name="Darij Grinberg"
+ location="Drexel University, Philadelphia, USA"
+ url="http://www.cip.ifi.lmu.de/~grinberg/"
+ trac="darij"
+ github="darijgr"/>
+<contributor
+ name="Meghan Grip"/>
+<contributor
+ name="Jan Groenewald"
+ work="IT Manager; African Institute for Mathematical Sciences"
+ location="AIMS; Muizenberg; Cape Town; South Africa"
+ trac="pipedream"
+ github="pipedream"
+ gitlab="pipedream"
+ description="Advocacy; Bug fixes; Build; Documentation; Feedback; Debian and Ubuntu support"/>
+<contributor
+ name="Johan Grönqvist"
+ trac="johan"/>
+<contributor
+ name="Rob Gross"/>
+<contributor
+ name="Stefan Grosser"/>
+<contributor
+ name="Jason Grout"
+ work="Databricks"
+ location="San Francisco"
+ description="graph theory; tidbits of the notebook; linear algebra; 2012 Spies SageMath Development Prize"
+ trac="jason"
+ github="jasongrout"/>
+<contributor
+ name="Ryan Grout"
+ work="undergraduate student"
+ location="Provo, UT, USA"
+ description="graphics"
+ trac="ryan"/>
+<contributor
+ name="Tom Grubb"/>
+<contributor
+ name="Mathieu Guay-Paquet"
+ work="University of Waterloo"
+ location="200 University Avenue, West Waterloo, ON N2L 3G1, Canada"
+ description="algebra; combinatorics"
+ trac="mguaypaq"
+ github="mguaypaq"/>
+<contributor
+ name="Alexey U. Gudchenko"
+ location="107241, 19-18, Amurskaya street, Moscow, Russia"
+ description="interfaces"
+ trac="goodok.alex"/>
+<contributor
+ name="Olivier Guichard"
+ trac="oguichard"/>
+<contributor
+ name="Pierre Guillot"
+ trac="pguillot,pierre"/>
+<contributor
+ name="Xavier Guitart"/>
+<contributor
+ name="Daniel Gulotta"
+ trac="dgulotta"/>
+<contributor
+ name="Emily Gunawan"
+ location="University of Connecticut, USA"
+ trac="egunawan"
+ github="egunawan"/>
+<contributor
+ name="Georgi Guninski"/>
+<contributor
+ name="Trevor Gunn"/>
+<contributor
+ name="Alan J.X. Guo"
+ work="Tianjin University, China"
+ location="郭嘉祥"
+ trac="AJXGuo"/>
+<contributor
+ name="Jing Guo"/>
+<contributor
+ name="Vipul Gupta"
+ trac="vipul73921"
+ github="vipul79321"/>
+<contributor
+ name="Sourav San Gupta"/>
+<contributor
+ name="Harold Gutch"
+ work="PhD student, Department of Nonlinear Dynamics, Max Planck Institute for Dynamics and Self-Organization"
+ location="Goettingen, Germany"
+ description="build system"
+ trac="logix"/>
+<contributor
+ name="Jonathan Gutow"
+ work="Chemistry Department, University of Wisconsin Oshkosh"
+ location="Oshkosh, Wisconsin, USA"
+ description="graphics"
+ trac="gutow"
+ github="gutow"
+ url="https://cms.gutow.uwosh.edu/Gutow"/>
+<contributor
+ name="Jose Guzman"
+ work="Institute of Science and Technology Austria"
+ location="Am Campus 1, 3400 Klosterneuburg, Austria"
+ description="documentation"
+ trac="JGuzman"/>
+<contributor
+ name="Benjamin Hackl"
+ work="Alpen-Adria-Universität Klagenfurt"
+ location="Klagenfurt, Austria"
+ description="Asymptotics; Symbolics"
+ trac="behackl"
+ url="http://wwwu.aau.at/behackl/"
+ github="behackl"/>
+<contributor
+ name="Hosein Hadipour"
+ location="University of Tehran, Iran"
+ trac="Hadipour"
+ github="hadipourh"/>
+<contributor
+ name="Anna Haensch"
+ location="Duquesne University, Pittsburgh, Pennsylvania 15282"
+ work="Assistant Professor, Duquesne University"
+ description="documentation"
+ url="http://www.mathcs.duq.edu/~haensch/"
+ trac="annahaensch"
+ github="annahaensch"/>
+<contributor
+ name="Thomas Hagelmayer"/>
+<contributor
+ name="Eero Hakavuori"/>
+<contributor
+ name="Kevin Halasz"
+ location="University of Puget Sound, Tacoma, WA"
+ trac="khalasz"/>
+<contributor
+ name="Bryton T.D. Hall"/>
+<contributor
+ name="Christopher Hall"
+ altnames="Chris Hall"
+ trac="cjh"/>
+<contributor
+ name="Immi Halupczok"
+ github="immi-h"
+ trac="immi"/>
+<contributor
+ name="Carlo Hamalainen"
+ url="http://carlo-hamalainen.net"
+ work="Eduard Čech Center, Charles University, Prague"
+ location="Prague, Czech Republic"
+ description="Latin squares; dancing links C++ code; bug fixes; bug reports"
+ trac="carlohamalainen"/>
+<contributor
+ name="Alia Hamieh"
+ trac="aliashamieh"/>
+<contributor
+ name="Marshall Hampton"
+ work="Minnesota Duluth"
+ location="Duluth, MN, USA"
+ description="gfan interface; polyhedra; phcpack interface and spkg; biopython package maintainer"
+ url="http://www.d.umn.edu/~mhampton/index.html"
+ pix="./pix/people/mhampton.jpeg"
+ trac="mhampton"/>
+<contributor
+ name="Frederic Han"
+ altnames="Han Frederic"
+ location="Université Paris Cité"
+ url="http://webusers.imj-prg.fr/~frederic.han"
+ trac="frederichan"
+ github="frederichan-IMJPRG"/>
+<contributor
+ name="Jonathan Hanke"
+ altnames="John Hanke,Jon Hanke"
+ work="UGA Faculty"
+ location="Athens, GA, USA"
+ description="quadratic forms package; quadratic_forms directory"
+ trac="jonhanke"
+ github="jonhanke"/>
+<contributor
+ name="Mike Hansen"
+ altnames="Michael Hansen"
+ location="Seattle, WA, USA"
+ work="University of Washington"
+ description="Combinatorics package; bug fixes; 2009 Spies SageMath Development Prize"
+ trac="mhansen"
+ github="mwhansen"/>
+<contributor
+ name="David Møller Hansen"
+ altnames="David Moller Hansen,David Møllerller Hansen"
+ work="Masters graduate, Technical University of Denmark"
+ location="Copenhagen, Denmark"
+ description="Weil pairing framework"
+ url="http://www.mollerhansen.com"
+ trac="dmhansen"/>
+<contributor
+ name="Tobias Hansen"
+ trac="thansen"
+ github="tobihan"/>
+<contributor
+ name="Neal Harris"
+ location="University of California, San Diego, USA"
+ url="http://math.ucsd.edu/~rnharris"
+ trac="nharris"/>
+<contributor
+ name="Martin Ames Harrison"
+ location="Grad, UCSB"
+ trac="martinharrison"/>
+<contributor
+ name="Robert Harron"
+ altnames="Rob Harron"
+ location="University of Hawaiʻi at Mānoa"
+ url="http://www.math.hawaii.edu/~rharron/"
+ trac="robharron"
+ github="rharron"/>
+<contributor
+ name="Sai Harsh"
+ altnames="Tondomker Sai Harsh"/>
+<contributor
+ name="Bill Hart"
+ altnames="William Hart"
+ url="http://maths.warwick.ac.uk/~masfaw"
+ work="University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, UK"
+ description="complete implementation of quadratic sieve; created FLINT (fast arithmetic library)"
+ github="wbhart"
+ trac="wbhart"/>
+<contributor
+ name="Stephen Hartke"
+ altnames="Steven Hartke"
+ location="University of Nebraska-Lincoln"
+ trac="hartke"/>
+<contributor
+ name="David Harvey"
+ work="NYU"
+ location="NYU, NY, USA"
+ description="p-adic heights; arithmetic architecture; Bernoulli numbers mod p; FLINT; other random things"
+ trac="dmharvey"/>
+<contributor
+ name="David Harvey"
+ location="University of New South Wales, NSW, Australia"
+ trac="dmharvey"/>
+<contributor
+ name="Kenji Hashimoto"
+ trac="khashimoto"/>
+<contributor
+ name="Sachi Hashimoto"/>
+<contributor
+ name="Jonathan Hayase"
+ trac="PythonNut"/>
+<contributor
+ name="Joal Heagney"
+ trac="JoalHeagney"/>
+<contributor
+ name="Waldek Hebish"/>
+<contributor
+ name="Ivo Hedtke"
+ location="Essen, Germany"
+ github="hedtke"
+ trac="hedtke"/>
+<contributor
+ name="Loreno Heer"
+ url="https://loreno-heer.github.io"
+ github="loreno-heer"
+ trac="lorhe"/>
+<contributor
+ name="Jonas Heinrich"
+ location="KIT, Karlsruhe, Germany"
+ trac="onny"/>
+<contributor
+ name="Reimundo Heluani"
+ trac="heluani"
+ github="heluani"/>
+<contributor
+ name="Ralf Hemmecke"
+ location="RISC, Johannes Kepler University Linz"
+ trac="hemmecke"
+ github="hemmecke"/>
+<contributor
+ name="Jordi Gutiérrez Hermoso"
+ github="jordigh"
+ trac="jordigh"/>
+<contributor
+ name="Clemens Heuberger"
+ work="Alpen-Adria-Universität Klagenfurt"
+ location="Klagenfurt, Austria"
+ description="Finite State Machines; Asymptotic Ring"
+ trac="cheuberg"
+ url="http://wwwu.aau.at/cheuberg/"
+ github="cheuberg"
+ gitlab="cheuberg"/>
+<contributor
+ name="Jason B Hill"
+ altnames="Jason Hill"
+ work="University of Colorado Boulder"
+ location="Boulder, Colorado, USA"
+ description="permutation groups; notebook; shell scripting"
+ trac="jasonbhill"/>
+<contributor
+ name="Jason B. Hill"
+ location="SpotX Video Advertising, Broomfield, CO"
+ url="http://www.jasonbhill.com/"
+ trac="jasonbhill"/>
+<contributor
+ name="Leif Hille"/>
+<contributor
+ name="Ryan Hinton"
+ location="University of Virginia"
+ trac="rhinton"
+ github="rhinton"/>
+<contributor
+ name="Florent Hivert"
+ work="Professor, Laboratoire de Recherche en Informatique"
+ location="University Paris-Sud, France"
+ description="combinatorics (design and code); various bug fixes"
+ trac="hivert"
+ github="hivert"/>
+<contributor
+ name="Anne M. Ho"
+ location="Coastal Carolina University"
+ trac="annemho"/>
+<contributor
+ name="John Hoebing"
+ location="UCSD, USA"
+ trac="john.hoebing"/>
+<contributor
+ name="Mike Hogan"/>
+<contributor
+ name="Chris Holdsworth"
+ trac="choldsworth"/>
+<contributor
+ name="Erik Holmes"
+ trac="eholmes"/>
+<contributor
+ name="Neal Holtz"
+ work="Carleton University"
+ location="Ottawa, ON, Canada"
+ description="Newton-Raphson Root Finding interact demonstration"/>
+<contributor
+ name="Daniel Georg Holzfeind"
+ location="Villach, Austria"
+ trac="daholzfeind"
+ github="daholzfeind"
+ gitlab="daholzfeind"/>
+<contributor
+ name="Quentin Honoré"
+ trac="q.honore"/>
+<contributor
+ name="Javier Honrubia"/>
+<contributor
+ name="Sam Hopkins"
+ location="University of Washington, Seattle"
+ trac="samhop"/>
+<contributor
+ name="Daira Hopwood"/>
+<contributor
+ name="Max Horn"/>
+<contributor
+ name="Kevin Horton"
+ location="Ottawa, Canada"
+ trac="khorton"/>
+<contributor
+ name="Golam Mortuza Hossain"
+ work="Indian Institute of Science Education and Research Kolkata"
+ location="IISER Kolkata, India"
+ description="symbolics"
+ url="https:///www.iiserkol.ac.in/~ghossain"
+ trac="gmhossain"
+ github="golam-m-hossain"/>
+<contributor
+ name="Asutosh Hota"
+ location="CET, Bhubaneswar, India"
+ trac="asutosh7hota"/>
+<contributor
+ name="Andrew Hou"
+ location="University of Washington, WA, USA"
+ trac="amhou"/>
+<contributor
+ name="Robin Houston"/>
+<contributor
+ name="Sean Howe"
+ work="University of Washington REU"
+ location="University of Washington, WA, USA"
+ description="Bruhat ordering of the symmetric group"/>
+<contributor
+ name="Li-Wen Hsu"/>
+<contributor
+ name="Johannes Huisman"
+ location="University of Brest, France"
+ url="http://pageperso.univ-brest.fr/~huisman/"
+ trac="johanneshuisman"/>
+<contributor
+ name="Finn Hulse"/>
+<contributor
+ name="Jonathan Hunt"
+ altnames="Jonathan J. Hunt"
+ location="University of Queensland, Australia"
+ url="http://www.42quarks.com"
+ trac="jjh"/>
+<contributor
+ name="Alexander Hupfer"
+ work="Universität Regensburg"
+ location="Universitaetsstr. 31, 93053 Regensburg, Germany"
+ description="notebook enhancements"
+ url="http://sonium.blogspot.com"
+ trac="ahupfer"/>
+<contributor
+ name="Thomas Hupfer"/>
+<contributor
+ name="Wilfried Huss"
+ work="PhD student, Graz University of Technology"
+ location="TU Gratz, Austria"
+ description="calculus bug fixes; additions to the Maxima interface"
+ trac="whuss"/>
+<contributor
+ name="Benjamin Hutz"
+ altnames="Ben Hutz"
+ work="Assistant Professor of Mathematics, Florida Institute of Technology"
+ location="Melbourne, FL USA"
+ description="arithmetic dynamics; complex dynamics; projective/affine schemes"
+ url="http://www.fit.edu/~bhutz"
+ trac="bhutz"
+ github="bhutz"/>
+<contributor
+ name="Brian Hwang"
+ location="Caltech"
+ url="http://hwang.caltech.edu/"
+ trac="bwh"/>
+<contributor
+ name="Trevor Hyde"/>
+<contributor
+ name="Seung Gyu Hyun"
+ trac="sghyun"/>
+<contributor
+ name="Tobenna Peter Igwe"
+ altnames="Tobenna P. Igwe"
+ location="University of Liverpool"
+ url="http://www.csc.liv.ac.uk/~ptigwe"
+ trac="ptigwe"
+ github="ptigwe"/>
+<contributor
+ name="Ferdinand Ihringer"/>
+<contributor
+ name="Mee Seong Im"
+ location="United States Military Academy"
+ url="https://sites.google.com/site/meeseongim/"
+ trac="meeseongim"/>
+<contributor
+ name="Charls Mathew"
+ trac="CharlsMathew"/>
+<contributor
+ name="Patrick Ingram"
+ trac="pingram"/>
+<contributor
+ name="Bogdan Ion"/>
+<contributor
+ name="Filip Ion"
+ trac="fion"/>
+<contributor
+ name="Sorina Ionica"
+ location="Université de Picardie"
+ trac="ionisorus"/>
+<contributor
+ name="Mark Ioppolo"
+ trac="mioppolo"/>
+<contributor
+ name="Evgeniya Ishchukova"
+ location="Southern Federal University, Russia"
+ trac="jekky82"/>
+<contributor
+ name="Paul Ivanov"
+ location="UC Berkeley"
+ url="http://pirsquared.org"
+ trac="pi"/>
+<contributor
+ name="Hamish Ivey-Law"
+ trac="hlaw"
+ github="unzvfu"/>
+<contributor
+ name="Jakub Jabłoński"/>
+<contributor
+ name="Mike Jackson"/>
+<contributor
+ name="Robert Jacobson"
+ location="Roger Williams University, Bristol, RI"
+ url="https://www.RobertJacobson.dev/"
+ trac="RobertJacobson"
+ github="rljacobson"/>
+<contributor
+ name="Naqi Jaffery"
+ work="UCSD undergraduate student"
+ location="San Diego, CA 92093, USA"
+ description="Examples"/>
+<contributor
+ name="Florentin Jaffredo"/>
+<contributor
+ name="Dennis Jahn"
+ github="DennisJahn"/>
+<contributor
+ name="Lokesh Jain"
+ trac="jlokesh"
+ github="lokeshj1703"/>
+<contributor
+ name="Amit Jamadagni"
+ work="Student, Dept. Mathematics, BITS Pilani"
+ location="Goa, India"
+ description="bug fixes"
+ trac="amitjamadagni"
+ github="amitjamadagni"/>
+<contributor
+ name="Jerry James"/>
+<contributor
+ name="Scott Janke"
+ trac="sjanke"/>
+<contributor
+ name="David Jao"
+ location="University of Waterloo, Canada"
+ url="http://www.math.uwaterloo.ca/~djao/"
+ trac="djao"
+ github="davidjao"/>
+<contributor
+ name="Emmanuel Jeanvoine"
+ trac="ejeanvoi"/>
+<contributor
+ name="Peter Jeremy"
+ location="Sydney, Australia"
+ description="porting packages to FreeBSD"
+ trac="pjeremy"
+ github="peterjeremy"/>
+<contributor
+ name="Jonas Jermann"
+ trac="jj"
+ github="jjermann"/>
+<contributor
+ name="Lennart Jern"
+ trac="ljern"
+ github="lentzi90"/>
+<contributor
+ name="Prajjwal Jha"/>
+<contributor
+ name="Peter Jipsen"
+ work="Professor, Chapman University"
+ location="Orange, California, USA"
+ description="posets package"
+ trac="jipsen"/>
+<contributor
+ name="Fredrik Johansson"
+ work="Inria Bordeaux"
+ location="Talence, France"
+ description="bug fixes; basic arithmetics"
+ url="https://fredrikj.net"
+ github="fredrik-johansson"
+ trac="fredrik.johansson"/>
+<contributor
+ name="Mikael Vejdemo Johansson"/>
+<contributor
+ name="John St. John"
+ location="University of California Santa Cruz, Santa Cruz, CA"
+ url="http://www.johnstjohn.com"
+ trac="jstjohn"/>
+<contributor
+ name="Niles Johnson"
+ location="Ohio State University, USA"
+ description="algebra; basic arithmetic; documentation; symbolics"
+ url="http://www.nilesjohnson.net"
+ trac="niles"
+ github="nilesjohnson"/>
+<contributor
+ name="Alex Jokela"/>
+<contributor
+ name="Timo Jolivet"
+ work="PhD student: LIAFA, Paris, France; University of Turku, Finland"
+ location="Turku, Finland"
+ description="combinatorics"
+ url="http://jolivet.org/timo/"
+ trac="tjolivet"/>
+<contributor
+ name="Benjamin Jones"
+ work="Research and Engineering at Galois Inc."
+ location="Portland, OR, USA"
+ description="symbolics; group theory; doctest; documentation; plot3d"
+ trac="benjaminfjones"
+ github="benjaminfjones"/>
+<contributor
+ name="Brant Jones"
+ url="http://educ.jmu.edu/~jones3bc/"
+ trac="brant,brant.c.jones"/>
+<contributor
+ name="John Jones"
+ trac="jwj"/>
+<contributor
+ name="Anders Jonsson"
+ location="Umeå University, Sweden"
+ trac="AJonsson"
+ github="haaninjo"/>
+<contributor
+ name="Mark Jordan"
+ location="University of Washington, WA, USA"
+ trac="mjordan7"/>
+<contributor
+ name="Grayson Jorgenson"
+ trac="gjorgenson"/>
+<contributor
+ name="Matthieu Josuat-Vergès"
+ location="Université Paris-Est Marne-la-Vallée"
+ trac="josuat"/>
+<contributor
+ name="Philipp Jovanovic"
+ work="University College London"
+ location="London, UK"
+ url="https://philipp.jovanovic.io/"
+ trac="cosh"
+ github="daeinar"/>
+<contributor
+ name="David Joyner"
+ work="Professor, US Naval Academy (retired)"
+ location="Ocean City, MD, USA"
+ description="feedback; documentation (tutorial, install guide) and code"
+ trac="wdj"
+ github="wdjoyner"/>
+<contributor
+ name="Jonathan Judge"
+ trac="jonathan.judge"/>
+<contributor
+ name="Tom Judson"
+ location="Stephen F. Austin State University, Nacogdoches TX, USA"
+ url="http://faculty.sfasu.edu/judsontw/"
+ trac="twjudson"/>
+<contributor
+ name="Michael Jung"
+ github="mjungmath"/>
+<contributor
+ name="Jamie Juul"/>
+<contributor
+ name="Søren Fuglede Jørgensen"
+ trac="fuglede"
+ github="fuglede"/>
+<contributor
+ name="Syamkrishnan C K"
+ trac="syam.in"/>
+<contributor
+ name="Rithesh K"/>
+<contributor
+ name="Tevin Joseph K.O"
+ trac="tevinjoseph"/>
+<contributor
+ name="Michael Kallweit"
+ url="http://www.ruhr-uni-bochum.de/lmi/kallweit/"
+ work="Ruhr-Universität Bochum, Deutschland"
+ location="Bochum, Germany"
+ description="Graph Theory fixes; miscellaneous bug fixes"
+ pix="./pix/people/michael_kallweit.jpg"
+ trac="vgermrk"
+ github="m-r-k"/>
+<contributor
+ name="Tomáš Kalvoda"
+ work="Czech Technical University in Prague, Czech Republic"
+ location="Prague, Czech Republic"
+ url="https://kalvotom.pages.fit"
+ description="Very minor bug fixes"
+ trac="kalvotom"
+ github="kalvotom"/>
+<contributor
+ name="Yuki Kanakubo"/>
+<contributor
+ name="Josh Kantor"
+ url="http://www.math.washington.edu/~jkantor/"
+ work="graduate student, University of Washington"
+ location="University of Washington, WA, USA"
+ description="3-D interactive graphics (via soya3d); integrating Fortran software"
+ trac="jkantor"/>
+<contributor
+ name="Jeff Kantor"
+ location="University of Notre Dame"
+ trac="jeff.kantor"/>
+<contributor
+ name="Pin-Hung Kao"
+ trac="beankao"/>
+<contributor
+ name="Torakozo Kariya"
+ trac="tkariya"/>
+<contributor
+ name="Trevor Karn"
+ altnames="Trevor K. Karn"
+ trac="tkarn"
+ github="trevorkarn"/>
+<contributor
+ name="Rachel Karpman"
+ trac="rkarpman"/>
+<contributor
+ name="Marcin Kasperski"
+ url="http://mekk.waw.pl"
+ trac="mkasperski"/>
+<contributor
+ name="Alexander Kass"
+ trac="alexjkass"/>
+<contributor
+ name="Manuel Kauers"
+ url="http://www.kauers.de"
+ trac="mkauers"
+ github="mkauers"/>
+<contributor
+ name="Timo Kaufmann"
+ trac="timokau"
+ github="timokau"/>
+<contributor
+ name="Kiran Kedlaya"
+ work="Professor, UCSD"
+ location="San Diego, CA, USA"
+ description="Macaulay 2 interface; item for install guide; p-adics"
+ trac="kedlaya"
+ github="kedlaya"/>
+<contributor
+ name="Jan Keitel"
+ location="Max-Planck-Institute for Physics, Germany"
+ trac="jkeitel"/>
+<contributor
+ name="Beni Keller"
+ trac="navigium"/>
+<contributor
+ name="Elizabeth Kelley"/>
+<contributor
+ name="Colby Kelln"/>
+<contributor
+ name="Jack Kennedy"
+ trac="iconjack"/>
+<contributor
+ name="Lauren Keough"
+ trac="lkeough"/>
+<contributor
+ name="Saad Khalid"
+ trac="zonova"/>
+<contributor
+ name="Lloyd Kilford"
+ altnames="L. J. P. Kilford"
+ work="Research Fellow, University of Bristol"
+ location="Tyndall Avenue, Bristol BS8 1TH, UK"
+ description="bug fix; modular forms"
+ url="http://www.maths.bris.ac.uk/~maljpk"
+ trac="ljpk"/>
+<contributor
+ name="Kilian Kilger"
+ location="University of Heidelberg"
+ url="http://www.mathi.uni-heidelberg.de/~kilian"
+ trac="kkilger"/>
+<contributor
+ name="Tasha J. Kim"
+ location="Brown University"
+ trac="tashakim"/>
+<contributor
+ name="Jang Soo Kim"
+ trac="jangsookim,jskim"/>
+<contributor
+ name="Sangwook Kim"
+ trac="swkim"/>
+<contributor
+ name="Simon King"
+ work="Friedrich-Schiller-Universität Jena"
+ location="Friedrich-Schiller-University Jena, Germany"
+ description="&lt;a href='http://sage.math.washington.edu/home/SimonKing/Cohomology/'&gt;Modular group cohomology&lt;/a&gt; ; Infinite polynomial rings; (lib) Singular; Fast linear algebra; Categories and Coercion"
+ url="http://users.minet.uni-jena.de/~king/"
+ trac="SimonKing"
+ github="simon-king-jena"/>
+<contributor
+ name="Keshav Kini"
+ work="Graduate Student, University of Texas at Austin"
+ location="Austin, USA"
+ description="documentation"
+ url="http://www1.spms.ntu.edu.sg/~krkini/"
+ trac="kini"
+ github="kini"/>
+<contributor
+ name="Nicholas Kirchner"
+ trac="nkirchner"/>
+<contributor
+ name="David Kirkby"
+ description="Compilation of Sage on Solaris; much help on general Sage build process"
+ trac="drkirkby"/>
+<contributor
+ name="Emily Kirkman"
+ work="undergraduate student employee, University of Washington"
+ location="University of Washington, WA, USA"
+ description="documentation; graph theory"
+ trac="ekirkman"/>
+<contributor
+ name="Radoslav Kirov"
+ altnames="Rado Kirov"
+ github="rkirov"
+ trac="rkirov"/>
+<contributor
+ name="Sergey B Kirpichev"
+ github="skirpichev"
+ trac="skirpichev"/>
+<contributor
+ name="Adarsh Kishore"/>
+<contributor
+ name="Vladimir V. Kisil"/>
+<contributor
+ name="Jim Kleckner"
+ trac="jkleckner"/>
+<contributor
+ name="Vincent Klein"
+ location="LaBRI, Bordeaux, France"
+ trac="vklein"
+ github="vinklein"/>
+<contributor
+ name="Konstantin Kliakhandler"
+ trac="Kosta"/>
+<contributor
+ name="Jonathan Kliem"
+ location="Freie Universität Berlin"
+ url="https://www.mi.fu-berlin.de/math/groups/discgeom/members/kliem.html"
+ trac="kliem"
+ github="kliem"/>
+<contributor
+ name="Malte Kliemann"/>
+<contributor
+ name="Nina Klobas"/>
+<contributor
+ name="Timo Kluck"
+ location="Utrecht University, Netherlands"
+ trac="tkluck"
+ github="tkluck"/>
+<contributor
+ name="Kolja Knauer"/>
+<contributor
+ name="Vincent Knight"
+ altnames="Vince Knight"
+ work="Lecturer, Cardiff University"
+ location="Cardiff, United Kingdom"
+ description="Game Theory"
+ url="https://vknight.org/"
+ trac="vinceknight"
+ github="drvinceknight"/>
+<contributor
+ name="Allen Knutson"
+ trac="allenk"/>
+<contributor
+ name="David Kohel"
+ work="Professor, University of Sydney"
+ location="163 Avenue de Luminy 13009 Marseille, France"
+ description="substantial design discussion and code"
+ trac="kohel"/>
+<contributor
+ name="Karen T. Kohl"
+ altnames="Karen Kohl"
+ location="University of Southern Mississippi - Gulf Coast, Long Beach, MS"
+ url="http://www.karentkohl.org/"
+ trac="ktkohl"/>
+<contributor
+ name="Michael Kohlhase"
+ location="Jacobs University Bremen"
+ url="http://kwarc.info/kohlhase"
+ trac="mkohlhase"/>
+<contributor
+ name="Charalampos Kokkalis"/>
+<contributor
+ name="Ivan Komarov"/>
+<contributor
+ name="Nitin Konidala"/>
+<contributor
+ name="Matthias Köppe"
+ altnames="Matthias Koeppe"
+ work="Professor, UC Davis"
+ location="Davis, CA, USA"
+ description="build system (2016-2022); continuous integration (2020-2022); modularization (2020-2022); polyhedral geometry and optimization (2015-2022); manifolds (2021-2022); organized Sage Days 109, 111, 112.358; 2015–2021 SageMath Prize"
+ url="https://www.math.ucdavis.edu/~mkoeppe/"
+ trac="mkoeppe"
+ github="mkoeppe"/>
+<contributor
+ name="Przemysław Koprowski"
+ work="University of Silesia, Faculty of Mathematics"
+ location="Poland, Katowice"
+ description="(computational) theory of quadratic forms; real algebraic geometry; computational number theory"
+ trac="pkoprowski"/>
+<contributor
+ name="Ted Kosan"
+ location="Ohio, USA"
+ work="Shawnee State University"
+ description="Sage/Java/Applet integration; Sage for newbies book; marketing"
+ trac="tkosan"/>
+<contributor
+ name="Michiel Kosters"
+ location="Universiteit Leiden, The Netherlands"
+ url="http://www.math.leidenuniv.nl/~mkosters"
+ trac="mkosters"/>
+<contributor
+ name="Angelos Koutsianas"
+ trac="akoutsianas"/>
+<contributor
+ name="Miroslav Kovar"
+ trac="mirgee"/>
+<contributor
+ name="Michelle Kovesi"
+ trac="mkovesi"/>
+<contributor
+ name="Stefan Kraemer"
+ trac="skraemer"/>
+<contributor
+ name="Richard B. Kreckel"
+ altnames="Richard Kreckel"
+ url="http://www.ginac.de/~kreckel/"
+ trac="rbk"
+ github="RBKreckel"/>
+<contributor
+ name="Daniel Krenn"
+ work="Paris Lodron University of Salzburg"
+ location="Salzburg, Austria"
+ description="misc; bug fixes"
+ url="http://www.danielkrenn.at"
+ trac="dkrenn"
+ github="dkrenn"/>
+<contributor
+ name="Holly Krieger"
+ trac="hkrieger"/>
+<contributor
+ name="Jakob Kroeker"
+ location="University of Hannover"
+ url="http://www.iag.uni-hannover.de/kroeker.html"
+ trac="jakobkroeker"/>
+<contributor
+ name="Sara Kropf"
+ work="Alpen-Adria-Universität Klagenfurt"
+ location="Klagenfurt, Austria"
+ description="Finite State Machines"
+ trac="skropf"
+ url="http://wwwu.aau.at/skropf/"/>
+<contributor
+ name="Alex Krueger"/>
+<contributor
+ name="David Krumm"
+ location="University of Georgia, USA"
+ url="http://www.math.uga.edu/~dkrumm/"
+ trac="dkrumm"/>
+<contributor
+ name="Divesh Kumar"/>
+<contributor
+ name="Temirlan Kumargazhin"/>
+<contributor
+ name="Christian Kuper"
+ trac="christiankuper"/>
+<contributor
+ name="Ross Kyprianou"
+ work="PhD student, The University of Melbourne"
+ location="Parkville, Melbourne, Australia"
+ description="documentation"
+ trac="rossk"/>
+<contributor
+ name="Jean-Philippe Labbé"
+ work="Maître d'enseignement, École de Technologie Supérieure"
+ location="Université du Québec, Montréal, Québec, Canada"
+ description="algebraic combinatorics; discrete geometry; Coxeter groups; organized Sage Days 112.358"
+ url="https://jplab.github.io/"
+ trac="jipilab,jplabbe"
+ github="jplab"/>
+<contributor
+ name="Sébastien Labbé"
+ work="CNRS researcher, LaBRI, Université de Bordeaux"
+ location="LaBRI, Université de Bordeaux, Bordeaux, France"
+ description="combinatorics; discrete geometry; words; quantumino solver; bug fixes; visualization"
+ url="http://www.slabbe.org/"
+ trac="slabbe"
+ github="seblabbe"/>
+<contributor
+ name="Patxi Laborde-Zubieta"
+ location="LaBRI, University of Bordeaux, France"
+ trac="patxiku"/>
+<contributor
+ name="William Laffin"
+ location="Michigan Technological University"
+ url="http://www.mathlab.mtu.edu/~wjlaffin/"
+ trac="wjlaffin"/>
+<contributor
+ name="Nadia Lafrenière"
+ location="Dartmouth College, Hanover, NH, USA"
+ url="https://nadialafreniere.github.io/home.html"
+ trac="nadialafreniere"
+ github="nadialafreniere"/>
+<contributor
+ name="Tim Lahey"
+ trac="tjlahey"
+ github="tjl"/>
+<contributor
+ name="Yann Laigle-Chapuy"
+ work="PhD student, INRIA"
+ location="Rocquencourt, Paris, France"
+ description="Pohlig-Hellman algorithm for discrete logarithms, optimized gcd"
+ url="http://www-rocq.inria.fr/secret/Yann.Laigle-Chapuy"
+ trac="ylchapuy"/>
+<contributor
+ name="Thomas Lam"
+ trac="tfylam"/>
+<contributor
+ name="Matthew Lancellotti"
+ trac="mvlancellotti"/>
+<contributor
+ name="Jaclyn Lang"
+ trac="jlang"/>
+<contributor
+ name="Tanja Lange"
+ location="Technische Universiteit Eindhoven"
+ url="https://www.hyperelliptic.org/tanja/"
+ trac="tanja"/>
+<contributor
+ name="Joey van Langen"
+ trac="jvlangen"/>
+<contributor
+ name="Robin Langer"
+ trac="rlanger"/>
+<contributor
+ name="Lukáš Lánský"
+ work="Charles University, Prague"
+ location="Hradec Kralove, Czech Republic"
+ trac="brunellus"
+ url="http://kam.mff.cuni.cz/~lansky/"
+ description="graph theory; combinatorial game theory"/>
+<contributor
+ name="Lukáš Lánský"
+ location="MFF UK, Prague"
+ url="http://kam.mff.cuni.cz/~lansky/"
+ trac="brunellus"/>
+<contributor
+ name="Mélodie Lapointe"
+ location="LaCIM, Université du Québec à Montréal, Canada"
+ trac="mlapointe"/>
+<contributor
+ name="Lukas Larisch"
+ trac="llarisch"/>
+<contributor
+ name="Eric Larson"
+ work="Brown University"
+ url="https://www.math.brown.edu/elarso19/"
+ github="elarson314"
+ trac="elarson3"/>
+<contributor
+ name="Alan Lauder"/>
+<contributor
+ name="Greg Laun"
+ location="University of Maryland"
+ trac="glaun"
+ github="greglaun"/>
+<contributor
+ name="Christoph Lauter"/>
+<contributor
+ name="Aaron Lauve"
+ location="Loyola University Chicago"
+ url="http://webpages.math.luc.edu/~lauve/"
+ trac="alauve"
+ github="alauve"/>
+<contributor
+ name="Syed ahmad Lavasani"
+ location=" University of Calgary, Canada"
+ url="http://math.ucalgary.ca/profiles/seyed-lavasani"
+ trac="sydahmad"/>
+<contributor
+ name="Julien Lavauzelle"
+ trac="jlavauzelle"
+ location="University Paris 8"
+ github="jlavauzelle"/>
+<contributor
+ name="Felix Lawrence"
+ location="University of Sydney, Australia"
+ trac="flawrence"/>
+<contributor
+ name="Andrea Lazzarotto"
+ location="Student at Ca' Foscari University, Venice, Italy"
+ url="http://andrealazzarotto.com/"
+ trac="lazza"
+ github="Lazza"/>
+<contributor
+ name="Ben LeVeque"/>
+<contributor
+ name="Romain Lebreton"
+ work="Université de Montpellier"
+ location="Montpellier, France"
+ url="http://www.lirmm.fr/~lebreton/"
+ trac="romainlebreton"
+ github="romainlebreton"/>
+<contributor
+ name="Thierry Lecroq"
+ location="LITIS EA 4108, University of Rouen, France"
+ url="http://monge.univ-mlv.fr/~lecroq"
+ trac="lecroq"/>
+<contributor
+ name="Kwankyu Lee"
+ work="Chosun University"
+ location="Gwangju, Korea"
+ description="coding theory; algebraic curves; documentation; bug fixes"
+ trac="klee"
+ github="kwankyu"/>
+<contributor
+ name="Kyu-Hwan Lee"
+ location="University of Connecticut, Storrs, CT"
+ trac="khlee"/>
+<contributor
+ name="Jae-Joon Lee"/>
+<contributor
+ name="Jonathan Lee"
+ trac="jlee"/>
+<contributor
+ name="Jerome Lefebvre"
+ location="University of British Columbia, Vancouver"
+ trac="jlefebvre"/>
+<contributor
+ name="Samuel Lelièvre"
+ work="Laboratoire de mathématique d'Orsay, UMR 8628 CNRS / Université Paris-Sud"
+ description="advocacy; organized Sage Days 109, 110; user support; wiki"
+ location="Institut de mathématiques d'Orsay, 91400 Orsay, France"
+ url="https://wiki.sagemath.org/slelievre"
+ trac="slelievre,maseam"
+ github="slel"/>
+<contributor
+ name="Sergios Lenis"
+ trac="Mantis"/>
+<contributor
+ name="Mariah Lenox"
+ trac="mariah"/>
+<contributor
+ name="Alex Leone"
+ location="University of Washington, WA, USA"
+ trac="acleone"/>
+<contributor
+ name="Leif Leonhardy"
+ trac="leif"
+ github="nexttime"/>
+<contributor
+ name="Paul Leopardi"/>
+<contributor
+ name="Jana Lepšová"
+ trac="jlepsova"/>
+<contributor
+ name="Julien Leroy"
+ work="LAMFA, Université de Picardie Jules Verne"
+ location="80000 Amiens, France"
+ description="combinatorics"
+ trac="jleroy"/>
+<contributor
+ name="Stefano Leucci"
+ location="Italy"
+ trac="steven"/>
+<contributor
+ name="Antoine Leudière"
+ location="Nancy, France"
+ work="Université de Lorraine; INRIA; CNRS"
+ description="drinfeld modules; cryptography"
+ url="https://members.loria.fr/ALeudiere/"
+ trac="antoine-leudiere"
+ github="kryzar"/>
+<contributor
+ name="Duncan Levear"/>
+<contributor
+ name="Juliano Levier-Gomes"/>
+<contributor
+ name="Jake Levinson"
+ trac="j.levinson"/>
+<contributor
+ name="Lukas Lewark"/>
+<contributor
+ name="Stephen Lewis"
+ location="University of Washington, WA, USA"
+ url="http://math.washington.edu/~stedalew"
+ trac="slewis"/>
+<contributor
+ name="Anton Leykin"/>
+<contributor
+ name="Kelvin Li"
+ location="Undergraduate at UC Berkeley"
+ trac="ltw"/>
+<contributor
+ name="Freda Li"
+ trac="fli"/>
+<contributor
+ name="Li Li"
+ trac="lli"/>
+<contributor
+ name="Luran Li"
+ trac="luran"/>
+<contributor
+ name="Yueqi Li"/>
+<contributor
+ name="Hang Liao"
+ location="Carnegie Mellon University, USA"
+ trac="ikaros"/>
+<contributor
+ name="Caitlin Lienkaemper"
+ trac="clienkaemper"/>
+<contributor
+ name="Ethan Lin"/>
+<contributor
+ name="Richard Lindner"
+ work="Technische Universität Darmstadt"
+ location="Karolinenplatz 5, 64289 Darmstadt, Germany"
+ description="cryptography"
+ url="http://www.cdc.informatik.tu-darmstadt.de/mitarbeiter/rlindner.html"
+ trac="rlindner"/>
+<contributor
+ name="Sebastian Lindner"
+ location="University of Calgary"
+ trac="slindner"/>
+<contributor
+ name="Steve Linton"
+ trac="stevelinton"/>
+<contributor
+ name="Gabriel F. Lipnik"
+ location="Graz University of Technology, Austria"
+ url="https://www.gabriellipnik.at"
+ trac="galipnik"
+ github="galipnik"/>
+<contributor
+ name="Robert Lipshitz"
+ location="Columbia University, New York, NY"
+ url="http://math.columbia.edu/~lipshitz/"
+ trac="lipshitz"/>
+<contributor
+ name="Jan-Philipp Litza"
+ trac="jplitza"
+ github="jplitza"/>
+<contributor
+ name="Ben Livingston"/>
+<contributor
+ name="Steffen Löbrich"/>
+<contributor
+ name="David Loeffler"
+ work="University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, UK"
+ description="additions and improvements to modular forms code; bug fixes"
+ url="http://www2.warwick.ac.uk/fac/sci/maths/people/staff/david_loeffler/"
+ trac="davidloeffler"
+ github="loefflerd"/>
+<contributor
+ name="Davide Lombardo"/>
+<contributor
+ name="Carlos Lopez"
+ location="Del Valle University, Guatemala"
+ trac="kmels"/>
+<contributor
+ name="Thomas Loruenser"
+ location="AIT Austrian Institute of Technology, Vienna, Austria"
+ trac="loruenser"/>
+<contributor
+ name="Sami Losoi"
+ location="Espoo, Finland"
+ trac="slosoi"/>
+<contributor
+ name="David Lowry-Duda"
+ work="ICERM"
+ location="ICERM, 121 South Main Street, Providence, RI 02903, USA"
+ description="analytic number theory; complex function visualization"
+ url="https://davidlowryduda.com"
+ trac="DavidLowry"
+ github="davidlowryduda"/>
+<contributor
+ name="Richard L Lozes"
+ altnames="Richard Lozes"         
+ trac="rllozes"
+ github="rll2021"/>
+<contributor
+ name="Fiona Lu"/>
+<contributor
+ name="Frank Lübeck"
+ location="RWTH Aachen"
+ url="http://www.math.rwth-aachen.de/~Frank.Luebeck/"
+ trac="luebeck"/>
+<contributor
+ name="David Lubicz"
+ trac="lubicz"
+ github="dlubicz"/>
+<contributor
+ name="Arthur Lubovsky"
+ trac="alubovsky"/>
+<contributor
+ name="David Lucas"
+ location="Inria Saclay - LIX, France"
+ trac="dlucas"/>
+<contributor
+ name="Wilfried Luebbe"
+ location="Germany"
+ trac="wluebbe"
+ github="wluebbe"/>
+<contributor
+ name="Kevin Lui"
+ trac="klui"
+ github="kevinywlui"/>
+<contributor
+ name="David Lukas"
+ trac="dlukas"/>
+<contributor
+ name="Benjamin Lundell"
+ trac="blundell"/>
+<contributor
+ name="Sverre Lunøe-Nielsen"
+ work="University of Agder, Dept. of Engineering Sciences"
+ location="Jon Lilletuns vei, Grimstad, Norway"
+ description="Modules over the Steenrod algebra"
+ url="https://www.uia.no/en/kk/profile/sverreal"
+ github="sverre320"/>
+<contributor
+ name="Ximin Luo"
+ github="infinity0"
+ trac="infinity0"/>
+<contributor
+ name="Joey Lupo"
+ altnames="Joseph Lupo"
+ github="Loops7"/>
+<contributor
+ name="Peter Luschny"
+ description="Categorization of ZZ"
+ location="Berlin, Germany"
+ trac="pluschny"
+ github="PeterLuschny"/>
+<contributor
+ name="Sebastian Luther"
+ trac="sluther"/>
+<contributor
+ name="Shriya M"/>
+<contributor
+ name="Doug S. MacNeil"/>
+<contributor
+ name="Matt Macauley"
+ location="Clemson University"
+ url="http://www.math.clemson.edu/~macaule/"
+ trac="mattmacauley"/>
+<contributor
+ name="Ivo Maffei"/>
+<contributor
+ name="Carlos Mafra"
+ altnames="Carlos R. Mafra"/>
+<contributor
+ name="Richard Magner"
+ altnames="Ricky Magner"
+ trac="rmagner"/>
+<contributor
+ name="Kamalakshya Mahatab"
+ location="Institute of Mathematical Sciences, Chennai, India"
+ trac="mkamalakshya"/>
+<contributor
+ name="Celine Maistret"/>
+<contributor
+ name="Rusydi H. Makarim"
+ work="Technology Innovation Institute"
+ description="Boolean functions and S-Boxes"
+ url="https://rusydi.makarim.id"
+ trac="ruhm"
+ github="rusydi"/>
+<contributor
+ name="Alba Málaga"
+ trac="ams"/>
+<contributor
+ name="Mikhail Malakhaltsev"
+ trac="mikarm"/>
+<contributor
+ name="Olivier Mallet"
+ location="Université de Rouen, France"
+ trac="mallet"/>
+<contributor
+ name="Beth Malmskog"
+ trac="malmskog"/>
+<contributor
+ name="François Maltey"
+ trac="fmaltey"/>
+<contributor
+ name="Marco Mancini"
+ location="Observatoire de Paris, France"
+ trac="mmancini"
+ github="man74cio"/>
+<contributor
+ name="Scott Mancuso"
+ location="Brigham Young University, Utah, USA"
+ url="https://math.byu.edu/home/node/133"
+ trac="scmancuso"/>
+<contributor
+ name="Victor Manero"/>
+<contributor
+ name="Michelle Manes"
+ location="University of Hawaii at Manoa"
+ url="http://math.hawaii.edu/~mmanes"
+ trac="mmanes"/>
+<contributor
+ name="Brian Manion"
+ location="University of Washington, WA, USA"
+ trac="bmanion,Zaxis"/>
+<contributor
+ name="Jori Mäntysalo"
+ location="University of Tampere, Finland"
+ url="http://www.uta.fi/~jm58660"
+ trac="jmantysalo"
+ github="jm58660"/>
+<contributor
+ name="Wang de Mao"/>
+<contributor
+ name="Eric Marberg"
+ trac="emarberg"/>
+<contributor
+ name="Miguel Marco"
+ altnames="Miguel Angel Marco Buzunariz"
+ location="Zaragoza, Spain"
+ work="Universidad de Zaragoza"
+ description="linear algebra; polynomial rings; free and finitely presented groups; braid groups"
+ url="http://riemann.unizar.es/~mmarco"
+ trac="mmarco"
+ github="miguelmarco"/>
+<contributor
+ name="Michael Mardaus"
+ work="Universität Mainz"
+ location="55122, Mainz, Germany"
+ description="point counting code"
+ trac="mardaus"/>
+<contributor
+ name="Robert Mařík"
+ work="Department of Mathematics, Mendel University in Brno"
+ location="61300 Brno, Czech Republic"
+ description="basic arithmetic; calculus; Sage notebook; standard packages; symbolics"
+ url="http://user.mendelu.cz/marik"
+ trac="robert.marik"
+ github="robert-marik"/>
+<contributor
+ name="Irene Márquez-Corbella"/>
+<contributor
+ name="Jason Martin"
+ work="James Madison University"
+ location="Harrisonburg, VA, USA"
+ description="GMP assembly code improvements; linear algebra; work on Sage 64-bit build"/>
+<contributor
+ name="Jeremy Martin"/>
+<contributor
+ name="Kimball Martin"
+ trac="kimball"/>
+<contributor
+ name="Robin Martinjak"
+ trac="rmartinjak"/>
+<contributor
+ name="Marc Masdeu"
+ location="Columbia University, NY"
+ url="http://math.columbia.edu/~masdeu"
+ description="organized Sage Days 93"
+ trac="mmasdeu"
+ github="mmasdeu"/>
+<contributor
+ name="Blair Mason"/>
+<contributor
+ name="Ricardo Massaro"/>
+<contributor
+ name="Alexandre Blondin Massé"
+ work="Associate professor; Laboratoire de combinatoire et d'informatique mathématique (LaCIM), Université du Québec à Montréal; Laboratoire de mathématique (LAMA), Université de Savoie"
+ location="201 Avenue Du President-Kennedy, Montreal, QC, Canada"
+ description="combinatorics"
+ trac="abmasse"
+ url="http://www.lacim.uqam.ca/~blondin/"/>
+<contributor
+ name="Paul Masson"
+ location="San Francisco, CA"
+ trac="paulmasson"
+ github="paulmasson"/>
+<contributor
+ name="Erik Massop"
+ trac="emassop"/>
+<contributor
+ name="Mitja Mastnak"
+ url="http://cs.smu.ca/~mmastnak"
+ trac="mmastnak"/>
+<contributor
+ name="Andrew Mathas"
+ description="algebraic combinatorics; partitions; tableaux; Specht modules; ..."
+ work="University of Sydney"
+ location="Sydney, Australia"
+ url="http://www.maths.usyd.edu.au/u/mathas/"
+ github="AndrewAtLarge"
+ trac="andrew.mathas"/>
+<contributor
+ name="Jacob P. Matherne"
+ trac="jmatherne"/>
+<contributor
+ name="Erick Matsen"/>
+<contributor
+ name="Debbie Matthews"
+ trac="dsmatth"/>
+<contributor
+ name="Gura Matus"
+ location="Czech Technical University, Prague"
+ trac="guramatus"/>
+<contributor
+ name="Leopold Mayer"/>
+<contributor
+ name="Dorota Mazur"
+ trac="DorotaMazur"/>
+<contributor
+ name="Alasdair McAndrew"
+ location="Australia"
+ url="http://amca01.wordpress.com"
+ trac="amca01"/>
+<contributor
+ name="Thomas McConville"
+ trac="thomas"/>
+<contributor
+ name="Mark McLure"/>
+<contributor
+ name="Peter McNamara"
+ work="Department of Mathematics, Bucknell University"
+ location="Lewisburg, PA 17837, USA"
+ description="combinatorics"
+ url="http://www.facstaff.bucknell.edu/pm040"
+ trac="pmcnamara"
+ github="peter-mcnamara"/>
+<contributor
+ name="Douglas McNeil"/>
+<contributor
+ name="Gregory McWhirter"
+ work="graduate student, Department of Logic and Philosophy of Science, University of California at Irvine"
+ location="University Dr, Irvine, CA 92697, United States"
+ description="graph theory"
+ url="https://webfiles.uci.edu/gmcwhirt/www/"
+ trac="gsmcwhirter"/>
+<contributor
+ name="Chase Meadors"
+ github="cemulate"/>
+<contributor
+ name="Jan Medlock"
+ trac="medlock"
+ github="janmedlock"/>
+<contributor
+ name="Paolo Menegatti"
+ trac="pmenegat"/>
+<contributor
+ name="Paul Mercat"
+ trac="mercatp"/>
+<contributor
+ name="Arpit Merchant"
+ location="International Institute of Information Technology, Hyderabad, India"
+ url="https://researchweb.iiit.ac.in/~arpit.merchant/"
+ trac="arpitdm"
+ github="arpitdm"/>
+<contributor
+ name="Jason Merrill"
+ work="Yale University"
+ location="Kansas, USA"
+ description="calculus improvements; bug fixes"
+ trac="jwmerrill"
+ github="jicama"/>
+<contributor
+ name="Matthias Meulien"
+ altnames="Mathias  Meulien"
+ work="Research engineer, XLIM"
+ location="123, avenue Albert Thomas, 87060 Limoges Cedex, France"
+ description="GAP interface bug fix"
+ trac="mmeulien"
+ github="orontee"/>
+<contributor
+ name="Lucas Meyers"
+ location="Louisiana State University"
+ trac="lmeyers"/>
+<contributor
+ name="Marc Mezzarobba"
+ work="researcher, CNRS"
+ location="LIX, 1 rue Honoré d'Estienne d'Orves, 91120 Palaiseau, France"
+ description="basic arithmetic, algebra, rigorous numerics"
+ url="http://marc.mezzarobba.net/"
+ trac="mmezzarobba"
+ github="mezzarobba"
+ gitlab="mezzarobba"/>
+<contributor
+ name="Peleg Michaeli"
+ trac="pelegm"
+ github="pelegm"/>
+<contributor
+ name="Jean Michel"
+ location="University Paris VII, France"
+ url="http://www.math.jussieu.fr/~jmichel"
+ trac="jmichel"/>
+<contributor
+ name="Alec Mihailovs"
+ trac="AlecMihailovs"/>
+<contributor
+ name="Robert Miller"
+ url="http://www.rlmiller.org/"
+ trac="rlm"
+ github="rlmill"/>
+<contributor
+ name="Rebecca Lauren Miller"
+ trac="rlmiller"/>
+<contributor
+ name="Victor Miller"
+ location="Princeton, NJ"
+ url="http://sage.math.washington.edu/home/victor"
+ trac="victor"/>
+<contributor
+ name="Matthew R. Mills"/>
+<contributor
+ name="Luis F. Villegas, Minnesota"
+ trac="Loufer"/>
+<contributor
+ name="Kate Minola"
+ work="University of Maryland"
+ location="College Park, MD, USA"
+ description="improvement on building Sage components"/>
+<contributor
+ name="Greg Minshall"
+ location="University of Michigan"
+ trac="minshall"
+ github="greg-minshall"/>
+<contributor
+ name="Moritz Minzlaff"
+ work="PhD student, Technische Universität Berlin"
+ location="Berlin, Germany"
+ description="algebraic geometry"
+ github="mminzlaff"
+ trac="minz"/>
+<contributor
+ name="Rajat Mittal"/>
+<contributor
+ name="David Mödinger"
+ trac="ketzu"/>
+<contributor
+ name="Joel Mohler"
+ work="Lehigh"
+ location="Bethlehem, PA, USA"
+ description="extensive improvements all over; especially to basic arithmetic, number theory; etc"
+ trac="jbmohler"/>
+<contributor
+ name="David Monarres"
+ trac="davidm,dmm"/>
+<contributor
+ name="Maurizio Monge"
+ trac="maurimo"/>
+<contributor
+ name="Hartmut Monien"
+ location="Universität Bonn, Germany"
+ trac="hmonien"
+ github="monien"/>
+<contributor
+ name="Thierry Monteil"
+ work="research fellow, CNRS"
+ location="Villetaneuse, France"
+ description="bug fixes; combinatorics (words, graphs); dynamics (translation surfaces, tilings); organized Sage Days 20, 28; 2015–2021 SageMath Prize"
+ url="https://wiki.sagemath.org/ThierryMonteil"
+ trac="tmonteil"/>
+<contributor
+ name="Thierry de Montgolfier"/>
+<contributor
+ name="Stephen Montgomery-Smith"
+ trac="stephen"/>
+<contributor
+ name="David Montminy"
+ trac="dmont"/>
+<contributor
+ name="Peter Mora"
+ work="PhD student, Institute of Mathematics, Budapest University of Technology and Economics"
+ location="Budafoki ut 3 1117 XI. kerulet, Budapest, Hungary"
+ description="internationalization bug fixes"
+ url="http://www.math.bme.hu/~morap"
+ trac="mora"/>
+<contributor
+ name="Javier Mora"
+ trac="cousteau"
+ github="cousteaulecommandant"/>
+<contributor
+ name="Alejandro Morales"
+ trac="ahmorales"/>
+<contributor
+ name="Peter Morawitz"/>
+<contributor
+ name="Rolf Morel"
+ trac="RMorel"/>
+<contributor
+ name="Guillermo Moreno-Socías"
+ work="Université de Versailles"
+ location="Versailles, France"
+ description="newbie"
+ github="GMS103"/>
+<contributor
+ name="Bobby Moretti"
+ work="undergraduate student employee, University of Washington"
+ location="University of Washington, WA, USA"
+ description="Sage library distribution; Sage chroot jail; Sage .deb; Calculus package"
+ trac="moretti"
+ github="bobmoretti"/>
+<contributor
+ name="Rich Morin"/>
+<contributor
+ name="Guillaume Moroz"
+ work="LIP6/INRIA"
+ location="Paris, France"
+ description="Singular interface improvements"
+ trac="gmoroz"/>
+<contributor
+ name="Dave Morris"
+ work="University of Lethbridge, Canada"
+ github="DaveWitteMorris"/>
+<contributor
+ name="Simon Morris"
+ trac="simon"/>
+<contributor
+ name="Oleksandr Motsak"
+ trac="OleksandrMotsak"/>
+<contributor
+ name="Steffen Mueller"
+ trac="smueller"/>
+<contributor
+ name="Hiroto Mulia"
+ location="NTU"
+ trac="hirotowu"/>
+<contributor
+ name="Peter Müller"
+ altnames="Peter Mueller"
+ location="Universität Würzburg, Germany"
+ url="http://www.mathematik.uni-wuerzburg.de/~mueller"
+ trac="pmueller"
+ github="ypfmde"/>
+<contributor
+ name="Greg Muller"
+ trac="gmuller"/>
+<contributor
+ name="Max Murphy"/>
+<contributor
+ name="Riccardo Murri"
+ github="riccardomurri"
+ trac="riccardomurri"/>
+<contributor
+ name="Gregg Musiker"
+ location="University of Minnesota"
+ description="Maple interface; documentation; design"
+ trac="gmoose05,gmusiker"/>
+<contributor
+ name="Andrew Musselman"
+ trac="akm"/>
+<contributor
+ name="Dinakar Muthiah"
+ trac="dmuthiah"/>
+<contributor
+ name="Émile Nadeau"
+ location="Reykjavik University"
+ github="enadeau"
+ gitlab="enadeau"
+ trac="enadeau"/>
+<contributor
+ name="Tobias Nagel"
+ work="Universität Mainz"
+ location="55122, Mainz, Germany"
+ description="point counting code"
+ trac="tnagel"/>
+<contributor
+ name="Akshar Nair"
+ location="University of Bath"
+ trac="anair"/>
+<contributor
+ name="Brett Nakashima"
+ work="University of Washington, WA, USA"
+ location="Seattle, USA"
+ description="contributions to the finance module"
+ trac="brettnak"/>
+<contributor
+ name="Pablo De Nápoli"
+ work="University of Buenos Aires"
+ location="Buenos Aires, Argentina"
+ description="bug fixes" 
+ github="pdenapo"
+ gitlab="pdenapo"
+ trac="pdenapo"/>
+<contributor
+ name="Bartosz Naskrecki"
+ trac="nasqret"/>
+<contributor
+ name="Christian Nassau"
+ work="Software developer, Frankfurt"
+ location="Frankfurt, Germany"
+ description="Steenrod algebra cohomology"
+ github="cnassau"
+ url="https://nullhomotopie.de"
+ trac="cnassau"/>
+<contributor
+ name="Emanuele Natale"/>
+<contributor
+ name="Vincent Neiger"
+ location="Paris, France"
+ work="Sorbonne Université, LIP6"
+ url="https://vincent.neiger.science/"
+ trac="vneiger"
+ github="vneiger"/>
+<contributor
+ name="Vincent Neri"
+ trac="Vincent.Neri"/>
+<contributor
+ name="Michael Neururer"
+ altnames="Michalis Neururer"
+ trac="mneururer"/>
+<contributor
+ name="Marc Newman"/>
+<contributor
+ name="Louis Ng"/>
+<contributor
+ name="Hoa Nguyen"
+ trac="hoanguyen"
+ github="takekoputa"/>
+<contributor
+ name="Minh Van Nguyen"
+ location="Melbourne, Australia"
+ description="cryptography; graph theory; release management; website maintainer; miscellaneous bug fixes; documentation work; 2010 Spies SageMath Development Prize"
+ url="http://sage.math.washington.edu/home/mvngu/"
+ trac="mvngu"/>
+<contributor
+ name="ThanhVu Nguyen"
+ trac="tnv"/>
+<contributor
+ name="Chris Nicholls"
+ trac="cgnicholls"/>
+<contributor
+ name="Titus Nicolae"
+ trac="titusn"/>
+<contributor
+ name="Atte Niemi"/>
+<contributor
+ name="NoSyu"/>
+<contributor
+ name="Jordan Noble"
+ location="Imperial College London"
+ trac="jn610"/>
+<contributor
+ name="Jesper Noordsij"
+ location="Universiteit Leiden, The Netherlands"
+ trac="jnoordsij"
+ github="jnoordsij"/>
+<contributor
+ name="Andy Novocin"
+ location="University of Waterloo"
+ url="http://andy.novocin.com/pro"
+ trac="anovocin"/>
+<contributor
+ name="Andrey Novoseltsev"
+ location="University of Alberta, Edmonton, Canada"
+ description="SageMathCell; toric geometry; 2015–2021 SageMath Prize"
+ trac="novoselt"
+ github="novoselt"/>
+<contributor
+ name="Yasuhide Numata"
+ location="Shinshu University, Japan"
+ trac="numata"/>
+<contributor
+ name="Andrew O'Desky"/>
+<contributor
+ name="Bill Odefey"/>
+<contributor
+ name="Sebastian Oehms"
+ work="S&amp;P Computersysteme GmbH"
+ location="Stuttgart, Germany"
+ description="algebra; knot theory; interfaces"
+ url="https://soehms.github.io/"
+ trac="soehms"
+ github="soehms"/>
+<contributor
+ name="Can Ozan Oğuz"
+ url="https://dornsife.usc.edu/canozanoguz"
+ trac="canozanoguz"
+ github="canozanoguz"/>
+<contributor
+ name="R. Andrew Ohana"
+ altnames="Andrew Ohana,R. Andrew Ohanar"
+ work="ESI North America"
+ location="San Diego, CA, USA"
+ description="migration from mecurial to git; number theory"
+ trac="ohanar"
+ github="ohanar"/>
+<contributor
+ name="Christopher Olah"
+ work="hacklab.to"
+ location="Toronto, Canada"
+ description="miscellaneous"
+ url="http://christopherolah.wordpress.com"
+ trac="colah"/>
+<contributor
+ name="Gustavo de Oliveira"
+ trac="goliveira"/>
+<contributor
+ name="Brice Onfroy"
+ trac="bonfroy"/>
+<contributor
+ name="Florian Oosterhof"
+ trac="foosterhof"/>
+<contributor
+ name="Pedro Orlando"/>
+<contributor
+ name="Michael Orlitzky"
+ location="Baltimore, MD"
+ url="http://michael.orlitzky.com/"
+ trac="mjo"
+ github="orlitzky"/>
+<contributor
+ name="Dan Orr"/>
+<contributor
+ name="Ole Ossen"/>
+<contributor
+ name="Johan Oudinet"
+ work="Karlsruhe Institute of Technology"
+ location="Karlsruhe, Germany"
+ description="documentation"
+ trac="joudinet"
+ url="http://johan.oudinet.fr"/>
+<contributor
+ name="Rémy Oudompheng"/>
+<contributor
+ name="Mitchell Owen"
+ trac="magfrump"/>
+<contributor
+ name="Amrutha P"/>
+<contributor
+ name="Akhilesh P."
+ location="Harish-Chandra Research Institute (HRI), Allahabad, INDIA"
+ url="http://www.hri.res.in/~akhi/"
+ trac="akhi"/>
+<contributor
+ name="Bill Page"
+ description="Sage's AXIOM interface"
+ trac="bill.p,bpage"/>
+<contributor
+ name="Aurel Page"
+ trac="aurel"/>
+<contributor
+ name="Raphaël Pagès"
+ trac="rpages"/>
+<contributor
+ name="Ronan Paixão"
+ location="Brazil"
+ description="author of the Sage-Scilab interface"
+ trac="ronanpaixao"/>
+<contributor
+ name="Willem Jan Palenstijn"
+ work="graduate student, Leiden"
+ location="Leiden, Netherlands"
+ description="Benchmarking parser; doctest timing; difficult fpLLL bug fix; and much more"
+ trac="wjp"
+ github="wjp"/>
+<contributor
+ name="Elisa Palezzato"
+ location="Hokkaido University, Japan"
+ trac="epalezzato"/>
+<contributor
+ name="John Palmieri"
+ work="Department of Mathematics, University of Washington"
+ location="University of Washington, WA, USA"
+ description="topology; homological algebra; documentation; miscellany"
+ url="http://www.math.washington.edu/~palmieri/"
+ trac="jhpalmieri"
+ github="jhpalmieri"/>
+<contributor
+ name="Vanessa Paluch"/>
+<contributor
+ name="Jianping Pan"
+ trac="jppan"/>
+<contributor
+ name="Roberto Panai"/>
+<contributor
+ name="Sebastian Pancratz"
+ location="Oxford University"
+ trac="spancratz"/>
+<contributor
+ name="Parthasarathi Panda"
+ trac="panda314"/>
+<contributor
+ name="Amy Pang"
+ github="amypang"
+ trac="amypang"/>
+<contributor
+ name="John Pang"
+ trac="jpang"/>
+<contributor
+ name="Lorenz Panny"
+ url="https://yx7.cc"
+ trac="lorenz"
+ github="yyyyx4"/>
+<contributor
+ name="Renata Paramastri"/>
+<contributor
+ name="Kirill Paramonov"
+ trac="kbparamonov"/>
+<contributor
+ name="Bernard Parisse"
+ location="Institut Fourier, Universite Grenoble Alpes, France"
+ url="https://www-fourier.ujf-grenoble.fr/~parisse"
+ trac="parisse"/>
+<contributor
+ name="GaYee Park"
+ trac="gpark"/>
+<contributor
+ name="Ori Parzanchevski"/>
+<contributor
+ name="Dima Pasechnik"
+ altnames="Dmitrii Pasechnik"
+ work="Department of Computer Science, Northwestern University"
+ location="Evanston, Illinois"
+ description="packaging; commutative algebra; group theory; organized Sage Days 109, 111; 2015–2021 SageMath Prize"
+ url="http://users.ox.ac.uk/~coml0531/"
+ trac="dimpase"
+ github="dimpase"/>
+<contributor
+ name="Irene Pasquinelli"
+ location="Durham University, UK"
+ url="http://www.maths.dur.ac.uk/users/irene.pasquinelli/"
+ trac="ipasquinelli"/>
+<contributor
+ name="Mitesh Patel"
+ trac="mpatel"
+ github="qed777"/>
+<contributor
+ name="Colton Pauderis"
+ trac="cpauderis"/>
+<contributor
+ name="Oliver Pechenik"
+ location="University of Illinois at Urbana-Champaign"
+ trac="opechenik"
+ github="opechenik"/>
+<contributor
+ name="Jörg-Volker Peetz"/>
+<contributor
+ name="Christoph Pegel"
+ url="http://www.math.uni-bremen.de/~pegel/"
+ trac="cpegel"/>
+<contributor
+ name="Sylvain Pelissier"
+ github="sylvainpelissier"
+ work="Kudelski Security"
+ location="Lausanne, Switzerland"/>
+<contributor
+ name="Javier López Peña"
+ description="categories"
+ work="University College London"
+ location="London, UK"
+ url="http://www.ucl.ac.uk/~ucahjlo/"
+ trac="jlopez"/>
+<contributor
+ name="Rudi Pendavingh"
+ location="Eindhoven University of Technology, Netherlands"
+ trac="Rudi"/>
+<contributor
+ name="Wayne Peng"/>
+<contributor
+ name="Martin Pépin"
+ work="Université Sorbonne Paris Nord"
+ description="combinatorics"
+ url="https://wkerl.me"
+ trac="MartinPepin"
+ github="Kerl13"
+ gitlab="Kerl"/>
+<contributor
+ name="Hilder Vitor Lima Pereira"
+ trac="hilder.vitor"/>
+<contributor
+ name="David Perkinson"
+ work="Professor, Department of Mathematics, Reed College"
+ location="Reed College, 3203 SE Woodstock Blvd, Portland, OR 97202, USA"
+ description="bug fix for Laplacian matrix"
+ url="http://people.reed.edu/~davidp"
+ trac="dperkinson"/>
+<contributor
+ name="Clément Pernet"
+ altnames="Clement Pernet"
+ work="maître de conférences, Université Grenoble-Alpes"
+ location="Laboratoire Jean Kuntzmann, Université Grenoble Alpes, Grenoble, France"
+ description="LinBox maintainer; LinBox and Givaro integration; bug fixes"
+ url="https://membres-ljk.imag.fr/Clement.Pernet/"
+ trac="cpernet"
+ github="ClementPernet"/>
+<contributor
+ name="Mario Pernici"/>
+<contributor
+ name="John Perry"
+ altnames="Jack Perry"
+ work="University of Southern Mississippi (formerly)"
+ location="Hattiesburg, MS, USA"
+ description="bug fixes; the Sage wiki; Singular upgrade; mixed integer linear programming; bug fixes"
+ url="http://cantanima.name/usm/"
+ trac="john_perry"
+ github="johnperry-math"/>
+<contributor
+ name="Laura Peskin"
+ trac="lpeskin"/>
+<contributor
+ name="Pearu Peterson"
+ work="Senior Researcher, Laboratory of Systems Biology, Institute of Cybernetics at TUT"
+ location="Tallinn, Estonia"
+ description="optimized multinomial coefficient computation"
+ url="http://cens.ioc.ee/~pearu"/>
+<contributor
+ name="Thomas Petiteau"
+ trac="tpetiteau"/>
+<contributor
+ name="Stephan Pfannerer"
+ trac="pfannerer"/>
+<contributor
+ name="James Pfeiffer"
+ trac="jrp"/>
+<contributor
+ name="Markus Pfeiffer"
+ location="University of St Andrews"
+ trac="markuspf"/>
+<contributor
+ name="David Philp"/>
+<contributor
+ name="Nicolò Piazzalunga"
+ github="dkwo"/>
+<contributor
+ name="Laurent Pierron"/>
+<contributor
+ name="Vincent Pilaud"
+ location="École Polytechnique, Palaiseau, France"
+ url="http://www.lix.polytechnique.fr/~pilaud/"
+ trac="vpilaud"/>
+<contributor
+ name="Basile Pillet"
+ location="Université de Rennes 1, France"
+ url="http://perso.univ-rennes1.fr/basile.pillet/"
+ trac="bpillet"/>
+<contributor
+ name="Erika Pirnes"/>
+<contributor
+ name="Manos Pitsidianakis"
+ location="National Technical University of Athens"
+ trac="epilys"/>
+<contributor
+ name="David Poetzsch-Heffter"
+ location="Saarland University, Germany"
+ description="notebook"
+ trac="dpoetzsch"/>
+<contributor
+ name="Wencin Poh"
+ trac="wpoh"/>
+<contributor
+ name="Robert Pollak"
+ location="Johannes Kepler University, Linz, Austria"
+ url="https://www.flll.jku.at/staff/pollak"
+ trac="jondo"
+ github="jondo"/>
+<contributor
+ name="Federico Poloni"
+ url="http://fph.altervista.org"
+ location="University of Pisa, Italy"
+ trac="f.poloni"
+ github="fph"/>
+<contributor
+ name="Steve Pon"/>
+<contributor
+ name="Wai Yan Pong"
+ location="CSU Dominguez-Hills"
+ url="https://math.csudh.edu/~pong"
+ trac="pong"
+ github="wypong"/>
+<contributor
+ name="Viviane Pons"
+ work="PhD student, Maitre de Conférence, LRI, Université Paris-Sud Orsay"
+ location="University Paris-Sud Orsay, France"
+ description="combinatorics; multivariate polynomials algebra; 2015–2021 SageMath Prize"
+ trac="VivianePons"
+ github="VivianePons"
+ url="https://www.lri.fr/~pons/"/>
+<contributor
+ name="Yann Ponty"
+ location="CNRS-Ecole Polytechnique"
+ url="http://www.lix.polytechnique.fr/~ponty"
+ trac="yponty"/>
+<contributor
+ name="Pablo Portilla"
+ location="ICMAT, Spain"
+ url="https://www.icmat.es/pablo.portilla"
+ trac="pportilla"/>
+<contributor
+ name="Jan Pöschko"
+ location="TU Graz, Austria"
+ url="http://www.poeschko.com"
+ trac="poeschko"/>
+<contributor
+ name="Adrien Poteaux"
+ location="University Lille 1"
+ url="http://www.lifl.fr/~poteaux/"
+ trac="poteaux"/>
+<contributor
+ name="Dominique Poulalhon"
+ trac="dpoulalhon"/>
+<contributor
+ name="Amaury Pouly"/>
+<contributor
+ name="Jha Prajjwal"/>
+<contributor
+ name="Amritanshu Prasad"
+ location="Chennai, India"
+ url="http://www.imsc.res.in"
+ work="The Institute of Mathematical Sciences"
+ trac="amri"
+ description="contributed vector partitions and similarity class types to sage.combinat"
+ pix="./pix/people/prasad.jpeg"
+ github="amritanshu-prasad"/>
+<contributor
+ name="Jean-Baptiste Priez"
+ trac="elixyre"/>
+<contributor
+ name="Charles Prior"
+ trac="cprior"/>
+<contributor
+ name="James Propp"
+ trac="jamespropp"/>
+<contributor
+ name="Punarbasu Purkayastha"
+ work="Research Fellow, Nanyang Technological University, Singapore"
+ location="Singapore, SG"
+ description="plot; coding theory"
+ url="http://punarbasu.appspot.com"
+ trac="ppurka"
+ github="ppurka"/>
+<contributor
+ name="Bill Purvis"/>
+<contributor
+ name="Julien Puydt"
+ location="Grenoble, France"
+ description="porting"
+ github="SnarkBoojum"
+ trac="Snark"/>
+<contributor
+ name="Yi Qiang"
+ work="undergraduate student employee, University of Washington"
+ location="University of Washington, WA, USA"
+ description="Distributed Sage (in progress)"
+ github="yqiang"
+ trac="yi"/>
+<contributor
+ name="Erik Quaeghebeur"/>
+<contributor
+ name="Jordi Quer"
+ location="Barcelona, Spain"
+ work="Universitat Politecnica de Catalunya"
+ description="modular symbols and dimension formulas for congruence subgroups Gamma_H(N)"
+ url="http://www-ma2.upc.es/~quer/"/>
+<contributor
+ name="Emily Rachfal"/>
+<contributor
+ name="Benjamin Ragan-Kelley"/>
+<contributor
+ name="Alex Raichev"
+ work="University of Auckland"
+ location="Auckland, New Zealand"
+ url="http://www.cs.auckland.ac.nz/~raichev"
+ description="Analytic combinatorics"
+ trac="araichev"/>
+<contributor
+ name="Gustavo Rama"
+ work="Universidad de la República"
+ location="Eduardo Acevedo, Montevideo, Uruguay"
+ description="quadratic forms"
+ trac="gdrama"/>
+<contributor
+ name="Raghukul Raman"
+ location="Rajasthan, India"
+ work="Indian Institute of Technology, Kanpur"
+ description="rational point algorithms for schemes"
+ url="https://raghukul01.github.io"
+ trac="raghukul01"
+ github="raghukul01"/>
+<contributor
+ name="Somindu Chaya Ramanna"
+ trac="somindu"/>
+<contributor
+ name="Niels Ranosch"
+ url="http://sage-citation.blogspot.com/"
+ trac="ranosch"/>
+<contributor
+ name="Biswajit Ransingh"
+ location="IMSc, Chennai"
+ trac="bransingh"/>
+<contributor
+ name="Jens Rasch"
+ description="calculus"
+ trac="jrasch"
+ url="http://6dime.blogspot.com"/>
+<contributor
+ name="Chris Rasmussen"/>
+<contributor
+ name="Laith Rastanawi"
+ location="Freie Universität Berlin"
+ url="https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/rastanawi.html"
+ github="LaisRast"/>
+<contributor
+ name="Martin Raum"
+ work="Professor, Chalmers Technical University"
+ location="Gothenburg, Sweden"
+ description="algebra; modular forms; psage"
+ url="http://www.raum-brothers.eu/martin/"
+ trac="mraum"/>
+<contributor
+ name="Ajeesh Ravindran"
+ trac="ajeeshr"/>
+<contributor
+ name="Dorian Raymer"
+ work="UCSD"
+ location="San Diego, CA 92093, USA"
+ description="The notebook's documentation browser"/>
+<contributor
+ name="Jean-Florent Raymond"
+ location="CNRS, Université Clermont Auvergne, France"
+ url="https://perso.limos.fr/~jfraymon"
+ trac="jfraymond"
+ github="jfraymond"/>
+<contributor
+ name="Meghana M Reddy"
+ trac="meghanamreddy"
+ github="meghanamreddy"/>
+<contributor
+ name="Thomas Rehn"
+ location="Universität Rostock, Germany"
+ url="http://www.math.uni-rostock.de/~rehn/"
+ trac="trehn"/>
+<contributor
+ name="Stefan Reiterer"
+ work="University of Graz"
+ location="Graz, Austria"
+ description="packaging"
+ trac="maldun"/>
+<contributor
+ name="Martin Rejmon"/>
+<contributor
+ name="Matthew Rennekamp"
+ trac="mrennekamp,mrennekamp2"
+ description="Wiki maintenance (2017)"/>
+<contributor
+ name="Jan Rheinländer"/>
+<contributor
+ name="Ares Ribó"/>
+<contributor
+ name="Harry Richman"/>
+<contributor
+ name="Tania Richmond"
+ location="DGA-MI, France"
+ url="https://sites.google.com/site/taniarichmondnc/"
+ trac="richmond"
+ github="TaniaRichmond"/>
+<contributor
+ name="Ed Richmond"/>
+<contributor
+ name="Vivien Ripoll"
+ location="Universität Wien, Vienna, Austria"
+ trac="vripoll"/>
+<contributor
+ name="Risan"
+ work="Nagoya University, Nagoya, Japan"
+ location="Tangerang, Indonesia"
+ description="Arbitrary Precision LP Solver Backend"
+ trac="ptrrsn_1"
+ github="ptrrsn"/>
+<contributor
+ name="R. Rishikesh"
+ altnames="Rishikesh"
+ work="University of Waterloo"
+ location="Waterloo, Ontario, Canada"
+ description="automated testing of SAGE_ROOT/examples; bug fixes, etc"
+ trac="rishi"
+ github="rishikesha"/>
+<contributor
+ name="Roswitha Rissner"
+ location="Alpen-Adria-Universität Klagenfurt"
+ trac="rrissner"
+ github="rosirot"            
+/>
+<contributor
+ name="Julian Ritter"
+ trac="nailuj"/>
+<contributor
+ name="Juan M. Bello-Rivas"
+ location="San Francisco Bay Area, CA"
+ work="Johns Hopkins University"
+ url="https://superadditive.com"
+ trac="jmbr"
+ github="jmbr"/>
+<contributor
+ name="Marco Robado"/>
+<contributor
+ name="Austin Roberts"
+ trac="ajroberts"/>
+<contributor
+ name="Philip Robinson"
+ url="http://probinso.dyn-o-saur.com"
+ trac="probinso"/>
+<contributor
+ name="Tom Roby"
+ location="University of Connecticut, Storrs, CT"
+ trac="troby"/>
+<contributor
+ name="Dan Roche"
+ trac="roche"/>
+<contributor
+ name="Marcos Rodriguez"/>
+<contributor
+ name="David Roe"
+ work="MIT"
+ location="MIT, Cambridge, MA, USA"
+ description="p-adics, finite fields, number theory"
+ url="https://math.mit.edu/~roed"
+ trac="roed"
+ github="roed314"/>
+<contributor
+ name="Antonio Rojas"
+ location="University of Seville"
+ url="http://personal.us.es/arojas/"
+ trac="arojas"
+ github="antonio-rojas"/>
+<contributor
+ name="Ana Romero"/>
+<contributor
+ name="Dillon Rose"
+ trac="drose"
+ github="dillonmrose"/>
+<contributor
+ name="Johan Sebastian Rosenkilde Nielsen"
+ altnames="Johan Rosenkilde"
+ work="Technical University of Denmark"
+ location="Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark"
+ description="algebra; documentation; miscellaneous"
+ url="http://www.mat.dtu.dk/English/Service/Phonebook.aspx?lg=showcommon&amp;id=27218&amp;type=person"
+ trac="jsrn"
+ github="johanrosenkilde"/>
+<contributor
+ name="Günter Rote"
+ location="Freie Universität Berlin"
+ trac="guenterrote"
+ github="guenterrote"/>
+<contributor
+ name="Bjarke Hammersholt Roune"
+ work="PhD student, Department of Computer Science, University of Aarhus"
+ location="Aarhus, Denmark"
+ description="Integrator; author of Frobby (Monomial ideals)"
+ url="http://www.broune.com/"
+ trac="broune"/>
+<contributor
+ name="Édouard Rousseau"
+ location="Télécom parisTech/Univ de Versailles, France"
+ url="http://erou.github.io"
+ trac="erousseau"/>
+<contributor
+ name="Guillaume Rousseau"/>
+<contributor
+ name="Christelle Rovetta"
+ location="UPMC, France"
+ url="http://www.di.ens.fr/~rovetta"
+ trac="chrisrovetta"/>
+<contributor
+ name="Eric Rowland"
+ location="LaCIM, Université du Québec à Montréal, Canada"
+ url="http://thales.math.uqam.ca/~rowland/"
+ trac="rowland"/>
+<contributor
+ name="Manami Roy"
+ trac="mroy"/>
+<contributor
+ name="Gordon Royle"/>
+<contributor
+ name="Sandra Rozensztajn"
+ trac="rozenszt"/>
+<contributor
+ name="Martin Rubey"
+ location="Technische Universität Wien, Austria"
+ trac="mantepse,Martin"
+ github="mantepse"/>
+<contributor
+ name="Sonseeahray Rucker"/>
+<contributor
+ name="Thomas Rüd"
+ trac="rud"
+ github="toadrush"/>
+<contributor
+ name="Sandi Rudzinski"
+ trac="sbrudzin"/>
+<contributor
+ name="Julian Rüth"
+ altnames="Julian Rueth"
+ location="Nicaragua"
+ description="organized Sage Days 110"
+ trac="saraedum"
+ github="saraedum"/>
+<contributor
+ name="Jeremy Tan Jie Rui"
+ work="National University of Singapore"
+ location="Singapore, Singapore"
+ description="combinatorics; graph theory"
+ url="https://parclytaxel.art"
+ github="Parcly-Taxel"
+ gitlab="parclytaxel"/>
+<contributor
+ name="Jorge Catumba Ruiz"
+ location="National University of Colombia, Colombia"
+ url="http://twitter.com/jorgektu"
+ trac="jcatumba"
+ github="jcatumba"/>
+<contributor
+ name="Lauri Ruotsalainen"/>
+<contributor
+ name="Dylan Rupel"
+ trac="drupel"/>
+<contributor
+ name="Malcolm Rupert"
+ trac="MRupert,mrupert"/>
+<contributor
+ name="Andreas Ruscheinski"
+ trac="LostPw"/>
+<contributor
+ name="Antonio Russo"
+ trac="aerusso"/>
+<contributor
+ name="Nathan C. Ryan"
+ location="Bucknell University, Pennsylvania, USA"
+ url="http://www.unix.bucknell.edu/~ncr006"
+ trac="ncryan"/>
+<contributor
+ name="Alba Málaga S"
+ trac="ams"/>
+<contributor
+ name="Philippe Saadé"
+ altnames="Phillipe Saade"
+ location="Lyon, France"
+ trac="psaade"/>
+<contributor
+ name="Mark Saaltink"
+ trac="msaaltink"/>
+<contributor
+ name="Amir Sagiv"
+ location="TAU, Israel"
+ trac="amirsagiv"/>
+<contributor
+ name="Nithish Saji"/>
+<contributor
+ name="Takeo Sakai"
+ trac="tsak"/>
+<contributor
+ name="Serge A. Salamanka"
+ work="National Academy of Sciences, UIIP"
+ location="Minsk, Belarus"
+ description="Sage-Grid project http://groups.google.com/group/sage-grid"
+ url="http://sageworldmath.blogspot.com"
+ trac="s.salamanka"/>
+<contributor
+ name="Adriana Salerno"
+ trac="asalerno"/>
+<contributor
+ name="Felix Salfelder"
+ trac="felixs"/>
+<contributor
+ name="Franco Saliola"
+ location="Montreal, Quebec, Canada"
+ work="Université du Québec à Montréal"
+ description="algebraic combinatorics; representation theory"
+ url="https://saliola.github.io/"
+ trac="saliola"
+ github="saliola"
+ gitlab="saliola"/>
+<contributor
+ name="Ben Salisbury"
+ work="Professor, Central Michigan University"
+ location="Mount Pleasant, MI, USA"
+ description="crystals; representation theory; combinatorics"
+ url="https://bsalisbury1.github.io"
+ trac="bsalisbury1"
+ github="bsalisbury1"/>
+<contributor
+ name="Jordi Saludes"/>
+<contributor
+ name="Tom Salvi"/>
+<contributor
+ name="Leonardo Sampaio"
+ work="PhD student, INRIA/I3S (CNRS, UNS)"
+ location="Sophia Antipolis, 06560 Valbonne, France"
+ description="graph theory; linear programming"
+ url="http://www-sop.inria.fr/members/Leonardo.Sampaio_Rocha/"
+ trac="lsampaio"/>
+<contributor
+ name="Kannappan Sampath"
+ location="University of Michigan, Ann Arbor, MI"
+ trac="knsam"
+ github="KPanComputes"/>
+<contributor
+ name="Koen van de Sande"
+ location="University of Amsterdam, Amsterdam"
+ url="http://koen.me/research/"
+ trac="koen,Koen"/>
+<contributor
+ name="Victor Santos"
+ trac="vsantos"
+ github="padawanphysicist"/>
+<contributor
+ name="Utpal Sarkar"
+ location="HP, Barcelona and student at the UPC, Barcelona"
+ trac="usarkar"/>
+<contributor
+ name="Kyle Schalm"
+ work="graduate student, University of Texas at Austin"
+ location="Austin, TX, USA"
+ description="feedback; bugs (and fixes); MPFR integration"/>
+<contributor
+ name="Stéphanie Schanck"
+ location="LaCIM, Université du Québec à Montréal, Canada"
+ trac="sschanck"/>
+<contributor
+ name="Ed Scheinerman"
+ work="Professor, Department of Applied Mathematics &amp; Statistics, Johns Hopkins University"
+ location="Shaffer Hall 102, 3400 North Charles Street, Baltimore, MD 21218, United States"
+ description="graph theory"
+ url="http://www.ams.jhu.edu/~ers/"
+ trac="edward.scheinerman"/>
+<contributor
+ name="Zachary Scherr"/>
+<contributor
+ name="Lothar Schiemanowski"/>
+<contributor
+ name="Anne Schilling"
+ work="Professor, UC-Davis"
+ location="Davis, CA, USA"
+ description="Crystals code"
+ url="http://www.math.ucdavis.edu/~anne"
+ trac="aschilling"
+ github="anneschilling"/>
+<contributor
+ name="Harald Schilly"
+ work="University of Vienna"
+ location="Vienna, Austria"
+ description="webmaster; R/Sage interface; marketing; management; 2015–2021 SageMath Prize"
+ pix="./pix/people/schilly.jpeg"
+ url="http://sage.math.washington.edu/home/schilly/"
+ trac="schilly"
+ github="haraldschilly"/>
+<contributor
+ name="Bradly Schlenker"
+ trac="bradlys"/>
+<contributor
+ name="Jack Schmidt"
+ work="University of Kentucky"
+ location="Lexington, Kentucky, USA"
+ description="group theory"
+ url="http://www.ms.uky.edu/~jack/"/>
+<contributor
+ name="Johannes Schmitt"/>
+<contributor
+ name="Joel Schmitz"/>
+<contributor
+ name="Michael Schneider"
+ work="PhD student, Technische Universität Darmstadt"
+ location="Karolinenplatz 5, 64289 Darmstadt, Germany"
+ description="cryptography"
+ url="http://www.cdc.informatik.tu-darmstadt.de/mitarbeiter/mischnei.html"/>
+<contributor
+ name="Philipp Schneider"
+ location="Universität Erlangen-Nürnberg"
+ trac="phil"/>
+<contributor
+ name="Hans Schoenemann"
+ altnames="Hans Schönemann"/>
+<contributor
+ name="Travis Scholl"
+ location="University of Washington, Seattle"
+ trac="tscholl2"
+ github="tscholl2"/>
+<contributor
+ name="Michael Schraudner"
+ url="http://www.cmm.uchile.cl/~mschraudner"
+ trac="mhs"/>
+<contributor
+ name="Rowan Schrecker"
+ trac="rschrecker"/>
+<contributor
+ name="Hendrik Schrezenmaier"/>
+<contributor
+ name="Adam Schultze"
+ trac="Schultzeal"/>
+<contributor
+ name="Frithjof Schulze"
+ trac="fschulze"/>
+<contributor
+ name="Olivia Schwager"
+ trac="oschwager"/>
+<contributor
+ name="Christopher Schwan"
+ work="Theoretical High Energy Physics (THEP), Johannes-Gutenberg-Universität Mainz"
+ location="Staudingerweg 9, 55122 Mainz, Germany"
+ description="build system; notebook"
+ url="http://wwwthep.physik.uni-mainz.de/site/people/cschwan/"
+ github="cschwan"
+ trac="cschwan"/>
+<contributor
+ name="Robert Schwarz"
+ location="Heidelberg, Germany"
+ trac="rschwarz"/>
+<contributor
+ name="Stan Schymanski"
+ location="Max Planck Institute for Biogeochemistry"
+ url="http://www.bgc-jena.mpg.de/~sschym"
+ trac="schymans"/>
+<contributor
+ name="Sam Scott"
+ location="University of Warwick, UK"
+ trac="scotts"/>
+<contributor
+ name="Sandy Scott"/>
+<contributor
+ name="Travis Scrimshaw"
+ work="Hokkaido University"
+ location="Sapporo, Japan"
+ url="https://tscrim.github.io/"
+ description="Crystals; representation theory; programming; organized Sage Days 110; 2015–2021 SageMath Prize"
+ trac="tscrim"
+ github="tscrim"/>
+<contributor
+ name="Paul Scurek"
+ trac="pmscurek"
+ github="pscurek"/>
+<contributor
+ name="George H. Seelinger"
+ location="University of Virginia"
+ url="https://ghseeli.github.io"
+ trac="ghseeli"
+ github="ghseeli"/>
+<contributor
+ name="Gagan Sekhon"
+ trac="gagansekhon,sekhon"/>
+<contributor
+ name="Dag Sverre Seljebotn"
+ work="Master's student, Institute of Theoretical Astrophysics, University of Oslo"
+ location="0313 Oslo, Norway"
+ description="interface between NumPy and Cython; linear algebra"
+ url="http://heim.ifi.uio.no/~dagss"
+ trac="dagss"/>
+<contributor
+ name="Alejandro Serrano"
+ trac="a.serrano"/>
+<contributor
+ name="Luis Serrano"
+ trac="serrano"/>
+<contributor
+ name="Ege Sertçetin"
+ trac="sertcetin"/>
+<contributor
+ name="Dmitry Shachnev"/>
+<contributor
+ name="Shashank Shalgar"
+ trac="Shashank"/>
+<contributor
+ name="Shahed Sharif"/>
+<contributor
+ name="Medha Sharma"/>
+<contributor
+ name="Utkarsh Sharma"/>
+<contributor
+ name="Yiwei She"
+ location="University of Chicago"
+ trac="yiweishe"/>
+<contributor
+ name="Alex Shearer"/>
+<contributor
+ name="Alexei Sheplyakov"/>
+<contributor
+ name="Mark Shimozono"
+ trac="mshimo"/>
+<contributor
+ name="Dan Shumow"
+ work="University of Washington"
+ location="University of Washington, WA, USA"
+ description="bug fixes"
+ github="shumow"
+ trac="shumow"/>
+<contributor
+ name="Jason Yeo Jie Shun"
+ location="National University of Singapore, Singapore"
+ url="http://technotroph.wordpress.com"
+ trac="jyeo"/>
+<contributor
+ name="Davis Shurbert"
+ trac="dshurbert"/>
+<contributor
+ name="Baldur Sigurðsson"
+ location="UNAM"
+ url="https://notendur.hi.is/bas4/"
+ trac="baldur"
+ github="baldursigurds"/>
+<contributor
+ name="Jeroen Sijsling"
+ work="Universität Ulm"
+ url="https://jrsijsling.eu/"
+ github="JRSijsling"
+ trac="sijsling"/>
+<contributor
+ name="Raniere Silva"/>
+<contributor
+ name="Andrew Silver"
+ location="University of Florida"
+ trac="andrewsilver"/>
+<contributor
+ name="Joe Silverman"/>
+<contributor
+ name="Denis Simone"/>
+<contributor
+ name="John Pang"
+ work="NTU"
+ location="Singapore"
+ trac="jpang"/>
+<contributor
+ name="Rounak Singh"
+ location="National Institute of Technology, Raipur, India"
+ trac="rsn"/>
+<contributor
+ name="Abhay Pratap Singh"/>
+<contributor
+ name="Shashank Singh"/>
+<contributor
+ name="Shashwat Singh"/>
+<contributor
+ name="Siddharth Singh"/>
+<contributor
+ name="Sourav Singh"
+ trac="souravsingh"/>
+<contributor
+ name="Steve Singleton"/>
+<contributor
+ name="Phaedon Sinis"
+ location="San Francisco, CA"
+ trac="psinis"/>
+<contributor
+ name="Rajat Sirohi"/>
+<contributor
+ name="Nicolás Sirolli"
+ url="https://mate.dm.uba.ar/~nsirolli"
+ github="nsirolli"
+ trac="nmsirolli"/>
+<contributor
+ name="Steven Sivek"
+ work="graduate student, Princeton University"
+ location="Princeton, NJ, USA"
+ description="interface to Sloane's Tables; algebraic number fields"
+ trac="ssivek"/>
+<contributor
+ name="Nathaniel Skinner"
+ trac="Madrosity"/>
+<contributor
+ name="Nils-Peter Skoruppa"
+ altnames="Nils Skoruppa"
+ work="Universität Siegen"
+ location="Universitaet Siegen, Germany"
+ description="optimized binary quadratic forms computation; bug fixes"
+ url="http://www.countnumber.de"
+ trac="NilsSkoruppa"/>
+<contributor
+ name="Uroš Slana"
+ trac="slani"
+ github="lobiCode"/>
+<contributor
+ name="Jakub Sliacan"
+ trac="srobik"/>
+<contributor
+ name="William Slofstra"/>
+<contributor
+ name="Marketa Slukova"/>
+<contributor
+ name="Daniel Smertnig"
+ location="KFU Graz, Austria"
+ trac="daniels"
+ github="dansme"/>
+<contributor
+ name="Ben Smith"
+ trac="bensmith"/>
+<contributor
+ name="Hanson Smith"
+ trac="hwsmith"/>
+<contributor
+ name="Kenneth Smith"/>
+<contributor
+ name="Vladimir Smolyar"/>
+<contributor
+ name="Hal Snyder"
+ location="Chicago"
+ trac="hsnyder"
+ github="DrXyzzy"/>
+<contributor
+ name="Sara Solhjem"
+ trac="ssolhjem"/>
+ <contributor
+ name="Anna Somoza"
+ url="https://anna-somoza.github.io/"
+ trac="annasomoza"
+ github="anna-somoza"
+/>
+<contributor
+ name="Jieao Song"/>
+<contributor
+ name="Will Song"
+ trac="incertia"/>
+<contributor
+ name="Mate Soos"
+ url="http://www.msoos.org"
+ github="msoos"
+ trac="msoos"/>
+<contributor
+ name="Christoph Sorger"
+ location="Université de Nantes"
+ url="http://www.math.sciences.univ-nantes.fr/~sorger/"
+ trac="chsorger"/>
+<contributor
+ name="Juan Viu-Sos"
+ location="Universidad Politecnica de Madrid"
+ url="https://jviusos.github.io/"
+ trac="jviusos"
+ github="jviusos"/>
+<contributor
+ name="Simon Spicer"
+ location="Google, Inc., Seattle"
+ description="elliptic curve rank computation methods"
+ trac="spice"
+ github="haikona"/>
+<contributor
+ name="Jaap Spies"
+ location="Emmen, Netherlands"
+ description="permanents of general matrices; Sloane functions; various other functions; bug fixes"
+ url="https://www.jaapspies.nl"
+ trac="jsp"
+ github="jaapspies"/>
+<contributor
+ name="Jonathan Spreer"
+ work="University of Stuttgart"
+ location="Stuttgart, Germany"
+ description="documentation"
+ trac="spreerjn"
+ url="http://www.igt.uni-stuttgart.de/LstDiffgeo/Spreer/"/>
+<contributor
+ name="Srinjoy Srimani"/>
+<contributor
+ name="Padmavathi Srinivasan"
+ trac="padma_sk"/>
+<contributor
+ name="Hayden Stainsby"
+ work="PhD student, Universitat Autònoma de Barcelona"
+ location="Barcelona, Spain"
+ description="algorithmic number theory; I'm actually from australia"
+ url="http://theoriginaltakeaway.com/"
+ trac="hds"/>
+<contributor
+ name="Flavia Stan"
+ location="RISC, Johannes Kepler University Linz"
+ trac="fstan"/>
+<contributor
+ name="Katherine Stange"
+ location="University of Colorado - Boulder"
+ url="http://math.katestange.net"
+ trac="katestange"
+ github="katestange"/>
+<contributor
+ name="Jim Stankewicz"
+ location="University of Georgia, USA"
+ trac="stankewicz"/>
+<contributor
+ name="Jim Stark"
+ location="University of Washington, WA, USA"
+ trac="JStarx"/>
+<contributor
+ name="Štěpán Starosta"
+ work="Faculty of Information Technology, Czech Technical University in Prague"
+ location="Prague, Czech Republic"
+ description="combinatorics"
+ trac="sstarosta"
+ github="staroste"/>
+<contributor
+ name="Ander Steele"
+ trac="asteele"
+ github="andersteele"/>
+<contributor
+ name="William Stein"
+ work="CEO, SageMath, Inc."
+ location="17725 SE 123rd Place, Renton WA 98059, USA"
+ description="community manager; software architect; started Sage project"
+ url="https://wstein.org/"
+ pix="https://wstein.org/william.jpg"
+ jitter="0"
+ trac="was"
+ github="williamstein"/>
+<contributor
+ name="Wolfgang Steiner"
+ trac="wsteiner"/>
+<contributor
+ name="Salvatore Stella"
+ work="RTD-b -- Università dell'Aquila -- DISIM"
+ location="Università degli Studi dell'Aquila, edificio Coppito 1, Via Vetoio, 67100 Coppito AQ"
+ url="http://people.disim.univaq.it/~salvatore.stella/"
+ trac="etn40ff"
+ github="etn40ff"
+ gitlab="etn40ff"/>
+<contributor
+ name="Lukas Stennes"/>
+<contributor
+ name="Ralf Stephan"
+ url="https://google.com/+RalfStephan"
+ trac="rws"
+ github="rwst"/>
+<contributor
+ name="Brett Stevens"
+ location="Carleton University, Ottawa, Canada"
+ url="http://www.math.carleton.ca/~brett/"
+ trac="brett"
+ github="brettpim"/>
+<contributor
+ name="Manon Stipulanti"
+ trac="mstipulanti"/>
+<contributor
+ name="Michael Stoll"/>
+<contributor
+ name="Peter Story"
+ github="peterstory"
+ trac="peter.story"/>
+<contributor
+ name="Ben Strasser"/>
+<contributor
+ name="Armin Straub"
+ location="University of South Alabama"
+ description="basic arithmetic; elliptic curves"
+ url="http://arminstraub.com"
+ trac="arminstraub"
+ github="arminstraub"/>
+<contributor
+ name="Marco Streng"
+ work="DIAMANT-postdoc"
+ location="VU University Amsterdam, The Netherlands"
+ description="number fields;algebraic curves"
+ url="http://www.few.vu.nl/~streng"
+ trac="mstreng"
+ github="mstreng"/>
+<contributor
+ name="Jessica Striker"
+ location="North Dakota State University"
+ url="https://www.ndsu.edu/pubweb/~striker/"
+ trac="jessicapalencia"
+ github="jessicapalencia"/>
+<contributor
+ name="Peter Wicks Stringfield"
+ trac="peterwicksstringfield"/>
+<contributor
+ name="Fredrik Strömberg"
+ altnames="Fredrik Stroemberg"          
+ location="University of Nottingham, Nottingham, UK"
+ url="https://www.nottingham.ac.uk/mathematics/people/fredrik.stromberg"
+ trac="fstromberg"
+ github="fredstro"/>
+<contributor
+ name="Michael Struwe"/>
+<contributor
+ name="Kevin Stueve"
+ work="undergraduate student, University of Washington"
+ location="University of Washington, WA, USA"
+ description="number theory"
+ url="http://sage.math.washington.edu/home/kstueve"
+ trac="kevin.stueve"/>
+<contributor
+ name="Christian Stump"
+ work="Professor, Ruhr-Universität Bochum"
+ description="combinatorics; graph theory"
+ github="stumpc5"
+ location="Ruhr-Universität Bochum, Germany"
+ url="http://homepage.rub.de/christian.stump/"
+ trac="stumpc5"/>
+<contributor
+ name="Veronica Suaste"
+ trac="veronica"/>
+<contributor
+ name="Alex Sun"/>
+<contributor
+ name="Brian Sun"/>
+<contributor
+ name="Denis Sunko"
+ location="Department of Physics, Faculty of Science, University of Zagreb, Croatia"
+ trac="denissunko"/>
+<contributor
+ name="Drew Sutherland"/>
+<contributor
+ name="Blair Sutton"
+ location="London, UK"
+ description="Bell polynomials"
+ url="http://www.google.com/s2/profiles/115382656960629166023"
+ trac="bsutton"
+ github="bsdz"/>
+<contributor
+ name="Taylor Sutton"
+ trac="tsutton"/>
+<contributor
+ name="Josh Swanson"
+ location="University of Washington, WA, USA"
+ trac="jpswanson"/>
+<contributor
+ name="Christopher Swenson"
+ trac="swenson"
+ github="swenson"/>
+<contributor
+ name="Chris Swierczewski"
+ work="Graduate student in applied mathematics, University of Washington"
+ location="University of Washington, WA, USA"
+ description="algebraic curves; integrable systems; Riemann theta functions"
+ url="http://www.cswiercz.info"
+ trac="cswiercz"
+ github="cswiercz"/>
+<contributor
+ name="Holly Swisher"
+ location="Oregon State University"
+ trac="swisherh"/>
+<contributor
+ name="Joni Syri"
+ trac="jsyri"/>
+<contributor
+ name="Luis Felipe Tabera Alonso"
+ altnames="Luis Felipe Tabera"
+ work="Universidad de Cantabria"
+ location="Santander, Spain"
+ description="algebra; basic arithmetic; number fields"
+ url="http://personales.unican.es/taberalf/"
+ trac="lftabera"
+ github="lftabera"/>
+<contributor
+ name="Tvrtko Tadic"
+ location="University of Washington, Seattle"
+ url="http://www.math.washington.edu/~tadic"
+ trac="ttadic"/>
+<contributor
+ name="Tuomas Tajakka"/>
+<contributor
+ name="Henry Talbott"/>
+<contributor
+ name="Glenn Tarbox"
+ work="THG Holdings"
+ location="Seattle, USA"
+ description="bug fixes"
+ url="http://www.tarbox.org"
+ trac="ghtdak"/>
+<contributor
+ name="Mihail Tarigradschi"/>
+<contributor
+ name="Steven Tartakovsky"
+ location="Grad, San Luis Obispo, CA"
+ trac="startakovsky"/>
+<contributor
+ name="João Tavares"/>
+<contributor
+ name="Vishesh Tayal"/>
+<contributor
+ name="Yoora Yi Tenen"
+ trac="yooyiten"
+ github="yooyiten"/>
+<contributor
+ name="Scot Terry"/>
+<contributor
+ name="Damiano Testa"/>
+<contributor
+ name="Hans Fotsing Tetsing"
+ trac="Dicolevrai"/>
+<contributor
+ name="Aaditya Thakkar"
+ trac="aaditya_thakkar"
+ github="aaditya-thakkar"/>
+<contributor
+ name="Philippe Theveny"
+ work="LORIA"
+ location="Nancy, France"
+ description="mpc.spkg, mpc bindings"
+ url="http://www.loria.fr/~thevenyp/"
+ trac="thevenyp"/>
+<contributor
+ name="Philippe Theveny"
+ location="INRIA, France"
+ trac="thevenyp"/>
+<contributor
+ name="Nicolas Thiéry"
+ altnames="Nicolas M. Thiéry,Nicolas M. Thiery"
+ work="Professor, LISN, Université Paris-Saclay"
+ location="Orsay, France"
+ description="(algebraic) combinatorics and categories; dissemination and funding; 2015–2021 SageMath Prize"
+ url="http://nicolas.thiery.name/"
+ trac="nthiery"
+ github="nthiery"/>
+<contributor
+ name="Griffen Thoma"
+ description="plotting bug fix"/>
+<contributor
+ name="Hugh Thomas"
+ work="professor, LaCIM, Department of Mathematics, UQAM"
+ location="LaCIM, UQAM, Montréal, Québec, Canada"
+ url="http://www.lacim.uqam.ca/~hugh/"
+ trac="hthomas"
+ github="hughrthomas"/>
+<contributor
+ name="Thierry Thomas"/>
+<contributor
+ name="Emmanuel Thomé"
+ work="Researcher, INRIA"
+ location="Nancy, France"
+ description="number fields"
+ url="https://members.loria.fr/EThome/"
+ trac="thome"
+ github="emmanuelthome"/>
+<contributor
+ name="Lola Thompson"
+ location="Oberlin College, OH"
+ trac="lola"/>
+<contributor
+ name="Bianca Thompson"
+ trac="bthompson"/>
+<contributor
+ name="John Thurber"
+ work="Eastern Oregon University"
+ location="La Grande, Oregon, USA"
+ description="documentation; graph theory"
+ trac="jthurber"/>
+<contributor
+ name="Geoff Tims"/>
+<contributor
+ name="Peter Tingley"
+ trac="ptingley"/>
+<contributor
+ name="Bella Tobin"/>
+<contributor
+ name="Pavlo Tokariev"/>
+<contributor
+ name="Igor Tolkov"
+ location="Seattle, USA"
+ description="Interact (Google Summer of Code 2008)"
+ url="https://igor.tolkov.com"
+ trac="itolkov"
+ github="itolkov"/>
+<contributor
+ name="Claire Tomesch"
+ trac="cmt"/>
+<contributor
+ name="Sai Harsh Tondomker"
+ trac="saiharsh"/>
+<contributor
+ name="Gonzalo Tornaria"
+ location="Universidad de la República, Uruguay"
+ description="sage/latex style; extensive feedback; design; use of darcs system; tons of tricky C code related to the PARI interface; hashing of GMP types; etc"
+ url="http://www.cmat.edu.uy/~tornaria"
+ trac="tornaria"
+ github="tornaria"/>
+<contributor
+ name="Jesus Torrado"
+ location="Technical University of Munich"
+ url="http://users.physik.tu-muenchen.de/ga98mup/"
+ trac="JesusTorrado"/>
+<contributor
+ name="Matt Torrence"/>
+<contributor
+ name="Adam Towsley"
+ work="Visiting Assistant Professor, Department of Mathematics, CUNY Graduate Center"
+ location="365 5th Avenue, New York, NY"
+ description="Arithmetic Dynamics; Algebraic Number Theory; Arithmetic Geometry"
+ trac="atowsley"/>
+<contributor
+ name="Hugo Tremblay"
+ trac="htremblay"/>
+<contributor
+ name="Nicholas Triantafillou"
+ trac="ngtriant"/>
+<contributor
+ name="Steven Trogdon"
+ location="University of Minnesota, Duluth"
+ trac="strogdon"
+ github="strogdon"/>
+<contributor
+ name="Matthew Trumbell"
+ trac="mrtrumbe"/>
+<contributor
+ name="Kiminori Tsukazaki"
+ altnames="Kimi Tsukazaki"
+ work="University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, United Kingdom"
+ description="elliptic curves"
+ trac="kimi"/>
+<contributor
+ name="Vít Tuček"
+ trac="vittucek"
+ github="vit-tucek"/>
+<contributor
+ name="Jan Tuitman"
+ trac="jantuitman"/>
+<contributor
+ name="Charlie Turner"
+ work="University of Warwick"
+ location="Gibbet Hill Rd, Coventry CV4 7AL, UK"
+ description="algebraic geometry"
+ trac="cturner"/>
+<contributor
+ name="S. R. Turner"
+ location="University of Chicago"
+ trac="turnersr"/>
+<contributor
+ name="Eleni Tzanaki"
+ location="University of Crete, Greece"
+ url="https://sites.google.com/site/tzanakel/home"
+ trac="etzanaki"/>
+<contributor
+ name="Georgios Giapitzakis Tzintanos"/>
+<contributor
+ name="Tristan Vaccon"
+ location="Université de Limoges, France"
+ url="http://www.unilim.fr/pages_perso/tristan.vaccon/englishhome.html"
+ trac="TristanVaccon"/>
+<contributor
+ name="Petru Valicov"
+ trac="pvalicov"/>
+<contributor
+ name="Michel Vandenbergh"
+ description="multivariate polynomials; bug fixes, other improvements"/>
+<contributor
+ name="Élise Vandomme"
+ location="LaCIM, Université du Québec à Montréal, Canada"
+ trac="evandomme"/>
+<contributor
+ name="Joris Vankerschaver"
+ location="9500 Gilman Drive, San Diego, CA 92093, United States"
+ work="Department of Mathematics, University of California at San Diego"
+ description="doctesting; numerical methods; symbolics"
+ url="http://www.math.ucsd.edu/~jvankers/"
+ trac="jvkersch"
+ github="jvkersch"/>
+<contributor
+ name="Vincent Vanlaer"/>
+<contributor
+ name="Anthony Várilly-Alvarado"
+ trac="avarilly"/>
+<contributor
+ name="Laurel Vasquez"
+ trac="lvasquez"/>
+<contributor
+ name="Emil R. Vaughan"
+ trac="e.vaughan"/>
+<contributor
+ name="Rajesh Veeranki"
+ trac="Rajesh_Veeranki"
+ github="Rajesh-Veeranki"/>
+<contributor
+ name="Mahathi Vempati"/>
+<contributor
+ name="Srinivas Vivek Venkatesh"/>
+<contributor
+ name="Kartik Venkatram"
+ trac="kartikv"/>
+<contributor
+ name="Thibaut Verron"/>
+<contributor
+ name="John Verzani"/>
+<contributor
+ name="Panupong Vichitkunakorn"
+ location="University of Illinois at Urbana-Champaign"
+ trac="vichitk1"/>
+<contributor
+ name="Janoš Vidali"
+ trac="jaanos"
+ github="jaanos"/>
+<contributor
+ name="Santiago Vila"
+ trac="sanvila"/>
+<contributor
+ name="Soledad Villar"
+ work="Universidad de la República"
+ location="Eduardo Acevedo, Montevideo, Uruguay"
+ description="algebra"
+ trac="solevillar"/>
+<contributor
+ name="Luis F. Villegas"/>
+<contributor
+ name="Christelle Vincent"
+ location="University of Vermont"
+ url="https://www.uvm.edu/~cvincen1/"
+ trac="christelle"/>
+<contributor
+ name="Noa Viner"/>
+<contributor
+ name="Aladin Virmaux"
+ location="Université Paris-Sud, LRI, France"
+ url="https://www.lri.fr/~virmaux/"
+ trac="virmaux"
+ github="avirmaux"/>
+<contributor
+ name="Solomon Vishkautsan"
+ altnames="Soli Vishkautsan"
+ location="Ben-Gurion University, Israel"
+ url="http://www.wishcow.com"
+ trac="wishcow"/>
+<contributor
+ name="Quimey Vivas"
+ work="University of Buenos Aires"
+ location="Buenos Aires, Argentina"
+ github="quimey"
+ trac="quimey"/>
+<contributor
+ name="Isabel Vogt"
+ work="Brown University"
+ url="https://www.math.brown.edu/ivogt/"
+ github="ivogt161"
+ trac="ivogt161"/>
+<contributor
+ name="John Voight"
+ work="University of Vermont"
+ location="Burlington, VT, USA"
+ description="Totally Real Fields"
+ url="http://www.cems.uvm.edu/~voight/"
+ trac="jvoight"
+ github="jvoight"/>
+<contributor
+ name="Jens Vollinga"/>
+<contributor
+ name="Felipe Voloch"
+ work="Professor, Department of Mathematics, University of Texas at Austin"
+ location="2100 San Jacinto Boulevard, Austin, TX 78712-1047, United States"
+ description="elliptic curves"
+ url="http://www.ma.utexas.edu/users/voloch/"
+ trac="voloch"/>
+<contributor
+ name="Jan Vonk"
+ location="University of Oxford, UK"
+ trac="janv"/>
+<contributor
+ name="Steve Vonn"/>
+<contributor
+ name="Corey Vorland"
+ location="North Dakota State University"
+ trac="cvorland"/>
+<contributor
+ name="Jan Wabbersen"
+ trac="jan.wabbersen"/>
+<contributor
+ name="Markus Wageringel"
+ location="Osnabrück University, Germany"
+ trac="mwageringel"
+ github="mwageringel"/>
+<contributor
+ name="Archit Wagle"/>
+<contributor
+ name="Preston Wake"
+ trac="wakep"/>
+<contributor
+ name="Kim Walisch"
+ trac="walki"/>
+<contributor
+ name="Justin Walker"
+ work="retired Apple OS X kernel developer"
+ location="Stanford, CA, USA"
+ description="extensive feedback; PARI lib wrapping; use of his G5"
+ github="RalphieBoy"
+ trac="justin"/>
+<contributor
+ name="Timothy Walsh"/>
+<contributor
+ name="Michael Walter"
+ location="University of Amsterdam, The Netherlands"
+ url="https://staff.fnwi.uva.nl/m.walter/"
+ github="catch22"/>
+<contributor
+ name="Aedi Wang"
+ altnames="Zeyi Wang"
+ github="uduse"
+ trac="zwang"/>
+<contributor
+ name="Qiang Wang"/>
+<contributor
+ name="Mark Watkins"
+ work="University of Sydney"
+ location="University Road, 2006, NSW, Australia"
+ description="ec (modular degrees); sympow (symmetric powers); feedback"/>
+<contributor
+ name="Adam Webb"
+ location="Saskatoon, Canada"
+ work="Canadian Light Source"
+ github="maxthemouse"            
+ trac="awebb"/>
+<contributor
+ name="Georg S. Weber"
+ altnames="Georg Weber"
+ location="Nuernberg, Germany"
+ description="reviews, bug fixing, documentation"
+ trac="GeorgSWeber"/>
+<contributor
+ name="Florian Weber"/>
+<contributor
+ name="Eric Webster"
+ description="combinatorics"
+ trac="QuantumKing"/>
+<contributor
+ name="Tobias Weich"
+ trac="twch"/>
+<contributor
+ name="Jamie Weigandt"
+ location="Purdue University"
+ trac="weigandt"/>
+<contributor
+ name="Ralf-Philipp Weinmann"
+ trac="rpw"/>
+<contributor
+ name="Max Weinreich"/>
+<contributor
+ name="Colin Weir"
+ trac="cjweir"
+ github="cjweir"/>
+<contributor
+ name="Volker Weissmann"/>
+<contributor
+ name="Michael Welsh"
+ trac="yomcat"/>
+<contributor
+ name="Jeremy West"
+ location="University of Michigan"
+ url="http://www-personal.umich.edu/~jeremymw"
+ trac="jeremywest"/>
+<contributor
+ name="Mckenzie West"
+ location="University of Wisconsin - Eau Claire"
+ url="https://people.uwec.edu/westmr/"
+ trac="mwest"
+ github="mckenziewest"/>
+<contributor
+ name="Bruce Westbury"
+ trac="bruce,Bruce"
+ github="BruceWestbury"/>
+<contributor
+ name="Martin Westerholt-Raum"/>
+<contributor
+ name="Joe Wetherell"
+ work="CCR"
+ location="Bethesda, MD, USA"
+ description="design discussion; bug reports; code (e.g., for MAGMA-like constructors)"/>
+<contributor
+ name="Stefan Wewers"
+ trac="swewers"/>
+<contributor
+ name="Ursula Whitcher"
+ location="University of Wisconsin - Eau Claire"
+ trac="ursula"/>
+<contributor
+ name="Glen Whitney"
+ trac="gwhitney"/>
+<contributor
+ name="Emil Widmann"
+ trac="emil"/>
+<contributor
+ name="Friedrich Wiemer"
+ location="cryptosolutions, Germany"
+ url="https://asante.dev/"
+ trac="asante"
+ github="pfasante"/>
+<contributor
+ name="Tom Wiesing"
+ location="Jacobs University"
+ trac="twiesing"/>
+<contributor
+ name="Cassie Williams"
+ location="James Madison University, VA"
+ trac="cassiew1"/>
+<contributor
+ name="Harold Williams"/>
+<contributor
+ name="Nathan Williams"/>
+<contributor
+ name="Chad Williamson"
+ trac="dahc"/>
+<contributor
+ name="Phillip Wilt"
+ location="University of Washington, Seattle"
+ trac="philwilt"/>
+<contributor
+ name="John Wiltshire-Gordon"
+ trac="jwiltshiregordon"/>
+<contributor
+ name="Carl Witty"
+ work="Newton Labs"
+ location="Renton, WA 98057, USA"
+ description="release manager; interval arithmetic (wrapping mpfi); complete package for real root isolation; algebraic reals"
+ url="http://www.newtonlabs.com/"
+ trac="cwitty"/>
+<contributor
+ name="Stefan Witzel"
+ trac="switzel"/>
+<contributor
+ name="Koen van Woerden"
+ trac="kvanwoerden"/>
+<contributor
+ name="William Wonderly"
+ location="University of Puget Sound"
+ trac="bwonderly"/>
+<contributor
+ name="Billy Wonderly"/>
+<contributor
+ name="Maverick Woo"/>
+<contributor
+ name="Weixin Wu"
+ trac="w.wu"/>
+<contributor
+ name="Chris Wuthrich"
+ altnames="Cristian Wuthrich"
+ work="University of Nottingham"
+ location="Nottingham, UK"
+ description="elliptic curves; p-adic L-functions; Tate curves"
+ url="https://www.maths.nottingham.ac.uk/plp/pmzcw/"
+ trac="wuthrich"
+ github="categorie"/>
+<contributor
+ name="Sandi Xhumari"
+ location="University of Connecticut, Storrs, CT"
+ trac="xhumari"/>
+<contributor
+ name="Han Xiao"
+ location="University of Hong Kong, China"
+ trac="hnxiao"/>
+<contributor
+ name="Peijun Xiao"
+ github="pgxiao"
+ trac="pjxiao"/>
+<contributor
+ name="Chao Xu"
+ trac="chaoxu"
+ github="chaoxu"/>
+<contributor
+ name="Tianyuan Xu"
+ location="University of Oregon"
+ url="http://pages.uoregon.edu/tianyuan/"
+ trac="tianyuan,tianyuan_xu"
+ github="TianyuanX"/>
+<contributor
+ name="Shuofeng Xu"/>
+<contributor
+ name="Simon Xu"/>
+<contributor
+ name="Hideyuki YASUDA"
+ trac="umedoblock"/>
+<contributor
+ name="Hrishabh Yadav"/>
+<contributor
+ name="Qiaoyu Yang"
+ trac="qyang"/>
+<contributor
+ name="Diane Yap"
+ trac="dianey"/>
+<contributor
+ name="Numata Yasuhide"/>
+<contributor
+ name="Soroosh Yazdani"
+ trac="syazdani"
+ github="syazdani77"/>
+<contributor
+ name="Kevin Youren"
+ location="Melbourne, Australia"
+ github="kyouren"/>
+<contributor
+ name="Dal S. Yu"
+ location="Austin, TX, USA"
+ url="http://dalsyu.org/"
+ description="Athlon binary build"/>
+<contributor
+ name="Kaui Yu"/>
+<contributor
+ name="Michael Yurko"
+ trac="myurko"/>
+<contributor
+ name="Gary Zablackis"
+ description="created all Sage binaries for MS windows from March through November 2006; numerous bug reports and fixes"/>
+<contributor
+ name="Mike Zabrocki"
+ work="Dept. Maths and Statistics, York University"
+ location="Toronto, Ontario, Canada"
+ description="bug fixes"
+ url="http://garsia.math.yorku.ca/~zabrocki/"
+ github="zabrocki"
+ trac="zabrocki"/>
+<contributor
+ name="Zafeirakis Zafeirakopoulos"
+ trac="zaf"
+ github="zafeirakopoulos"/>
+<contributor
+ name="Gerardo Zelaya"
+ location="University of Washington, Seattle"
+ trac="geze"/>
+<contributor
+ name="Bin Zhang"
+ location="France"
+ description="ATLAS.spkg fixes for Linux and PPC"/>
+<contributor
+ name="Philip B. Zhang"
+ work="Nankai University, China"
+ location="Nankai University, China"
+ trac="pbzhang"/>
+<contributor
+ name="Hongli Zhao"
+ trac="honglizhaobob"/>
+<contributor
+ name="Ying Zhou"
+ location="Brandeis University"
+ github="mathyingzhou"/>
+<contributor
+ name="Yuan Zhou"
+ location="University of Kentucky"
+ url="https://math.as.uky.edu/users/yzh392"
+ description="organized Sage Days 109, 110, 112.358"
+ trac="yzh"
+ github="yuan-zhou"/>
+<contributor
+ name="Eric Zhu"/>
+<contributor
+ name="Hongguang Zhu"/>
+<contributor
+ name="Yair Zick"
+ location="Singapore"
+ url="http://www3.ntu.edu.sg/home2009/yair0001/"
+ trac="yairzick"/>
+<contributor
+ name="Konstantin Ziegler"
+ location="University of Applied Sciences Landshut, Germany"
+ url="http://zieglerk.github.io"
+ trac="zieglerk"
+ github="zieglerk"/>
+<contributor
+ name="Paul Zimmermann"
+ work="Research Fellow, INRIA Nancy"
+ location="Villers les Nancy, France"
+ description="MPFR integration; calculus bug fixes; general fixes"
+ url="http://www.loria.fr/~zimmerma/"
+ trac="zimmerma"
+ github="zimmermann6"/>
+<contributor
+ name="Théo Zimmermann"/>
+<contributor
+ name="Mao Ziyang"
+ location="Changsha, Hunan, China"
+ description="documentation"
+ url="http://www.ai7.org"/>
+<contributor
+ name="Alexandre Zotine"/>
+<contributor
+ name="Reiner Zucker"/>
+<contributor
+ name="Alexandre Prusch Züge"
+ location="Jandaia do Sul, PR, Brazil"
+ work="Universidade Federal do Paraná"
+ trac="azuge"
+ github="azugeufpr"/>
+<contributor
+ name="David Zureick-Brown"
+ trac="dzb"/>
+<contributor
+ name="Stefan van Zwam"
+ location="Louisiana State University"
+ url="http://www.math.lsu.edu/~svanzwam/"
+ trac="Stefan"/>
+<contributor
+ trac="arattan"/>
+<contributor
+ trac="joskarsson"/>
+<contributor
+ name="王瑞期"
+ trac="shahuwang"/>
+</contributors>
