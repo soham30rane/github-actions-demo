@@ -1,22 +1,15 @@
-name: Download Release Tag Artifact
+name: Receive Workflow from Repo A
 
 on:
-  workflow_run:
-    workflows:
-      - "Upload Release Data as Artifact"
-    types:
-      - completed
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Release tag from Repo A'
+        required: true
 
 jobs:
-  download-artifact:
+  process-release:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: release_tag
-
-      - name: Read Release Tag
-        run: |
-          cat release_tag.txt
+      - name: Use Release Tag
+        run: echo "Processing release ${{ inputs.release_tag }}"
