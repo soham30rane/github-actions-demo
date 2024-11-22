@@ -6,6 +6,9 @@ on:
       release_tag:
         description: 'Release tag from Repo A'
         required: true
+      secret_hash:
+        description: 'Hashed verification secret'
+        required: true
 
 jobs:
   process-release:
@@ -13,9 +16,11 @@ jobs:
     steps:
       - name: Verify Trigger Source
         env:
-          VERIFICATION_HEADER: ${{ github.event.headers.X-Trigger-Secret }}
+          RECEIVED_HASH: ${{ inputs.secret_hash }}
+          EXPECTED_SECRET: ${{ secrets.EXPECTED_TRIGGER_SECRET }}
         run: |
-          if [ "$VERIFICATION_HEADER" != "${{ secrets.EXPECTED_TRIGGER_SECRET }}" ]; then
+          CALCULATED_HASH=$(echo -n "$EXPECTED_SECRET" | sha256sum | awk '{print $1}')
+          if [ "$RECEIVED_HASH" != "$CALCULATED_HASH" ]; then
             echo "Unauthorized trigger"
             exit 1
           fi
