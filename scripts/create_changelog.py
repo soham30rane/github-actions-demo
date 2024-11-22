@@ -154,9 +154,7 @@ def sort_tags(tag):
     else:
         return (2, name) # Stable versions come last
 
-def save_to_file(ver,date_of_release):
-    filename = f"sage-{ver}.txt"
-    
+def save_to_file(filename,ver,date_of_release):
     with open(filename, 'w') as file:
         file.write(f"Sage {ver} was released on {date_of_release}. It is available from:\n\n")
         file.write(f"  * https://www.sagemath.org/download-source.html\n\n")
@@ -190,6 +188,11 @@ if __name__ == '__main__':
         print(f"{ver} is not a stable release. terminating....")
         exit()
     
+    filename = f"sage-{ver}.txt"
+    if os.path.exists(filename):
+        print(f"{filename} already exists. Exiting without making changes.")
+        exit()
+    
     map_git_to_names()
     all_tags = get_latest_tags()
     tag_pattern = fr"^{ver}.(beta|rc)\d*$"
@@ -213,6 +216,6 @@ if __name__ == '__main__':
     update_names()
     all_contribs = sorted(all_contribs, key=lambda x: (x[0].startswith('@'), x[0]))
     if all_info:
-        save_to_file(ver,date_of_release)
+        save_to_file(filename,ver,date_of_release)
     else:
         print("No information found.")
