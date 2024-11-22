@@ -1,45 +1,22 @@
-name: Manual Time Logger
+name: Download Release Tag Artifact
 
 on:
-  workflow_dispatch:
-
-permissions:
-  contents: write
+  workflow_run:
+    workflows:
+      - "Upload Release Data as Artifact"
+    types:
+      - completed
 
 jobs:
-  log_time:
+  download-artifact:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - name: Download Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: release_tag
 
-      - name: Get Current Universal Time
-        id: fetch_time
+      - name: Read Release Tag
         run: |
-          response=$(curl -s "http://worldtimeapi.org/api/timezone/Etc/UTC")
-          current_time=$(echo $response | jq -r '.utc_datetime')
-          echo "Time fetched: $current_time"
-          echo "TIME=$current_time" >> $GITHUB_ENV
-
-      - name: Create Log File
-        run: |
-          mkdir -p logs
-          timestamp=$(echo "${{ env.TIME }}" | tr ':T' '-')
-          echo "${{ env.TIME }}" > "logs/$timestamp.txt"
-
-      - name: Debug Git State
-        run: |
-          git status
-          git remote -v
-          git branch
-
-      - name: Commit and Push Log File
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add logs
-          git commit -m "Add log file for ${{ env.TIME }}"
-          git push origin main  # Ensure the branch is correct
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          cat release_tag.txt
