@@ -6,19 +6,16 @@ on:
       release_tag:
         description: 'Release tag from Repo A'
         required: true
-      recieved_secret:
-        description: 'Secret used to verify the sender'
-        required: true
 
 jobs:
   process-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Validate Trigger
+      - name: Verify Trigger Source
         env:
-          RECEIVED_SECRET: ${{ inputs.recieved_secret }}
+          VERIFICATION_HEADER: ${{ github.event.headers.X-Trigger-Secret }}
         run: |
-          if [ "$RECEIVED_SECRET" != "${{ secrets.EXPECTED_TRIGGER_SECRET }}" ]; then
+          if [ "$VERIFICATION_HEADER" != "${{ secrets.EXPECTED_TRIGGER_SECRET }}" ]; then
             echo "Unauthorized trigger"
             exit 1
           fi
