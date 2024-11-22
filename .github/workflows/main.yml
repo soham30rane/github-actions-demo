@@ -6,7 +6,7 @@ on:
       release_tag:
         description: 'Release tag from Repo A'
         required: true
-      secret_hash:
+      trigger_secret:
         description: 'Hashed verification secret'
         required: true
 
@@ -16,12 +16,10 @@ jobs:
     steps:
       - name: Verify Trigger Source
         env:
-          RECEIVED_HASH: ${{ inputs.secret_hash }}
+          RECIEVED_SECRET: ${{ inputs.trigger_secret }}
           EXPECTED_SECRET: ${{ secrets.EXPECTED_TRIGGER_SECRET }}
         run: |
-          CALCULATED_HASH=$(echo -n "$EXPECTED_SECRET" | sha256sum | awk '{print $1}')
-          echo $CALCULATED_HASH
-          if [ "$RECEIVED_HASH" != "$CALCULATED_HASH" ]; then
+          if [ "$RECIEVED_SECRET" != "$EXPECTED_SECRET" ]; then
             echo "Unauthorized trigger"
             exit 1
           fi
