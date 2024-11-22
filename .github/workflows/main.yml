@@ -7,7 +7,7 @@ on:
         description: 'Release tag from Repo A'
         required: true
       trigger_secret:
-        description: 'Hashed verification secret'
+        description: 'Trigger secret for Authentication'
         required: true
 
 jobs:
@@ -33,6 +33,7 @@ jobs:
       - name: Run Script
         env:
           RELEASE_TAG: ${{ inputs.release_tag }}
+          GITHUB_PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: python scripts/create_changelog.py "$RELEASE_TAG"
       
       - name: Commit and Push Changes
