@@ -27,7 +27,7 @@ first_contribs = set([])
 all_info = {}
 
 def map_git_to_names():
-    tree = ET.parse('contributors.xml')
+    tree = ET.parse('src/contributors.xml')
     root = tree.getroot()
     for c in root.findall('contributor'):
         name = c.get('name')
