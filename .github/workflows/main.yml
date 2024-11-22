@@ -6,10 +6,22 @@ on:
       release_tag:
         description: 'Release tag from Repo A'
         required: true
+      recieved_secret:
+        description: 'Secret used to verify the sender'
+        required: true
 
 jobs:
   process-release:
     runs-on: ubuntu-latest
     steps:
+      - name: Validate Trigger
+        env:
+          RECEIVED_SECRET: ${{ inputs.recieved_secret }}
+        run: |
+          if [ "$RECEIVED_SECRET" != "${{ secrets.EXPECTED_TRIGGER_SECRET }}" ]; then
+            echo "Unauthorized trigger"
+            exit 1
+          fi
+
       - name: Use Release Tag
         run: echo "Processing release ${{ inputs.release_tag }}"
