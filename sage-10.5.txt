@@ -1,0 +1,66 @@
+Sage 10.5 was released on N/A. It is available from:
+
+  * https://www.sagemath.org/download-source.html
+
+Sage (http://www.sagemath.org/) is developed by volunteers and
+combines hundreds of open source packages.
+
+The following 18 people contributed to this release.
+Of those, 25 made their first contribution to Sage:
+
+  - Aram Dermenjian
+  - David Coudert
+  - Dima Pasechnik
+  - David Roe
+  - Frederic Chapoton
+  - Gonzalo Tornaria
+  - John Palmieri
+  - Kwankyu Lee
+  - Michael Orlitzky
+  - Matthias Koppe
+  - Nathan Dunfield
+  - Travis Scrimshaw
+  - Tobias Diez
+  - @vincentmacri
+  - @user202729 [First Contribution]
+  - @kylehofmann [First Contribution]
+  - @25shriya [First Contribution]
+  - @S17A05
+
+* We merged 14 pull requests in this release.
+
+Merged in sage-10.5.beta3:
+
+#38349: Frederic Chapoton: little shoeshining for ncsym-dual [Reviewed by Matthias Koppe]
+#38352: @user202729: Fix a minor typo [Reviewed by @S17A05]
+
+Merged in sage-10.5.beta5:
+
+#38504: Matthias Koppe: Demote `jmol` to optional [Reviewed by Nathan Dunfield]
+#38572: Matthias Koppe: `build/pkgs/nauty`: Update to 2.8.9 [Reviewed by David Coudert]
+
+Merged in sage-10.5.beta6:
+
+#38691: Matthias Koppe: build/pkgs/mpmath/version_requirements.txt: Reject 1.4
+#38692: Aram Dermenjian: Add make_set function for DisjointSets [Reviewed by David Coudert]
+
+Merged in sage-10.5.beta7:
+
+#38339: Kwankyu Lee: Add sage.misc.latex.pdf to save the image of objects to pdf [Reviewed by Dima Pasechnik]
+#38418: David Coudert: add method is_vertex_cut to (di)graphs [Reviewed by Matthias Koppe, Kwankyu Lee]
+
+Merged in sage-10.5.beta8:
+
+#36226: Michael Orlitzky: Use CPU time for --warn-long [Reviewed by Gonzalo Tornaria, Tobias Diez, John Palmieri]
+#36524: Tobias Diez: Compile everything with meson [Reviewed by Gonzalo Tornaria, Michael Orlitzky, Matthias Koppe, Dima Pasechnik]
+
+Merged in sage-10.5.beta9:
+
+#38722: @kylehofmann: Roots of polynomials mod n [Reviewed by @vincentmacri]
+#38809: David Coudert: move orientation methods from `graph.py` to `orientations.py` [Reviewed by Travis Scrimshaw]
+
+Merged in sage-10.5.rc0:
+
+#38281: @25shriya: Addition of Chow ring ideal and Chow ring classes [Reviewed by Travis Scrimshaw]
+#38441: @user202729: number_field_elements_from_algebraics: Fix CyclotomicField embedding when embedding=False [Reviewed by David Roe, Travis Scrimshaw]
+
