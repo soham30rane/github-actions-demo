@@ -227,6 +227,7 @@ if __name__ == '__main__':
         
     
     update_names()
+    first_contribs = first_contribs.intersection(all_contribs)
     all_contribs = sorted(all_contribs, key=lambda x: (x[0].startswith('@'), x[0]))
     if all_info:
         save_to_file(filepath,ver,date_of_release)
