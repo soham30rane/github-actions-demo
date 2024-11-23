@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+This script is used in 'Generate Changelog' workflow, defined in the 'generate_changelog.yml' file 
+to automate the process of creating changelogs after each stable release.
+
+It fetches release data, extracts relevant pull request (PR) information, and generates a detailed changelog
+and add its to src/changelogs.
+The script uses the GitHub REST API to collect information about contributors, PR authors, and reviewers.
+
+Additional Note:
+- The script requires a GitHub personal access token (PAT) stored in an environment variable named `GITHUB_PAT`.
+"""
+
 import requests
 import re
 from dotenv import load_dotenv
@@ -5,7 +19,6 @@ import os
 import argparse
 import xml.etree.ElementTree as ET
 from unidecode import unidecode
-# import json
 
 load_dotenv()
 GITHUB_PAT = os.getenv('GITHUB_PAT')
@@ -27,7 +40,7 @@ first_contribs = set([])
 all_info = {}
 
 def map_git_to_names():
-    tree = ET.parse('src/contributors.xml')
+    tree = ET.parse('conf/contributors.xml')
     root = tree.getroot()
     for c in root.findall('contributor'):
         name = c.get('name')
@@ -36,7 +49,10 @@ def map_git_to_names():
             git_to_name[git] = unidecode(name)
 
 def update_names():
-    """Replace the github usernames with real names if possible"""
+    """
+    Replace the github usernames with real names. If name is not found in contributors.xml, 
+    then github usernames are used in the form @<github-username>
+    """
     for tag in all_info:
         for pr in all_info[tag]:
             pr['creator'] = git_to_name.get(pr['creator'],f"@{pr['creator']}")
@@ -70,7 +86,6 @@ def extract_pr_info(release_data):
     body = release_data.get('body', '')
     pr_info = []
     pattern = r"\* (.*?) by (@\S+) in https://github.com/sagemath/sage/pull/(\d+)"
-    c = 0
     matches = re.findall(pattern, body)
     for match in matches:
         title = match[0]
@@ -85,9 +100,6 @@ def extract_pr_info(release_data):
             'authors':authors, 
             'reviewers':reviewers
             })
-        c += 1
-        if c == 2:
-            break
     return pr_info
 
 def update_first_contribs(release_data):
@@ -134,7 +146,7 @@ def get_reviewers(pr_id,authors):
     return list(set(reviewers))
 
 def get_latest_tags():
-    url = f"{BASE_URL}/tags?per_page=1000"
+    url = f"{BASE_URL}/tags?per_page=1000" # If per_page is not specified then very few tags are fetched
     try:
         res = requests.get(url, headers=HEADERS)
         res.raise_for_status()
@@ -188,9 +200,9 @@ if __name__ == '__main__':
         print(f"{ver} is not a stable release. terminating....")
         exit()
     
-    filename = f"sage-{ver}.txt"
-    if os.path.exists(filename):
-        print(f"{filename} already exists. Exiting without making changes.")
+    filepath = f"src/changelogs/sage-{ver}.txt"
+    if os.path.exists(filepath):
+        print(f"{filepath} already exists. Exiting without making changes.")
         exit()
     
     map_git_to_names()
@@ -216,6 +228,6 @@ if __name__ == '__main__':
     update_names()
     all_contribs = sorted(all_contribs, key=lambda x: (x[0].startswith('@'), x[0]))
     if all_info:
-        save_to_file(filename,ver,date_of_release)
+        save_to_file(filepath,ver,date_of_release)
     else:
         print("No information found.")

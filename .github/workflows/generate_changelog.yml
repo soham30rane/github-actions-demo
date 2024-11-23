@@ -1,13 +1,13 @@
-name: Receive Workflow from Repo A
+name: Generate Changelog
 
 on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: 'Release tag from Repo A'
+        description: 'Release tag from main repo'
         required: true
       trigger_secret:
-        description: 'Trigger secret for Authentication'
+        description: 'Common Secret stored in both repos for Authentication'
         required: true
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
       - name: Verify Trigger Source
         env:
           RECIEVED_SECRET: ${{ inputs.trigger_secret }}
-          EXPECTED_SECRET: ${{ secrets.EXPECTED_TRIGGER_SECRET }}
+          EXPECTED_SECRET: ${{ secrets.TRIGGER_SECRET }}
         run: |
           if [ "$RECIEVED_SECRET" != "$EXPECTED_SECRET" ]; then
             echo "Unauthorized trigger"
@@ -46,5 +46,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Update script output for release: ${{ inputs.release_tag }}"
+          git commit -m "Added changelog for release: ${{ inputs.release_tag }}"
           git push
