@@ -122,8 +122,9 @@ def get_authors(pr_id):
                 continue
             if 'author' in commit and 'login' and commit['author']:
                 username = commit['author']['login']
-                authors.append(username)
-                all_contribs.add(username)
+                if username not in AUTOMATED_BOTS:
+                    authors.append(username)
+                    all_contribs.add(username)
     except Exception as e:
         print(f"Failed to fetch commits for PR {pr_id}: {e}")
     return list(set(authors))
@@ -138,7 +139,7 @@ def get_reviewers(pr_id,authors):
         for review in reviews:
             if 'user' in review and 'login' in review['user']:
                 username = review['user']['login']
-                if username not in authors:
+                if username not in authors and username not in AUTOMATED_BOTS:
                     reviewers.append(username)
                     all_contribs.add(username)
     except Exception as e:
