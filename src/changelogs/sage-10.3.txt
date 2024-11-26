@@ -1,0 +1,23 @@
+Sage 10.3 was released on 2024-03-20. It is available from:
+
+  * https://www.sagemath.org/download-source.html
+
+Sage (http://www.sagemath.org/) is developed by volunteers and
+combines hundreds of open source packages.
+
+The following 4 people contributed to this release.
+Of those, 0 made their first contribution to Sage:
+
+  - David Ayotte
+  - David Coudert
+  - Frederic Chapoton
+  - Matthias Koppe
+
+* We merged 3 pull requests in this release.
+
+Merged in sage-10.3:
+
+#36653: Frederic Chapoton: clean E702 etc in integer.pyx [Reviewed by Matthias Koppe]
+#36655: Matthias Koppe: `sage.misc.explain_pickle`: Docstring cosmetics [Reviewed by David Coudert]
+#36664: Frederic Chapoton: ruff auto-fix for C4 in modular [Reviewed by David Ayotte]
+
