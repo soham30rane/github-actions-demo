@@ -23,7 +23,8 @@ from unidecode import unidecode
 load_dotenv()
 GITHUB_PAT = os.getenv('GITHUB_PAT')
 BASE_URL = r"https://api.github.com/repos/sagemath/sage"
-HEADERS = {'Authorization': f'token {GITHUB_PAT}',}
+# HEADERS = {'Authorization': f'token {GITHUB_PAT}',}
+HEADERS = {}
 AUTOMATED_BOTS = ['dependabot[bot]','github-actions','renovate[bot]']
 
 # Maps the github username to contributer name
