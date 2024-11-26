@@ -87,6 +87,7 @@ def extract_pr_info(release_data):
     pr_info = []
     pattern = r"\* (.*?) by (@\S+) in https://github.com/sagemath/sage/pull/(\d+)"
     matches = re.findall(pattern, body)
+    c = 0
     for match in matches:
         title = match[0]
         creator = match[1][1::]
@@ -100,6 +101,9 @@ def extract_pr_info(release_data):
             'authors':authors, 
             'reviewers':reviewers
             })
+        c += 1
+        if c == 3:
+            break
     return pr_info
 
 def update_first_contribs(release_data):
