@@ -1,0 +1,25 @@
+Sage 10.1 was released on 2023-08-23. It is available from:
+
+  * https://www.sagemath.org/download-source.html
+
+Sage (http://www.sagemath.org/) is developed by volunteers and
+combines hundreds of open source packages.
+
+The following 6 people contributed to this release.
+Of those, 0 made their first contribution to Sage:
+
+  - Darij Grinberg
+  - Frederic Chapoton
+  - Kwankyu Lee
+  - Matthias Koppe
+  - Martin Rubey
+  - Travis Scrimshaw
+
+* We merged 3 pull requests in this release.
+
+Merged in sage-10.1:
+
+#35432: Travis Scrimshaw: Some fixes for Specht modules and diagrams [Reviewed by Darij Grinberg]
+#35484: Frederic Chapoton, Travis Scrimshaw: Implement down-up algebras and their Verma modules [Reviewed by Martin Rubey]
+#35502: Matthias Koppe: `sage.rings.factorint`: Modularization fixes [Reviewed by Kwankyu Lee]
+
