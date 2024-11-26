@@ -1,0 +1,25 @@
+Sage 10.2 was released on 2023-12-03. It is available from:
+
+  * https://www.sagemath.org/download-source.html
+
+Sage (http://www.sagemath.org/) is developed by volunteers and
+combines hundreds of open source packages.
+
+The following 6 people contributed to this release.
+Of those, 0 made their first contribution to Sage:
+
+  - David Coudert
+  - Frederic Chapoton
+  - Kwankyu Lee
+  - Martin Rubey
+  - Matthias Koppe
+  - Marc Mezzarobba
+
+* We merged 3 pull requests in this release.
+
+Merged in sage-10.2:
+
+#36103: Marc Mezzarobba: upgrade msolve to 0.5.0, update interface [Reviewed by Matthias Koppe]
+#36107: Frederic Chapoton: using mute variables in combinat [Reviewed by Matthias Koppe, Martin Rubey, David Coudert]
+#36108: Frederic Chapoton: some details in quadratic forms [Reviewed by Kwankyu Lee]
+
